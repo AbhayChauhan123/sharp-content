@@ -1,0 +1,37 @@
+{
+  "_comment": "Multi-source RSS per vertical (5-6 each) so the engine can find ~10 cross-corroborated, conversation-worthy stories per niche daily. Verticals must match the app's Vertical enum. Unreachable feeds are skipped gracefully.",
+  "feeds": [
+    { "source": "BBC",         "vertical": "finance",  "url": "https://feeds.bbci.co.uk/news/business/rss.xml" },
+    { "source": "NPR",         "vertical": "finance",  "url": "https://feeds.npr.org/1006/rss.xml" },
+    { "source": "Guardian",    "vertical": "finance",  "url": "https://www.theguardian.com/business/rss" },
+    { "source": "CNBC",        "vertical": "finance",  "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147" },
+    { "source": "MarketWatch", "vertical": "finance",  "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories" },
+    { "source": "YahooFin",    "vertical": "finance",  "url": "https://finance.yahoo.com/news/rssindex" },
+
+    { "source": "BBC",         "vertical": "tech",     "url": "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+    { "source": "NPR",         "vertical": "tech",     "url": "https://feeds.npr.org/1019/rss.xml" },
+    { "source": "Guardian",    "vertical": "tech",     "url": "https://www.theguardian.com/technology/rss" },
+    { "source": "TheVerge",    "vertical": "tech",     "url": "https://www.theverge.com/rss/index.xml" },
+    { "source": "ArsTechnica", "vertical": "tech",     "url": "http://feeds.arstechnica.com/arstechnica/index" },
+    { "source": "TechCrunch",  "vertical": "tech",     "url": "https://techcrunch.com/feed/" },
+
+    { "source": "BBC",         "vertical": "politics", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+    { "source": "NPRWorld",    "vertical": "politics", "url": "https://feeds.npr.org/1004/rss.xml" },
+    { "source": "NPRPolitics", "vertical": "politics", "url": "https://feeds.npr.org/1014/rss.xml" },
+    { "source": "Guardian",    "vertical": "politics", "url": "https://www.theguardian.com/world/rss" },
+    { "source": "AlJazeera",   "vertical": "politics", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
+    { "source": "Politico",    "vertical": "politics", "url": "https://rss.politico.com/politics-news.xml" },
+
+    { "source": "BBC",         "vertical": "sports",   "url": "https://feeds.bbci.co.uk/sport/rss.xml" },
+    { "source": "Guardian",    "vertical": "sports",   "url": "https://www.theguardian.com/sport/rss" },
+    { "source": "ESPN",        "vertical": "sports",   "url": "https://www.espn.com/espn/rss/news" },
+    { "source": "CBSSports",   "vertical": "sports",   "url": "https://www.cbssports.com/rss/headlines/" },
+    { "source": "SkySports",   "vertical": "sports",   "url": "https://www.skysports.com/rss/12040" },
+
+    { "source": "BBC",         "vertical": "general",  "url": "https://feeds.bbci.co.uk/news/rss.xml" },
+    { "source": "NPR",         "vertical": "general",  "url": "https://feeds.npr.org/1001/rss.xml" },
+    { "source": "Guardian",    "vertical": "general",  "url": "https://www.theguardian.com/us-news/rss" },
+    { "source": "AlJazeera",   "vertical": "general",  "url": "https://www.aljazeera.com/xml/rss/all.xml" },
+    { "source": "SkyNews",     "vertical": "general",  "url": "https://feeds.skynews.com/feeds/rss/home.xml" }
+  ]
+}

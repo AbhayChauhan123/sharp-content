@@ -1,0 +1,40 @@
+name: Daily Sharp Content
+
+on:
+  schedule:
+    - cron: "0 11 * * *"     # 11:00 UTC daily (~6-7am US ET) — the morning briefing
+  workflow_dispatch: {}        # allow manual runs
+
+permissions:
+  contents: write              # so the job can commit the new latest.json
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install certifi (CA bundle for SSL)
+        run: pip install --quiet certifi
+
+      - name: Generate today's briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SHARP_MODEL: claude-sonnet-4-6
+        run: python generate.py
+
+      - name: Commit & push if content changed
+        run: |
+          git config user.name "sharp-bot"
+          git config user.email "bot@sharpdaily.app"
+          git add output/latest.json output/sharp_content_*.json
+          if git diff --staged --quiet; then
+            echo "No content changes."
+          else
+            git commit -m "Daily briefing $(date -u +%Y-%m-%d)"
+            git push
+          fi
