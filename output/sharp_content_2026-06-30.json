@@ -11,43 +11,67 @@
   },
   "cards": [
     {
-      "id": "8935643a-56e1-43cc-bd4c-257489b1e1d2",
+      "id": "c66ff7f0-ff0a-4092-a084-d7f4475bdd82",
       "vertical": "finance",
       "region": "US",
       "topicTag": "FED INDEPENDENCE",
-      "headline": "Supreme Court blocks Trump's Fed governor firing",
-      "summary": "The US Supreme Court ruled that Trump's firing of Federal Reserve Governor Lisa Cook was unconstitutional, sending the case back to lower courts. The decision is seen as a win for central bank independence. Separately, the Court ruled 6-3 that Trump can fire leaders of other independent agencies, striking down a 91-year-old precedent.",
+      "headline": "Supreme Court blocks Trump from firing Fed governor",
+      "summary": "The US Supreme Court ruled that Trump's firing of Federal Reserve Governor Lisa Cook was unconstitutional, in a decision seen as a win for central bank independence. Separately, the court also ruled 6-3 that Trump can fire leaders of other independent agencies, striking down a 91-year-old precedent. The two rulings together signal a mixed but consequential reshaping of presidential power over regulatory bodies.",
       "readSeconds": 22,
       "sources": [
         "BBC",
-        "Guardian"
+        "Guardian",
+        "NPR"
       ],
       "quiz": {
-        "prompt": "What did the Supreme Court rule regarding Trump's firing of Fed Governor Lisa Cook?",
+        "prompt": "What did the Supreme Court rule regarding Trump's firing of Federal Reserve Governor Lisa Cook?",
         "options": [
           "It was unconstitutional",
           "It was fully within presidential authority",
-          "The case was dismissed entirely",
-          "Cook was ordered to resign"
+          "It was referred back to Congress",
+          "It was approved on national security grounds"
         ],
         "correctIndex": 0,
-        "explanation": "The Supreme Court ruled that Trump's firing of Lisa Cook was unconstitutional, sending the fight back to the lower courts."
+        "explanation": "The Supreme Court ruled that Trump's firing of Lisa Cook was unconstitutional, sending the fight over her removal back to the lower courts."
       }
     },
     {
-      "id": "0b36e746-7455-4330-9e19-32e5dd35a746",
+      "id": "99aaf28c-bd0f-4992-99ab-5739d93f0325",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "AGENCY FIRINGS",
+      "headline": "Court grants Trump power to fire independent agency chiefs",
+      "summary": "In a 6-3 decision, the Supreme Court struck down a 91-year-old precedent that had prevented presidents from removing members of independent agencies designed to check executive power. The case centered on the White House's March 2025 firing of Federal Trade Commission member Rebecca Slaughter. Legal and labor experts say the ruling upends settled constitutional law in favor of a presidential loyalty test.",
+      "readSeconds": 20,
+      "sources": [
+        "NPR",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "Which FTC member's firing was at the center of the Supreme Court's ruling on presidential removal power?",
+        "options": [
+          "Lisa Cook",
+          "Rebecca Slaughter",
+          "Marianne Lake",
+          "Scott Bessent"
+        ],
+        "correctIndex": 1,
+        "explanation": "The case focused on the White House's March 2025 firing of Federal Trade Commission member Rebecca Slaughter."
+      }
+    },
+    {
+      "id": "241f6982-1e89-49de-876a-b34c7cd3d676",
       "vertical": "finance",
       "region": "US",
       "topicTag": "BANK STRESS TESTS",
-      "headline": "JPMorgan unveils $50bn buyback after Fed stress test",
-      "summary": "JPMorgan Chase unveiled a $50 billion share buyback and Goldman Sachs raised its dividend following the Federal Reserve's annual stress test. The Fed found all 32 large banks could withstand $708 billion in losses amid a hypothetical recession. Unlike previous years, the results will not directly affect capital requirements due to an ongoing overhaul of bank capital rules.",
-      "readSeconds": 22,
+      "headline": "US banks clear Fed stress test; buybacks surge",
+      "summary": "The Federal Reserve's annual stress test found that all 32 large US banks could withstand $708 billion in hypothetical losses. Following the results, JPMorgan Chase unveiled a $50 billion share buyback and Goldman Sachs raised its dividend. Unlike previous years, the results will not directly affect capital requirements, as the Fed is overhauling its rules.",
+      "readSeconds": 20,
       "sources": [
-        "CNBC",
-        "MarketWatch"
+        "CNBC"
       ],
       "quiz": {
-        "prompt": "How many large banks did the Federal Reserve test in its annual stress test?",
+        "prompt": "How many large banks passed the Federal Reserve's annual stress test?",
         "options": [
           "16",
           "24",
@@ -55,230 +79,253 @@
           "40"
         ],
         "correctIndex": 2,
-        "explanation": "The Fed's annual stress test covered all 32 large banks, finding they could withstand $708 billion in losses."
+        "explanation": "The Fed's annual stress test found that all 32 large banks weathered a hypothetical recession scenario."
       }
     },
     {
-      "id": "49e49f0a-3e63-4885-84b4-86e744363aa3",
+      "id": "5ccf63e2-3580-433c-a4a3-dd48a3e56326",
       "vertical": "finance",
       "region": "Global",
       "topicTag": "TRADE TARIFFS",
       "headline": "Trump threatens 100% tariff over European tech tax",
-      "summary": "President Trump threatened to impose a 100% tariff on European nations that introduce a digital services tax targeting US tech companies. The US Treasury Secretary also issued a veiled warning to oil and gas companies to lower prices, saying the administration is 'watching' after Trump complained prices are not dropping fast enough. Separately, the EU introduced a €3 customs charge on small parcels worth under €150 to curb cheap Chinese imports from platforms like Temu and Shein.",
-      "readSeconds": 24,
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "Why did the EU introduce a €3 customs charge on small parcels?",
-        "options": [
-          "To fund new trade infrastructure",
-          "To curb cheap Chinese imports exploiting the de minimis exemption",
-          "To comply with WTO regulations",
-          "To raise revenue for climate programs"
-        ],
-        "correctIndex": 1,
-        "explanation": "The EU introduced the charge to close a 'de minimis' exemption that had been exploited by platforms such as Temu and Shein."
-      }
-    },
-    {
-      "id": "549d09c9-394b-4262-bca7-a345bada5260",
-      "vertical": "finance",
-      "region": "Global",
-      "topicTag": "EU-CHINA TRADE",
-      "headline": "EU and China open three months of trade talks",
-      "summary": "The EU and China have agreed to enter three months of talks aimed at making their bilateral trade relationship 'more balanced,' following weeks of threats over the bloc's €360 billion trade deficit with China. The two sides are seeking to avoid a broader trade war. The talks signal a diplomatic effort to manage tensions before they escalate into formal tariff measures.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What is the size of the EU's trade deficit with China that prompted the talks?",
-        "options": [
-          "€180bn",
-          "€240bn",
-          "€360bn",
-          "€500bn"
-        ],
-        "correctIndex": 2,
-        "explanation": "The EU and China agreed to talks to address the bloc's €360 billion trade deficit with China."
-      }
-    },
-    {
-      "id": "60a05129-d0a6-43a7-a570-023e76bfcbd8",
-      "vertical": "finance",
-      "region": "Global",
-      "topicTag": "AI BUBBLE FEARS",
-      "headline": "Investors sell AI stocks amid bubble concerns",
-      "summary": "Investors have been selling off AI-related stocks as doubts grow over whether massive spending on artificial intelligence will deliver returns, with some calling it 'one big bubble.' The sell-off comes even as the broader S&P 500 and Nasdaq rose to close out what analysts describe as a standout second quarter. Wall Street bulls are nonetheless warning of a potential pullback after a dazzling first half of the year.",
-      "readSeconds": 22,
-      "sources": [
-        "NPR",
-        "MarketWatch",
-        "YahooFin"
-      ],
-      "quiz": {
-        "prompt": "What concern is driving the sell-off in AI-related stocks?",
-        "options": [
-          "Regulatory crackdowns on tech firms",
-          "Doubts over whether massive AI spending will deliver returns",
-          "A collapse in semiconductor supply",
-          "Rising interest rates targeting tech valuations"
-        ],
-        "correctIndex": 1,
-        "explanation": "Investors are selling AI stocks as doubts surface over whether the enormous investment in AI is worth it, with some describing it as 'one big bubble.'"
-      }
-    },
-    {
-      "id": "4704c200-b11a-4704-87ea-613439945156",
-      "vertical": "finance",
-      "region": "Global",
-      "topicTag": "JOBS & AI",
-      "headline": "British American Tobacco cuts 9,000 jobs for AI",
-      "summary": "British American Tobacco announced it will cut approximately 9,000 jobs, about a fifth of its global workforce, as part of a cost-reduction drive to become more 'technology enabled' and AI-focused. The move follows the company's earlier announcement of plans to become more digital. Meanwhile, Ford rehired veteran human engineers after AI-powered quality checks failed to match the skill of experienced technicians.",
+      "summary": "President Trump threatened a 100% tariff on European nations that move forward with a digital services tax on US tech companies. The EU and China, meanwhile, agreed to enter three months of talks aimed at making their bilateral trade relationship more balanced, with the EU running a €360 billion trade deficit with China. The EU also introduced a €3 customs charge on small parcels worth under €150, targeting platforms like Temu and Shein.",
       "readSeconds": 22,
       "sources": [
         "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "Approximately what share of its workforce is British American Tobacco cutting?",
+        "prompt": "What tariff level did Trump threaten against European nations over a digital services tax?",
         "options": [
-          "One tenth",
-          "One fifth",
-          "One third",
-          "One quarter"
+          "25%",
+          "50%",
+          "75%",
+          "100%"
         ],
-        "correctIndex": 1,
-        "explanation": "British American Tobacco is cutting about a fifth of its workforce, amounting to approximately 9,000 jobs."
+        "correctIndex": 3,
+        "explanation": "Trump threatened a 100% tariff on European nations discussing a digital services levy on US tech companies."
       }
     },
     {
-      "id": "d4c90bf5-046f-4353-9b85-a8ca0c8ea78c",
+      "id": "c169ff56-d9be-4211-8d35-10bc1378821e",
       "vertical": "finance",
       "region": "Global",
       "topicTag": "MEDIA SPINOFF",
       "headline": "Comcast to spin off NBCUniversal and Sky",
-      "summary": "Comcast announced plans to spin off its media division, which includes NBCUniversal and Sky, into a separate publicly traded company, splitting it from its cable and broadband business. The move raises questions about the future of Sky News. Analysts see the separation as potentially setting each company up for mergers and acquisitions, though good strategic options may be limited.",
-      "readSeconds": 20,
+      "summary": "Comcast announced plans to spin off its media operations, including NBCUniversal and Sky, into a separate business distinct from its mobile and broadband divisions. The move raises questions about the future of Sky News and could set each company up for potential mergers and acquisitions. Analysts note there may not be many good deal options available in the current market.",
+      "readSeconds": 18,
       "sources": [
         "Guardian",
         "CNBC"
       ],
       "quiz": {
-        "prompt": "Which media assets are included in Comcast's planned spinoff?",
+        "prompt": "Which media assets is Comcast planning to spin off into a separate company?",
         "options": [
-          "Disney+ and Hulu",
+          "ESPN and Hulu",
           "NBCUniversal and Sky",
-          "Warner Bros and CNN",
-          "Paramount and MTV"
+          "CNN and Warner Bros",
+          "Paramount and CBS"
         ],
         "correctIndex": 1,
-        "explanation": "Comcast's spinoff will include its NBCUniversal and Sky media operations, separating them from its cable and broadband business."
+        "explanation": "Comcast announced it would spin off NBCUniversal and Sky into a separate media business, splitting from its cable and broadband operations."
       }
     },
     {
-      "id": "8a01bdee-3b62-451c-a151-430b71ad3e91",
+      "id": "aa86e9f6-86ae-4557-b467-b952e2f1cc8f",
       "vertical": "finance",
       "region": "Global",
-      "topicTag": "CHIP INVESTMENT",
-      "headline": "South Korea unveils $880bn chip and AI plan",
-      "summary": "South Korea announced an $880 billion investment plan focused on semiconductors and artificial intelligence, as the country seeks to keep pace with heavy investment by regional rivals including Taiwan, China, and Japan. The announcement comes amid a broader global race for chip dominance. Separately, a memory chip shortage is already driving up prices of consumer electronics such as laptops and smartphones.",
-      "readSeconds": 21,
+      "topicTag": "JOB CUTS AI",
+      "headline": "British American Tobacco slashes 9,000 jobs for AI",
+      "summary": "British American Tobacco announced plans to cut approximately 9,000 jobs, representing about a fifth of its total workforce. The company said the cuts are aimed at reducing costs and becoming more technology-enabled and AI-focused. BAT had signaled earlier this year that it was planning savings to make the business more digital.",
+      "readSeconds": 16,
       "sources": [
         "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "Roughly what share of its workforce is British American Tobacco cutting?",
+        "options": [
+          "One tenth",
+          "One fifth",
+          "One third",
+          "One half"
+        ],
+        "correctIndex": 1,
+        "explanation": "British American Tobacco plans to cut about 9,000 jobs, representing approximately one fifth of its workforce."
+      }
+    },
+    {
+      "id": "ccb48947-c519-4644-af8f-6d4ffb707e05",
+      "vertical": "finance",
+      "region": "Global",
+      "topicTag": "SOUTH KOREA TECH",
+      "headline": "South Korea unveils $880bn chip and AI plan",
+      "summary": "South Korea announced an $880 billion investment plan focused on semiconductors and artificial intelligence. The move comes as regional rivals including Taiwan, China, and Japan are all investing heavily in chip factories and related technologies. The scale of the plan underscores the intensifying global competition for dominance in advanced technology.",
+      "readSeconds": 16,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "How much is South Korea's new chip and AI investment plan worth?",
+        "options": [
+          "$280 billion",
+          "$550 billion",
+          "$880 billion",
+          "$1.2 trillion"
+        ],
+        "correctIndex": 2,
+        "explanation": "South Korea unveiled an $880 billion investment plan in chips and AI as regional rivals ramp up their own technology spending."
+      }
+    },
+    {
+      "id": "7003c796-9214-4c79-aad5-2db0406bacac",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "AI BUBBLE",
+      "headline": "Investors question whether AI is 'one big bubble'",
+      "summary": "Investors have been selling off AI-related stocks as doubts grow over whether the massive spending on artificial intelligence will generate sufficient returns. A Princeton computer scientist separately argued that AI-driven mass layoffs are being used as a convenient excuse by companies. Ford also reversed course on AI quality checks, rehiring experienced human engineers after finding AI cameras failed to match the skill of veteran technicians.",
+      "readSeconds": 22,
+      "sources": [
+        "NPR",
+        "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "Why did Ford rehire human engineers after deploying AI for quality checks?",
+        "options": [
+          "AI was too expensive to maintain",
+          "AI checks failed to match the skill of veteran technicians",
+          "Regulators required human oversight",
+          "Unions demanded the change"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ford found that its AI camera systems for design and manufacturing checks were prone to pitfalls and failed to match the quality of experienced human engineers."
+      }
+    },
+    {
+      "id": "b9fd6dcd-30e8-46a0-a729-bb696e157083",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "MEDICARE DRUGS",
+      "headline": "Medicare to cover obesity drugs for first time",
+      "summary": "Medicare will begin covering obesity drugs for the first time, a move that could unlock millions of new patients for Novo Nordisk and Eli Lilly. The landmark coverage shift is set to start on July 1, though many seniors may be unaware of the change due to limited advertising from the government or the drug companies. The development significantly expands access to medications that were previously out of reach for most seniors.",
+      "readSeconds": 20,
+      "sources": [
         "CNBC"
       ],
       "quiz": {
-        "prompt": "Why did South Korea announce its $880 billion chip and AI investment plan?",
+        "prompt": "Which two pharmaceutical companies stand to benefit most from Medicare's new obesity drug coverage?",
         "options": [
-          "To comply with US trade requirements",
-          "To keep pace with heavy investment by regional rivals",
-          "To replace lost export revenue from tariffs",
-          "To fund domestic smartphone manufacturing"
+          "Pfizer and Moderna",
+          "AstraZeneca and Roche",
+          "Novo Nordisk and Eli Lilly",
+          "Johnson & Johnson and Merck"
         ],
-        "correctIndex": 1,
-        "explanation": "South Korea unveiled the plan as regional rivals including Taiwan, China, and Japan are investing heavily in chip factories and other technology."
+        "correctIndex": 2,
+        "explanation": "The Medicare coverage expansion could unlock millions of new patients for Novo Nordisk and Eli Lilly, the leading makers of obesity medications."
       }
     },
     {
-      "id": "f2f4ca6a-0ba4-44a1-a560-757b0ae1e145",
+      "id": "231f5910-fe75-45ab-8187-041a154480b7",
       "vertical": "finance",
       "region": "Global",
       "topicTag": "STABLECOIN LAUNCH",
-      "headline": "Visa and Mastercard launch joint global stablecoin",
-      "summary": "A consortium that includes Visa and Mastercard has jointly launched a new global stablecoin, marking a significant move by two of the world's largest payment networks into digital currency infrastructure. The development comes as stablecoins gain broader institutional acceptance. No further details on the stablecoin's structure were provided in the announcement.",
-      "readSeconds": 18,
+      "headline": "Visa and Mastercard consortium launches global stablecoin",
+      "summary": "A consortium that includes Visa and Mastercard has jointly launched a new global stablecoin. The move signals growing mainstream financial industry engagement with digital currencies and blockchain-based payments. The development comes amid broader momentum in crypto infrastructure, including memory chip shortages driving up costs across consumer electronics tied to AI demand.",
+      "readSeconds": 16,
       "sources": [
         "YahooFin"
       ],
       "quiz": {
-        "prompt": "Which major payment networks are part of the consortium that launched a new global stablecoin?",
+        "prompt": "Which two major payments companies are part of the consortium that launched a new global stablecoin?",
         "options": [
+          "PayPal and Square",
           "Visa and Mastercard",
-          "PayPal and Stripe",
-          "American Express and Discover",
-          "Western Union and MoneyGram"
+          "Stripe and Revolut",
+          "JPMorgan and Goldman Sachs"
         ],
-        "correctIndex": 0,
-        "explanation": "A consortium including Visa and Mastercard jointly launched the new global stablecoin."
+        "correctIndex": 1,
+        "explanation": "A consortium including Visa and Mastercard jointly launched a new global stablecoin, marking a significant move by mainstream payment networks into digital currencies."
       }
     },
     {
-      "id": "ac986874-2912-41d5-9f8b-8fdb1fbf7dd1",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "OBESITY DRUG COVERAGE",
-      "headline": "Medicare to cover obesity drugs for first time",
-      "summary": "Medicare will begin covering obesity drugs starting July 1, potentially unlocking millions of new patients for Novo Nordisk and Eli Lilly and expanding access to medications previously out of reach for seniors. However, many seniors may be unaware of the landmark coverage shift due to limited advertising from the government or the drugmakers. The move is seen as a significant expansion of access to weight-loss treatments for older Americans.",
-      "readSeconds": 22,
-      "sources": [
-        "CNBC"
-      ],
-      "quiz": {
-        "prompt": "When does Medicare's new obesity drug coverage begin?",
-        "options": [
-          "January 1",
-          "April 1",
-          "July 1",
-          "October 1"
-        ],
-        "correctIndex": 2,
-        "explanation": "Medicare's landmark obesity drug coverage starts on July 1, though many seniors remain unaware of the change."
-      }
-    },
-    {
-      "id": "b4e3bff4-ea2f-4535-8d7d-0ce64f20d4ed",
+      "id": "4c55764d-9111-438e-8af9-5649b82d35c2",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "AI BUBBLE",
-      "headline": "AI stocks slide as bubble fears mount",
-      "summary": "Investors are selling off AI-related stocks as doubts surface over whether massive spending on artificial intelligence is worth the investment. However, earnings from major US memory chip maker Micron signal no end in sight to demand for chips at the heart of the AI boom. Chipmaker shares have surged in the first half of 2026, with some manufacturers tripling in value, leaving markets torn between optimism and caution.",
+      "topicTag": "AI VS HUMANS",
+      "headline": "Ford rehires engineers after AI quality checks fail",
+      "summary": "Ford found that hundreds of AI cameras used for design and manufacturing quality checks failed to match the skill of veteran technicians, prompting the company to rehire human engineers. The so-called 'greybeards' — experienced workers — were brought back after AI proved unreliable for critical inspection tasks. The case has become a talking point about the real-world limits of replacing human expertise with automation.",
       "readSeconds": 22,
       "sources": [
-        "NPR",
+        "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What did Micron's earnings signal about AI chip demand?",
+        "prompt": "Why did Ford rehire human engineers after deploying AI?",
         "options": [
-          "Demand is slowing sharply",
-          "No end in sight to demand",
-          "Demand has already peaked",
-          "Demand is shifting to software"
+          "AI cameras were too expensive to maintain",
+          "AI quality checks failed to match the skill of veteran technicians",
+          "Engineers went on strike over AI use",
+          "AI caused production line shutdowns"
         ],
         "correctIndex": 1,
-        "explanation": "According to NPR, earnings from Micron, the biggest US memory chip maker, signal no end in sight to demand for the microchips at the heart of the AI boom."
+        "explanation": "Ford found that AI cameras used for quality checks were prone to pitfalls and could not match the skill of experienced veteran technicians."
       }
     },
     {
-      "id": "b1516e3b-fc64-4362-9b49-f682a7a3372b",
+      "id": "214f8e60-eb85-40f3-bb92-f0217dd1ca24",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "GTA 6 LAUNCH",
+      "headline": "GTA 6 goes digital-only, no disc included",
+      "summary": "Rockstar's highly anticipated GTA 6 will cost £70, and physical copies will not contain a disc — instead including only a code for a digital download. The game is expected to be the biggest release of the year, with one analyst predicting it could make $1 billion within an hour. The move raises broader questions about whether gaming is following music and film into an entirely digital future.",
+      "readSeconds": 22,
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What will physical copies of GTA 6 contain instead of a disc?",
+        "options": [
+          "A USB drive with the game",
+          "A code for a digital download",
+          "A streaming access card",
+          "Nothing — only a box"
+        ],
+        "correctIndex": 1,
+        "explanation": "Rockstar confirmed that physical copies of GTA 6 will include a code for a digital download rather than a disc."
+      }
+    },
+    {
+      "id": "9ebdb16b-b8a4-40c6-a6da-888c1cb650b0",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "PRICE HIKES",
+      "headline": "Apple and Xbox hike prices, blaming AI costs",
+      "summary": "Apple has raised prices on some products by nearly 20%, with the company saying it had 'never seen a component price increase this much, this quickly.' Xbox consoles, Nintendo's Switch 2, and Valve's Steam Deck have also seen significant price rises in recent months. Tech firms are broadly pointing to AI-driven demand for components as a key factor behind the increases.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "How much have Apple raised some of its prices by?",
+        "options": [
+          "Nearly 5%",
+          "Nearly 10%",
+          "Nearly 20%",
+          "Nearly 30%"
+        ],
+        "correctIndex": 2,
+        "explanation": "Apple said it had 'never seen a component price increase this much, this quickly,' and raised some prices by nearly 20%."
+      }
+    },
+    {
+      "id": "af4469c6-7c4c-42c3-930c-ed2b0227da6c",
       "vertical": "tech",
       "region": "US",
       "topicTag": "AI REGULATION",
-      "headline": "Trump administration shapes who accesses top AI models",
-      "summary": "The US government has partially lifted an export ban on Anthropic's most advanced AI model while asserting new influence over which companies can access it. OpenAI also agreed to let the administration screen users of its newest model. The moves mark a significant new level of government control over frontier AI systems.",
+      "headline": "Trump administration partially lifts Anthropic AI export ban",
+      "summary": "The U.S. government has partially lifted an export ban on Anthropic's most advanced AI model, asserting a new level of control over which companies can access cutting-edge AI. OpenAI has also agreed to let the administration screen users of its new model. The moves signal a significant expansion of U.S. government influence over who can use frontier AI systems globally.",
       "readSeconds": 20,
       "sources": [
         "NPR",
@@ -287,117 +334,71 @@
       "quiz": {
         "prompt": "What did OpenAI agree to allow the Trump administration to do?",
         "options": [
-          "Ban all foreign users",
+          "Shut down access to its models entirely",
           "Screen users of its new model",
-          "Pause model development",
-          "Share model weights publicly"
+          "Co-develop military AI tools",
+          "Relocate its headquarters"
         ],
         "correctIndex": 1,
-        "explanation": "According to NPR, OpenAI agreed to let the administration screen users of its new model as part of the government's new level of influence over AI."
+        "explanation": "OpenAI agreed to let the administration screen users of its new model as part of a broader U.S. government assertion of control over advanced AI access."
       }
     },
     {
-      "id": "ebdda3cc-9022-48c0-bde2-dc16f9b37da3",
-      "vertical": "tech",
-      "region": "US",
-      "topicTag": "GAMING DIGITAL",
-      "headline": "GTA 6 physical copy contains no disc",
-      "summary": "Rockstar's highly anticipated GTA 6 will cost £70 and physical copies will not contain a disc, instead including only a code for a digital download. The game is expected to be the biggest release of the year, with one analyst predicting it could make $1 billion within an hour. The move raises broader questions about whether gaming is following music and film into an all-digital future.",
-      "readSeconds": 22,
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What will GTA 6 physical copies contain instead of a disc?",
-        "options": [
-          "A Blu-ray disc",
-          "A USB drive with the game",
-          "A code for a digital download",
-          "Nothing — box is empty"
-        ],
-        "correctIndex": 2,
-        "explanation": "BBC and Guardian both report that GTA 6 physical copies will contain a code for a digital download rather than an actual disc."
-      }
-    },
-    {
-      "id": "b91e6a19-751a-4f05-a579-cd03419997c7",
-      "vertical": "tech",
-      "region": "US",
-      "topicTag": "DEVICE PRICES",
-      "headline": "Apple and Xbox hike prices, blaming AI costs",
-      "summary": "Apple has raised some product prices by nearly 20%, with the company stating it has \"never seen a component price increase this much, this quickly.\" Xbox consoles have also seen price hikes, alongside Nintendo's Switch 2 and Valve's Steam Deck. Tech firms are broadly pointing to AI-driven component demand as a factor behind the wave of price rises.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC"
-      ],
-      "quiz": {
-        "prompt": "How much did Apple hike some of its prices by?",
-        "options": [
-          "Nearly 5%",
-          "Nearly 10%",
-          "Nearly 20%",
-          "Nearly 30%"
-        ],
-        "correctIndex": 2,
-        "explanation": "According to BBC, Apple hiked some prices by nearly 20%, with the company citing unprecedented component price increases."
-      }
-    },
-    {
-      "id": "9b54ebed-782e-41cb-a78a-1e1a92ca91cf",
+      "id": "a311ed92-c702-41a5-b293-978439618ca9",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "AUSTRALIA SOCIAL MEDIA",
-      "headline": "Australia's child social media ban barely working",
-      "summary": "A study finds that six months into Australia's world-first social media ban for children, the policy has barely affected youth access to platforms. Australia now plans to double potential fines for platforms like Facebook and Instagram that fail to prevent children from holding accounts. Observers say the government is responding to clear evidence that the ban has failed since it came into force.",
+      "topicTag": "SOCIAL MEDIA BAN",
+      "headline": "Australia's child social media ban barely affecting access",
+      "summary": "A new study found that six months into Australia's world-first social media ban for children, the policy has barely affected young people's access to platforms including Facebook, Instagram, and YouTube. Australia is now planning to double potential fines for platforms that fail to prevent children from holding accounts. Observers say the government is responding to clear evidence that the ban has failed since taking effect.",
       "readSeconds": 21,
       "sources": [
         "NPR"
       ],
       "quiz": {
-        "prompt": "What action is Australia taking to strengthen its child social media ban?",
+        "prompt": "What does Australia plan to do in response to its social media ban failing?",
         "options": [
-          "Blocking platforms entirely",
-          "Doubling potential fines for platforms",
-          "Arresting parents of underage users",
-          "Requiring age-verification hardware"
+          "Scrap the ban entirely",
+          "Double potential fines for non-compliant platforms",
+          "Block social media apps at the network level",
+          "Lower the age threshold of the ban"
         ],
         "correctIndex": 1,
-        "explanation": "NPR reports Australia plans to double potential fines for social media platforms including Facebook and Instagram that fail to prevent Australian children from holding accounts."
+        "explanation": "Australia plans to double potential fines for social media platforms that fail to prevent Australian children from holding accounts."
       }
     },
     {
-      "id": "b996db99-63d6-41ec-baf7-75a23c25cdca",
-      "vertical": "tech",
-      "region": "US",
-      "topicTag": "FORD AI FAILURE",
-      "headline": "Ford rehires human engineers after AI quality checks fail",
-      "summary": "Ford found that hundreds of AI cameras used for design and manufacturing quality checks were prone to pitfalls and failed to match the skill of veteran technicians, referred to internally as \"greybeards.\" The car-maker has rehired human engineers as a result. The case is being widely cited as a cautionary example of AI deployment backfiring in industrial settings.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "Why did Ford rehire veteran human engineers?",
-        "options": [
-          "Due to union pressure",
-          "AI quality checks failed to match their skill",
-          "Government regulations required it",
-          "AI was too expensive to maintain"
-        ],
-        "correctIndex": 1,
-        "explanation": "BBC and Guardian both report that Ford found AI quality checks failed to match the skill of veteran technicians, prompting the rehire of human engineers."
-      }
-    },
-    {
-      "id": "82420107-b370-47c0-b5eb-ddc44d01a7c5",
+      "id": "8a749d2f-f097-4afe-9164-eb431eb2640f",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "WHATSAPP USERNAMES",
-      "headline": "WhatsApp lets users chat without sharing phone numbers",
-      "summary": "WhatsApp is rolling out a new usernames feature globally over the next few months, allowing people to connect and chat by swapping usernames instead of phone numbers. The change is a significant privacy upgrade for the app's billions of users. It brings WhatsApp closer in line with platforms like Telegram and Signal that already support username-based contact.",
-      "readSeconds": 18,
+      "topicTag": "CHIP BOOM",
+      "headline": "South Korea pledges over $550 billion for memory chips",
+      "summary": "South Korea's two largest memory chip companies have committed over $550 billion to build more memory fabrication labs as the country positions itself as a global AI technology powerhouse. South Korea has also announced plans to spend $1 trillion overall on memory chip production and humanoid robots, targeting commercial humanoid robots by 2028. Memory chip demand remains robust, with U.S. chipmaker Micron's earnings signalling no end in sight to AI-driven demand.",
+      "readSeconds": 23,
+      "sources": [
+        "TechCrunch",
+        "ArsTechnica",
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "By what year does South Korea aim to have commercial humanoid robots?",
+        "options": [
+          "2025",
+          "2026",
+          "2027",
+          "2028"
+        ],
+        "correctIndex": 3,
+        "explanation": "South Korea's investment plan targets commercial humanoid robots by 2028 as part of its broader AI technology ambitions."
+      }
+    },
+    {
+      "id": "4e5bedc6-e0dd-4f64-a292-3f76c902658e",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "WHATSAPP PRIVACY",
+      "headline": "WhatsApp to let users chat using usernames",
+      "summary": "WhatsApp is rolling out a new feature globally that will allow users to connect and chat by swapping usernames rather than sharing phone numbers. The update is set to be rolled out over the next few months. The change addresses a long-standing privacy concern for users who prefer not to share their personal phone numbers with new contacts.",
+      "readSeconds": 16,
       "sources": [
         "BBC"
       ],
@@ -406,369 +407,538 @@
         "options": [
           "Email addresses",
           "Usernames",
-          "QR codes only",
-          "Social media handles"
+          "QR codes",
+          "Profile links"
         ],
         "correctIndex": 1,
-        "explanation": "BBC reports WhatsApp's new usernames feature lets people chat by swapping usernames instead of phone numbers, rolling out globally over the coming months."
+        "explanation": "WhatsApp's new feature lets people connect and chat by swapping usernames, removing the need to share phone numbers."
       }
     },
     {
-      "id": "6861e89f-29f6-49f6-b44b-fa052027f27c",
+      "id": "910df30a-8238-49a8-9752-ffecd63faca4",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "CHIP BREAKTHROUGH",
-      "headline": "IBM claims chip breakthrough below 1 nanometre",
-      "summary": "IBM says it has created the world's first known chip technology below 1 nanometre, describing it as a \"block of flats\" design breakthrough for ultra-tiny chips. The achievement could have significant implications for the future of computing, though IBM notes it will be some time before the technology is ready for production. The announcement comes as chipmakers globally are racing to meet surging AI-driven demand.",
-      "readSeconds": 20,
+      "topicTag": "IBM CHIPS",
+      "headline": "IBM claims world-first chip breakthrough below 1 nanometre",
+      "summary": "IBM says it has created the world's first known chip technology below 1 nanometre in size, describing the design as a 'block of flats' architecture for ultra-tiny chips. The breakthrough is significant for the future of computing, though IBM acknowledges it will be some time before the technology is ready for production. Chipmaker shares have surged broadly in the first half of 2026 as AI demand continues to drive investment.",
+      "readSeconds": 21,
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "What milestone has IBM claimed with its new chip technology?",
+        "prompt": "How does IBM describe the design concept behind its new sub-1-nanometre chip?",
         "options": [
-          "First chip above 5 nanometres",
-          "First known chip tech below 1 nanometre",
-          "First quantum-ready consumer chip",
-          "First chip built entirely with AI"
+          "A honeycomb grid",
+          "A block of flats",
+          "A stacked ladder",
+          "A neural mesh"
         ],
         "correctIndex": 1,
-        "explanation": "BBC reports IBM says it has created the world's first known chip technology below 1 nanometre, though it won't be production-ready for some time."
+        "explanation": "IBM described its new chip architecture as a 'block of flats' design, representing the world's first known chip technology below 1 nanometre."
       }
     },
     {
-      "id": "932640dc-d23c-499c-9cd2-c157946b87d6",
+      "id": "3943ad17-8bd4-4938-8ed4-dc50202db298",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "AI BUBBLE",
+      "headline": "Investors grow uneasy as AI stock sell-off deepens",
+      "summary": "Investors have been selling off AI-related stocks amid growing doubts about whether massive spending on AI is delivering sufficient returns, with some asking whether the boom is 'one big bubble.' Despite the market nervousness, earnings from major memory chipmakers like Micron signal demand for AI hardware remains strong with no sign of slowing. Chipmaker shares have nonetheless surged broadly in the first half of 2026, complicating the picture.",
+      "readSeconds": 21,
+      "sources": [
+        "NPR",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What do Micron's recent earnings suggest about AI chip demand?",
+        "options": [
+          "Demand is collapsing rapidly",
+          "There is no end in sight to demand",
+          "Demand has plateaued at current levels",
+          "Demand is shifting away from memory chips"
+        ],
+        "correctIndex": 1,
+        "explanation": "Earnings from major U.S. memory chip maker Micron signalled no end in sight to demand for the microchips at the heart of the AI boom."
+      }
+    },
+    {
+      "id": "b248b7cb-9bfd-4783-b571-f4d3755f5a71",
       "vertical": "tech",
       "region": "Global",
       "topicTag": "TESLA ROBOTAXI",
-      "headline": "Tesla tests Cybercab without pedals or steering wheel",
-      "summary": "Tesla has begun testing its Cybercab autonomous vehicle in Austin without pedals or a steering wheel, a significant step toward delivering on Elon Musk's long-promised robotaxi network. The test marks a concrete move toward deploying a fully driverless commercial service. It comes as rival Waymo and Uber have quietly parted ways in Phoenix, reshaping the competitive robotaxi landscape.",
+      "headline": "Tesla tests Cybercab without steering wheel in Austin",
+      "summary": "Tesla has started testing its Cybercab robotaxi in Austin without pedals or a steering wheel, marking a potential step toward delivering on Elon Musk's long-standing promise of a commercial robotaxi network. The vehicle is being tested on public roads as the company moves closer to a real-world autonomous ride service. The development comes as rival Waymo and Uber have quietly ended their partnership in Phoenix.",
       "readSeconds": 20,
       "sources": [
         "TechCrunch"
       ],
       "quiz": {
-        "prompt": "In which US city is Tesla testing its pedal- and steering-wheel-free Cybercab?",
+        "prompt": "What is notable about Tesla's Cybercab currently being tested in Austin?",
         "options": [
-          "San Francisco",
-          "Phoenix",
-          "Austin",
-          "Los Angeles"
-        ],
-        "correctIndex": 2,
-        "explanation": "TechCrunch reports Tesla has started testing its Cybercab without pedals or a steering wheel in Austin, Texas."
-      }
-    },
-    {
-      "id": "0b0bc04e-86dd-445e-885c-060a2b95cd39",
-      "vertical": "tech",
-      "region": "Global",
-      "topicTag": "UK APP STORES",
-      "headline": "UK watchdog moves to break Apple-Google app store duopoly",
-      "summary": "The UK's Competition and Markets Authority is challenging Apple and Google's effective duopoly on mobile app stores, saying developers should be able to steer users away from the app stores for payments to increase competition. The move could fundamentally change how apps are distributed and monetised on mobile devices. It follows similar regulatory pressure in the EU and US targeting the dominance of the two tech giants.",
-      "readSeconds": 21,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What does the UK's CMA say developers should be able to do to increase competition?",
-        "options": [
-          "Build their own app stores freely",
-          "Steer users away from app stores for payments",
-          "Charge any price for apps",
-          "Access Apple's source code"
+          "It runs on hydrogen fuel",
+          "It has no pedals or steering wheel",
+          "It carries only one passenger",
+          "It uses a fixed route only"
         ],
         "correctIndex": 1,
-        "explanation": "The Guardian reports the CMA says developers should be able to steer users away from app stores for payments as part of its effort to break the Apple-Google duopoly."
+        "explanation": "Tesla is testing its Cybercab in Austin without pedals or a steering wheel, moving toward Elon Musk's vision of a commercial robotaxi network."
       }
     },
     {
-      "id": "5368e761-c2d0-4a8e-9d8c-aebbee1dcfa3",
+      "id": "f4bc989b-e461-4561-aa1d-79fd651501c4",
       "vertical": "politics",
       "region": "US",
-      "topicTag": "SUPREME COURT",
-      "headline": "Supreme Court blocks Trump birthright citizenship order",
-      "summary": "The US Supreme Court ruled 6-3 against President Trump's executive order to end birthright citizenship, affirming that nearly all infants born on US soil automatically become citizens. The ruling is considered a major blow to Trump and was delivered on the final day of the court's term. It is one of several consequential decisions handed down in a single dramatic day.",
+      "topicTag": "BIRTHRIGHT CITIZENSHIP",
+      "headline": "Supreme Court blocks Trump's birthright citizenship order",
+      "summary": "The US Supreme Court ruled 6-3 against President Trump's executive order to end birthright citizenship, affirming that nearly all infants born on US soil automatically become citizens. The decision is widely described as a major blow to Trump and a landmark ruling on the high court's final day of its term. It forms part of a broader day of consequential Supreme Court decisions that went largely against the administration.",
       "readSeconds": 22,
       "sources": [
         "BBC",
-        "NPR",
-        "AlJazeera"
+        "AlJazeera",
+        "NPRPolitics"
       ],
       "quiz": {
-        "prompt": "How did the Supreme Court vote in the birthright citizenship case?",
+        "prompt": "How did the Supreme Court rule on Trump's birthright citizenship order?",
         "options": [
-          "6-3 against Trump's order",
-          "5-4 against Trump's order",
-          "7-2 against Trump's order",
-          "Unanimous against Trump's order"
+          "6-3 against the order",
+          "5-4 in favor of the order",
+          "Unanimously in favor of the order",
+          "6-3 in favor of the order"
         ],
         "correctIndex": 0,
-        "explanation": "The Supreme Court ruled 6-3 to block Trump's executive order limiting birthright citizenship."
+        "explanation": "The Supreme Court ruled 6-3 against Trump's executive order, blocking the attempt to end birthright citizenship."
       }
     },
     {
-      "id": "103e7ae7-d9c8-482e-a2bc-b74f3d4d280c",
+      "id": "6c3b56e3-5c09-43ec-9865-3c1bb3156b65",
       "vertical": "politics",
       "region": "US",
-      "topicTag": "SUPREME COURT",
-      "headline": "SCOTUS cements Trump's power over independent agencies",
-      "summary": "In a 6-3 decision, the Supreme Court struck down a 91-year-old precedent that had prevented presidents from removing members of independent regulatory agencies. The ruling expands presidential power significantly, though separately the court also blocked Trump's attempt to fire Federal Reserve Governor Lisa Cook, sending that fight back to lower courts. The day's rulings were described as one win and several defeats for Trump overall.",
-      "readSeconds": 23,
+      "topicTag": "SUPREME COURT RULINGS",
+      "headline": "Supreme Court expands presidential power over agencies",
+      "summary": "In a 6-3 decision, the Supreme Court struck down a 91-year-old precedent that had prevented presidents from removing members of independent agencies, significantly expanding executive power. However, the court separately blocked Trump's attempt to fire Federal Reserve Governor Lisa Cook, a decision seen as a win for central bank independence. The rulings capped a dramatic day that delivered Trump one major win and several setbacks.",
+      "readSeconds": 22,
       "sources": [
         "BBC",
-        "NPR",
+        "NPRPolitics",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "What did the Supreme Court do regarding Trump's attempt to fire Fed Governor Lisa Cook?",
+        "prompt": "What did the Supreme Court rule regarding independent agency members?",
         "options": [
-          "Blocked the firing and sent the case back to lower courts",
-          "Allowed the firing to proceed",
-          "Ruled the position was not independent",
-          "Declined to hear the case"
+          "Presidents can now remove members of independent agencies",
+          "Presidents cannot remove Federal Reserve governors",
+          "Independent agencies were abolished",
+          "The 91-year-old precedent was upheld"
         ],
         "correctIndex": 0,
-        "explanation": "The Supreme Court blocked Trump's attempt to fire Federal Reserve Governor Lisa Cook and sent the fight over removal back to the lower courts."
+        "explanation": "The court struck down a 91-year-old precedent in a 6-3 decision, giving presidents the power to remove members of independent agencies."
       }
     },
     {
-      "id": "c9820574-969c-4340-ad7e-5ec471b7a9c6",
+      "id": "20e466a9-3204-49f8-b153-4d3f1b7c81e7",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "VENEZUELA EARTHQUAKE",
       "headline": "Venezuela earthquake death toll surpasses 1,700",
-      "summary": "Twin earthquakes struck northern Venezuela, with La Guaira state bearing the brunt of the damage and the death toll passing 1,700. A subsequent 4.6-magnitude aftershock sent terrified residents fleeing days later. More than 100 people recently deported from the US were being held in a hotel in La Guaira when the earthquakes struck, with their whereabouts subsequently unknown.",
+      "summary": "Twin earthquakes struck northern Venezuela, devastating La Guaira state and killing more than 1,700 people, with a strong 4.6-magnitude aftershock later rattling the capital Caracas. Among those caught up in the disaster were over 100 people who had just been deported from the United States and were being held in a hotel when the quakes struck. Angry residents have accused the government of negligence in its disaster response.",
       "readSeconds": 23,
       "sources": [
-        "BBC",
-        "NPR",
         "Guardian",
-        "AlJazeera"
+        "NPRWorld",
+        "BBC"
       ],
       "quiz": {
-        "prompt": "Where were more than 100 US deportees being held when the Venezuela earthquakes struck?",
+        "prompt": "What happened to recently US-deported Venezuelans during the earthquake?",
         "options": [
-          "A hotel in La Guaira",
-          "A detention centre in Caracas",
-          "An airport in Venezuela",
-          "A guarded camp near the border"
+          "They were held in a hotel that was struck during the quakes",
+          "They were safely evacuated before the quakes",
+          "They were still on a flight when the quakes hit",
+          "They were sheltering in a government building"
         ],
         "correctIndex": 0,
-        "explanation": "More than 100 people recently deported from the US were being held in a hotel in La Guaira when the earthquakes struck."
+        "explanation": "More than 100 people just deported from the US were being held in a hotel in La Guaira when the twin earthquakes struck."
       }
     },
     {
-      "id": "3a5342f3-791a-4087-92df-6af62a7674e5",
+      "id": "4685188d-7a99-4e7d-8ab3-e0160cfd358f",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "PAKISTAN AFGHANISTAN",
+      "headline": "Pakistani airstrikes kill dozens of civilians in Afghanistan",
+      "summary": "Pakistani airstrikes killed at least 28 to 36 civilians in Afghanistan and wounded 160, according to UN and Afghan officials. Pakistan said it was targeting militant hideouts along the border in response to attacks inside Pakistan, but the Taliban government condemned the strikes as an act of aggression and an atrocity. The incident has sharply escalated tensions between the two countries.",
+      "readSeconds": 21,
+      "sources": [
+        "BBC",
+        "NPRWorld"
+      ],
+      "quiz": {
+        "prompt": "Why did Pakistan say it carried out airstrikes in Afghanistan?",
+        "options": [
+          "To target militant hideouts following attacks inside Pakistan",
+          "To respond to a Taliban border incursion",
+          "To destroy Afghan military infrastructure",
+          "To support NATO operations"
+        ],
+        "correctIndex": 0,
+        "explanation": "Pakistan said it targeted militant hideouts along the Pakistan-Afghanistan border in response to militant attacks carried out across Pakistan."
+      }
+    },
+    {
+      "id": "d6d954b4-3f17-468b-8ef2-6f231006e7d8",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "US-IRAN TENSIONS",
-      "headline": "US and Iran exchange strikes, talks resume in Qatar",
-      "summary": "The US and Iran exchanged strikes over the weekend, putting their latest ceasefire in jeopardy. President Trump said talks with Iran would resume in Qatar, though Iran indicated it was sending only a technical delegation to discuss the release of frozen funds rather than high-level diplomatic meetings. Qatar's foreign ministry confirmed no direct talks between the US and Iran were scheduled.",
+      "headline": "US and Iran resume Qatar talks after recent strikes",
+      "summary": "The United States and Iran exchanged strikes over the weekend, putting their latest ceasefire in jeopardy. President Trump announced that talks with Iran would resume in Qatar, though Iran said it was sending only a technical delegation to discuss the release of frozen Iranian funds rather than high-level diplomatic negotiations. Qatar's foreign ministry confirmed no direct high-level talks between the US and Iran were scheduled.",
       "readSeconds": 22,
       "sources": [
         "BBC",
-        "NPR",
+        "NPRWorld",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "What did Iran say its delegation to Doha was focused on?",
+        "prompt": "What did Iran say its delegation in Doha would focus on?",
         "options": [
           "The release of frozen Iranian funds",
-          "A new nuclear agreement",
-          "Ceasefire terms",
-          "Prisoner exchanges"
+          "A new nuclear deal framework",
+          "Ceasefire terms with the US",
+          "Regional security arrangements"
         ],
         "correctIndex": 0,
-        "explanation": "Iran said it was sending an expert delegation to Doha to follow up on the release of frozen Iranian funds, not for high-level diplomatic talks."
+        "explanation": "Iran said it was sending a technical delegation to Doha specifically to discuss the release of frozen Iranian funds, not broader diplomatic negotiations."
       }
     },
     {
-      "id": "7c693092-3798-40c3-bc2d-44a785ce001b",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "PAKISTAN-AFGHANISTAN",
-      "headline": "Pakistani airstrikes kill dozens of Afghan civilians",
-      "summary": "Pakistani airstrikes near the Afghanistan-Pakistan border killed at least 28 to 36 civilians and wounded around 160, according to UN and Afghan officials. Pakistan said it was targeting militant hideouts in response to attacks across Pakistan, but the Taliban government condemned the strikes as an act of aggression and an atrocity. The UN also confirmed the high civilian death toll.",
-      "readSeconds": 21,
-      "sources": [
-        "BBC",
-        "NPR"
-      ],
-      "quiz": {
-        "prompt": "What justification did Pakistan give for the airstrikes in Afghanistan?",
-        "options": [
-          "Targeting militant hideouts near the border",
-          "Responding to Taliban territorial incursions",
-          "Protecting Pakistani civilians in Afghanistan",
-          "Enforcing a UN security resolution"
-        ],
-        "correctIndex": 0,
-        "explanation": "Pakistan said it targeted militant hideouts along the Pakistan-Afghanistan border in response to militant attacks across Pakistan."
-      }
-    },
-    {
-      "id": "ddf4e3fd-42e5-4b3a-b3f7-609ec78c3d96",
+      "id": "c5e74f6d-78b1-46c7-93f9-b6ac56965b0e",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "MONACO BOMBING",
-      "headline": "Bomb injures Ukrainian tycoon in Monaco, suspect at large",
-      "summary": "An explosive device containing bolts and pellets was detonated at the entrance to a building in Monaco, injuring three people including a reported Ukrainian tycoon. Prosecutors described the incident as an attempted assassination rather than a terror attack, and the suspect who placed the device fled the scene and remains at large. A manhunt is under way.",
+      "headline": "Manhunt after bomb injures Ukrainian tycoon in Monaco",
+      "summary": "An explosive device packed with bolts and pellets was detonated at the entrance to a building in Monaco, injuring three people including a Ukrainian-born tycoon and his wife and child. Monaco prosecutors said there is no evidence of terrorism and that the suspect, who fled the scene, appears to have acted alone. An international manhunt is under way for the perpetrator.",
       "readSeconds": 20,
       "sources": [
         "BBC",
-        "NPR",
+        "NPRWorld",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What did Monaco prosecutors say about the Monaco bombing suspect?",
+        "options": [
+          "The suspect acted alone and remains at large",
+          "The suspect was arrested at the scene",
+          "It was a coordinated terrorist attack",
+          "The suspect was a known criminal associate"
+        ],
+        "correctIndex": 0,
+        "explanation": "Monaco prosecutors said the suspect appeared to have acted alone and had fled the scene, with a manhunt under way."
+      }
+    },
+    {
+      "id": "9026092c-d06b-40c0-9035-75d155d46e96",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "GUO WENGUI FRAUD",
+      "headline": "Anti-CCP Chinese tycoon Guo Wengui jailed 30 years",
+      "summary": "Exiled Chinese billionaire Guo Wengui, who branded himself a critic of the Chinese Communist Party, has been sentenced to 30 years in a US federal prison after being convicted on nine charges including money laundering and fraud. The judge said Guo diverted investor money to fund a lavish lifestyle, rather than to fight the Communist Party as he claimed. Guo had gained a large following among people who backed his schemes.",
+      "readSeconds": 21,
+      "sources": [
+        "BBC",
+        "NPRWorld",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What did the judge say Guo Wengui did with investor money?",
+        "options": [
+          "Diverted it to fund a lavish lifestyle",
+          "Used it to fund anti-CCP activism",
+          "Transferred it to Chinese dissidents",
+          "Invested it in legitimate businesses"
+        ],
+        "correctIndex": 0,
+        "explanation": "The judge said Guo diverted investor money to live lavishly, rather than using it to oppose the Chinese Communist Party as he had claimed."
+      }
+    },
+    {
+      "id": "4a20a97a-c01d-43c6-aab7-50aa72af251c",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "GERMANY FAR-RIGHT",
+      "headline": "Germany counts nearly 60,000 far-right extremists",
+      "summary": "Germany's domestic intelligence agency has identified almost 60,000 far-right extremists in the country, with more than a quarter of them believed to be potentially violent. The figure underscores the scale of the challenge facing German authorities in monitoring and containing the far-right movement. The disclosure comes amid ongoing debates in Europe about the rise of extremist movements.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "What proportion of Germany's identified far-right extremists are believed to be violent?",
+        "options": [
+          "More than a quarter",
+          "About half",
+          "Less than one in ten",
+          "Nearly all of them"
+        ],
+        "correctIndex": 0,
+        "explanation": "Germany's domestic intelligence agency said more than a quarter of the nearly 60,000 identified far-right extremists are believed to be violent."
+      }
+    },
+    {
+      "id": "f44c59e4-24a4-4f8a-a7cd-cce0ad25bc95",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "SOUTH AFRICA MIGRATION",
+      "headline": "South Africa deploys police amid anti-migrant protests",
+      "summary": "South African authorities deployed police units across towns and cities as anti-migrant groups held rallies demanding undocumented foreigners leave the country. The government fears a repeat of anti-migrant violence seen in 2008, which led to looting and 62 deaths. Foreigners have already begun leaving South Africa ahead of a deadline set by the anti-migrant groups.",
+      "readSeconds": 19,
+      "sources": [
+        "BBC",
         "Guardian",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "How did Monaco prosecutors classify the Monaco bombing?",
+        "prompt": "What event are South African authorities trying to prevent a repeat of?",
         "options": [
-          "An attempted assassination",
-          "A terrorist attack",
-          "A criminal gang dispute",
-          "An accidental explosion"
+          "2008 anti-migrant violence that killed 62 people",
+          "A 2015 xenophobic riot in Johannesburg",
+          "A 2019 border crisis",
+          "A 2021 fuel shortage protest"
         ],
         "correctIndex": 0,
-        "explanation": "Monaco prosecutors said there was no evidence of a terror motive and classified the incident as an attempted assassination."
+        "explanation": "The South African government fears a repeat of anti-migrant violence in 2008 that led to looting and resulted in the deaths of 62 people."
       }
     },
     {
-      "id": "ad27409e-cb2c-486c-bd73-f138c178a451",
-      "vertical": "politics",
-      "region": "US",
-      "topicTag": "TRANSGENDER SPORTS",
-      "headline": "Supreme Court upholds transgender sports bans in schools",
-      "summary": "The US Supreme Court ruled that states can ban transgender women and girls from competing in women's and girls' school and college sports. The decision upholds state-level bans that had been contested in lower courts. The ruling is among several landmark decisions handed down on the final day of the court's current term.",
-      "readSeconds": 19,
-      "sources": [
-        "BBC",
-        "NPR",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What did the Supreme Court rule regarding transgender athletes in school sports?",
-        "options": [
-          "States can ban transgender women from competing in women's sports",
-          "States cannot enforce such bans",
-          "The federal government must set a uniform policy",
-          "The ruling applies only to college sports"
-        ],
-        "correctIndex": 0,
-        "explanation": "The Supreme Court ruled that states can ban transgender athletes from competing in women's and girls' sports at school and college level."
-      }
-    },
-    {
-      "id": "cbc1a781-6782-4a46-8b69-a8e71807f30b",
-      "vertical": "politics",
-      "region": "US",
-      "topicTag": "CAMPAIGN FINANCE",
-      "headline": "SCOTUS strikes down limits on political party spending",
-      "summary": "The Supreme Court struck down a post-Watergate law that had limited the amount of money individuals can give to political parties, removing long-standing campaign finance restrictions. The ruling was among several major decisions handed down as the court concluded its current term. Critics say the decision could dramatically increase the flow of money into US politics.",
-      "readSeconds": 19,
-      "sources": [
-        "NPR"
-      ],
-      "quiz": {
-        "prompt": "What law did the Supreme Court strike down in its campaign finance ruling?",
-        "options": [
-          "A post-Watergate law limiting individual donations to political parties",
-          "The Citizens United ruling",
-          "The Federal Election Campaign Act's corporate donation ban",
-          "A law capping total campaign expenditure"
-        ],
-        "correctIndex": 0,
-        "explanation": "The Supreme Court struck down a post-Watergate law that Congress had passed to limit the amount of money individuals can give to political parties."
-      }
-    },
-    {
-      "id": "f31adae5-feac-4331-9dbb-370107517ffd",
+      "id": "97414cb4-6633-4b16-816e-98fc7cd5ec95",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "DR CONGO EBOLA",
-      "headline": "DR Congo Ebola outbreak: 300 cases untraced, ban on gatherings",
-      "summary": "The whereabouts of nearly 300 people who tested positive for Ebola in the Democratic Republic of Congo are unknown, raising fears of widespread community transmission. Modelling predicts thousands of deaths in the DRC by September. The government has banned mass gatherings in the capital, though opposition politicians allege the ban is being used to suppress a planned protest.",
-      "readSeconds": 21,
+      "headline": "DR Congo bans gatherings as Ebola whereabouts unknown",
+      "summary": "The Democratic Republic of Congo has banned mass gatherings in its capital to prevent the spread of Ebola, with the whereabouts of nearly 300 people who tested positive for the virus currently unknown. Modelling predicts thousands of deaths in the DRC by September if the outbreak is not contained, with fears of huge community transmission. Opposition politicians have accused the government of using the Ebola outbreak as a pretext to block a planned protest.",
+      "readSeconds": 22,
       "sources": [
         "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What do opposition politicians in DR Congo allege about the mass gatherings ban?",
+        "prompt": "How many Ebola-positive people are currently unaccounted for in DR Congo?",
         "options": [
-          "It is being used to suppress a planned protest",
-          "It is ineffective against Ebola transmission",
-          "It violates the constitution",
-          "It targets specific ethnic communities"
+          "Nearly 300",
+          "Around 50",
+          "More than 1,000",
+          "Fewer than 100"
         ],
         "correctIndex": 0,
-        "explanation": "Opposition politicians accused the government of using the Ebola outbreak ban on mass gatherings to halt a planned protest."
+        "explanation": "The whereabouts of almost 300 people who tested positive for Ebola in the DRC are currently unknown, raising fears of widespread community transmission."
       }
     },
     {
-      "id": "1c4246fb-7cde-4c5c-be28-feaf7d1a5287",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "SOUTH AFRICA MIGRATION",
-      "headline": "South Africa deploys police as anti-migrant marches begin",
-      "summary": "South African authorities deployed police units across towns and cities as anti-migrant groups staged marches demanding undocumented foreigners leave the country. The government feared a repeat of 2008 anti-migrant violence that resulted in looting and 62 deaths. Foreigners had already begun leaving ahead of the deadline set by the anti-migrant groups.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "Guardian",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "How many people died during the 2008 anti-migrant violence that South African authorities were trying to avoid repeating?",
-        "options": [
-          "62",
-          "28",
-          "100",
-          "45"
-        ],
-        "correctIndex": 0,
-        "explanation": "The Guardian reported that the 2008 anti-migrant violence led to looting and resulted in the deaths of 62 people."
-      }
-    },
-    {
-      "id": "a9301834-c6c5-4421-902c-d3f9be05b237",
+      "id": "8ebe736b-c235-4542-893c-5157bde8680a",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Germany eliminated by Paraguay on penalties",
-      "summary": "Four-time world champions Germany were knocked out of the 2026 World Cup, losing to Paraguay 4-3 on penalties after a 1-1 draw following extra time. Germany, who once scored 22 consecutive penalties in major tournament shootouts, missed three spot kicks. Former Germany captain Lothar Matthäus blamed off-pitch unrest, claiming relatives' travel plans were prioritised over results.",
+      "topicTag": "WORLD CUP UPSETS",
+      "headline": "Germany and Netherlands both exit World Cup on penalties",
+      "summary": "Four-time winners Germany were knocked out of the 2026 World Cup, losing to Paraguay 4-3 on penalties after a 1-1 draw, ending a remarkable 50-year penalty shootout winning streak in major tournaments. The Netherlands also fell at the same stage, missing three spot kicks as Morocco came from behind to beat them on penalties in Monterrey. Both eliminations on the same day mark a stunning night of European exits from the tournament.",
       "readSeconds": 22,
       "sources": [
         "BBC",
         "Guardian",
-        "ESPN"
+        "CBSSports"
       ],
       "quiz": {
-        "prompt": "What was the score in the penalty shootout when Paraguay eliminated Germany?",
+        "prompt": "How did Paraguay beat Germany in the 2026 World Cup?",
         "options": [
-          "3-2 to Paraguay",
-          "4-3 to Paraguay",
-          "5-4 to Paraguay",
-          "4-2 to Paraguay"
+          "2-0 in normal time",
+          "3-1 in extra time",
+          "4-3 on penalties after a 1-1 draw",
+          "5-4 on penalties after a goalless draw"
         ],
-        "correctIndex": 1,
-        "explanation": "Paraguay beat Germany 4-3 on penalties after the match ended 1-1 following extra time."
+        "correctIndex": 2,
+        "explanation": "Germany and Paraguay drew 1-1 after extra time, with Paraguay winning 4-3 on penalties."
       }
     },
     {
-      "id": "fbddd10c-9d32-43eb-81a7-de9fa8d000c0",
+      "id": "0574db7f-147d-49f8-a2d1-c224a39e0638",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Netherlands knocked out as Morocco advance",
-      "summary": "Morocco came from behind to beat the Netherlands on penalties in Monterrey, with the Dutch missing three spot kicks to crash out of the 2026 World Cup. Celebrations and bottle-throwing broke out on Dutch streets, with police pelted in The Hague, while fans from both sides shared hugs in Amsterdam. Morocco progress to the last 16.",
+      "topicTag": "LEBRON FREE AGENCY",
+      "headline": "LeBron James leaves Lakers, Warriors move looms",
+      "summary": "LeBron James has informed the Los Angeles Lakers he will be moving on, opening his free agency after eight seasons with the team. Reports have strongly linked the 41-year-old with a move to the Golden State Warriors, where a potential union with Stephen Curry and Anthony Davis is being discussed. Draymond Green declining his $27.6 million player option has been seen as a signal the Warriors are restructuring to make room.",
+      "readSeconds": 22,
+      "sources": [
+        "Guardian",
+        "CBSSports"
+      ],
+      "quiz": {
+        "prompt": "Which Warriors player declined his player option, signaling the team's pursuit of LeBron?",
+        "options": [
+          "Stephen Curry",
+          "Klay Thompson",
+          "Draymond Green",
+          "Andrew Wiggins"
+        ],
+        "correctIndex": 2,
+        "explanation": "Draymond Green declined his $27.6 million player option, which was seen as a move to free up space for a potential LeBron James signing."
+      }
+    },
+    {
+      "id": "b356e747-0a57-4476-9793-40da21b4dc6f",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "WIMBLEDON 2026",
+      "headline": "Swiatek in tears after nervy Wimbledon title defence begins",
+      "summary": "Defending champion Iga Swiatek was visibly emotional on court after surviving a stuttering three-set first-round scare against Taylor Townsend to begin her Wimbledon title defence. Swiatek described it as a tough couple of weeks heading into the tournament. Serena Williams also returned to Wimbledon's Centre Court, drawing global attention to the grass-court major's opening days.",
       "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "Guardian",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "Who did Iga Swiatek defeat in her opening Wimbledon 2026 match?",
+        "options": [
+          "Serena Williams",
+          "Katie Swan",
+          "Taylor Townsend",
+          "Kim Clijsters"
+        ],
+        "correctIndex": 2,
+        "explanation": "Swiatek beat Taylor Townsend in a three-set first-round match, crying on court after the victory."
+      }
+    },
+    {
+      "id": "50478885-5f7d-47dd-859b-b4002ec8ba5b",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "SERENA RETURNS",
+      "headline": "Serena Williams makes emotional return to Wimbledon",
+      "summary": "Serena Williams returned to Wimbledon's Centre Court, a moment that drew widespread attention given her legacy at the tournament, which includes seven singles titles. Williams had previously come back from retirement before this appearance. Her return was one of the most talked-about moments of the tournament's opening days.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC",
+        "Guardian",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "How many Wimbledon singles titles has Serena Williams won?",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "correctIndex": 2,
+        "explanation": "According to the snippets, Serena Williams has won seven Wimbledon singles titles as part of her legacy at the tournament."
+      }
+    },
+    {
+      "id": "3b516d8f-4108-4987-aee3-45517e475216",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "WORLD CUP BRAZIL",
+      "headline": "Martinelli's 95th-minute winner sends Brazil through",
+      "summary": "Gabriel Martinelli scored a dramatic stoppage-time winner in the 95th minute as Brazil came from behind to beat Japan and advance to the World Cup last 16. The victory sets up a last-16 tie for Brazil against the winner of Norway or Ivory Coast. The late comeback added to an already dramatic day of World Cup knockout action.",
+      "readSeconds": 18,
       "sources": [
         "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "How many penalty kicks did the Netherlands miss against Morocco?",
+        "prompt": "Who scored Brazil's winning goal against Japan in the 2026 World Cup?",
+        "options": [
+          "Neymar",
+          "Vinicius Jr",
+          "Gabriel Martinelli",
+          "Rodrygo"
+        ],
+        "correctIndex": 2,
+        "explanation": "Gabriel Martinelli scored in the 95th minute to send Brazil through to the last 16 of the 2026 World Cup."
+      }
+    },
+    {
+      "id": "d841a2a0-f981-4b4b-96e9-594482761b08",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "NBA MORANT",
+      "headline": "Ja Morant's fall from NBA stardom is complete",
+      "summary": "Once touted as the future face of the NBA, Ja Morant has been moved on from Memphis following a combination of off-court problems and injuries. The guard's spectacular rise has been followed by an equally dramatic fall, ending his time with the franchise that made him a star. His exit marks one of the more striking collapses of a young superstar's trajectory in recent NBA history.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What factors contributed to Ja Morant's fall from NBA stardom according to reports?",
+        "options": [
+          "Trade demands and contract disputes",
+          "Off-court problems and injuries",
+          "Poor playoff performances only",
+          "Retirement announcement"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reports that off-court problems and injuries combined to end Morant's time with Memphis."
+      }
+    },
+    {
+      "id": "770ec092-6c08-4107-8d6a-05893f3b721d",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "KLOPP GERMANY LINKS",
+      "headline": "Klopp plays down links to Germany head coach role",
+      "summary": "Following Germany's shock World Cup elimination by Paraguay on penalties, Jürgen Klopp has publicly responded to widespread speculation linking him to the vacant Germany head coach position. Manager Julian Nagelsmann said he would not quit despite the early exit. Germany's elimination has reignited the long-running debate about whether Klopp should take charge of the national team.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC",
+        "Guardian",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "What was Germany manager Julian Nagelsmann's response to calls for him to resign after the World Cup exit?",
+        "options": [
+          "He resigned immediately",
+          "He said he would not quit",
+          "He asked for a review period",
+          "He refused to comment"
+        ],
+        "correctIndex": 1,
+        "explanation": "Despite Germany's elimination, Nagelsmann stated he would not quit as manager."
+      }
+    },
+    {
+      "id": "5b015a53-0c9c-4742-9cd1-9bc6e5927554",
+      "vertical": "sports",
+      "region": "US",
+      "topicTag": "SUPREME COURT TRANS ATHL",
+      "headline": "Supreme Court rules states can ban trans athletes from female sports",
+      "summary": "The US Supreme Court has ruled that states can exclude transgender athletes from female sports competitions, overturning judgments issued by lower courts. The decision came in cases involving trans students who had sued after being barred from competing in West Virginia and Idaho. The ruling has major implications for how states regulate athletic participation at school and college levels.",
+      "readSeconds": 20,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "Which two states were involved in the Supreme Court cases on transgender athletes in female sports?",
+        "options": [
+          "Texas and Florida",
+          "California and New York",
+          "West Virginia and Idaho",
+          "Ohio and Georgia"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Supreme Court overturned lower court rulings in cases involving trans students who sued after being barred from competing in West Virginia and Idaho."
+      }
+    },
+    {
+      "id": "97add1e1-cc10-40fc-87cb-47baa68245a7",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "MOROCCO CELEBRATIONS",
+      "headline": "Morocco's win over Netherlands sparks Dutch street scenes",
+      "summary": "Morocco's dramatic penalty shootout victory over the Netherlands in the World Cup last 32 led to celebrations and disorder on Dutch streets, with police pelted with bottles in The Hague. In Amsterdam, there were also hugs between sets of fans after the tense encounter. The Netherlands missed three penalties in the shootout as Morocco advanced to the last 16.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "How many penalties did the Netherlands miss in their shootout loss to Morocco?",
         "options": [
           "One",
           "Two",
@@ -776,208 +946,40 @@
           "Four"
         ],
         "correctIndex": 2,
-        "explanation": "The Netherlands missed three spot kicks as Morocco won the penalty shootout to reach the last 16."
+        "explanation": "The Netherlands missed three spot kicks as Morocco beat them on penalties to reach the World Cup last 16."
       }
     },
     {
-      "id": "9cb132bc-77d5-403b-80e4-c03fd187d33d",
+      "id": "32da7583-0f1f-4db4-a56b-6559dadbcdd2",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Martinelli's stoppage-time winner sends Brazil through",
-      "summary": "Gabriel Martinelli scored a dramatic 95th-minute winner as Brazil came from behind to beat Japan and reach the World Cup last 16. Brazil will face Norway or Ivory Coast in the next round. The late goal capped a dramatic comeback for the South American giants.",
-      "readSeconds": 16,
+      "topicTag": "AUSTRALIA CRICKET",
+      "headline": "Australia thrash West Indies to reach T20 World Cup final",
+      "summary": "Australia advanced to the ICC Women's T20 World Cup final with a convincing eight-wicket win over the West Indies at The Oval. They will face either England or South Africa in the final. The emphatic victory underlined Australia's dominance in the women's T20 format.",
+      "readSeconds": 15,
       "sources": [
-        "BBC"
+        "Guardian",
+        "SkySports"
       ],
       "quiz": {
-        "prompt": "Who scored Brazil's winning goal against Japan?",
+        "prompt": "By what margin did Australia beat the West Indies in the Women's T20 World Cup semi-final?",
         "options": [
-          "Neymar",
-          "Gabriel Martinelli",
-          "Casemiro",
-          "Vinicius Jr"
+          "Six wickets",
+          "Eight wickets",
+          "Four wickets",
+          "Ten runs"
         ],
         "correctIndex": 1,
-        "explanation": "Gabriel Martinelli scored a 95th-minute winner to send Brazil through to the last 16."
+        "explanation": "Australia beat the West Indies by eight wickets to reach the Women's T20 World Cup final."
       }
     },
     {
-      "id": "6fe7dad8-4eee-4c58-9186-a91dc259a3ec",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "WIMBLEDON 2026",
-      "headline": "Swiatek fights back tears after first-round scare",
-      "summary": "Defending champion Iga Swiatek cried on court after a stuttering three-set victory over Taylor Townsend in the first round of Wimbledon, describing it as 'a tough couple of weeks.' Serena Williams also returned to Centre Court, with experts and fans closely watching her Wimbledon comeback. Day one also featured defending champion Jannik Sinner and a first-round battle for 39-year-old Novak Djokovic.",
-      "readSeconds": 22,
-      "sources": [
-        "BBC",
-        "Guardian",
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "Who did Iga Swiatek defeat in her first-round Wimbledon match?",
-        "options": [
-          "Aryna Sabalenka",
-          "Naomi Osaka",
-          "Taylor Townsend",
-          "Katie Boulter"
-        ],
-        "correctIndex": 2,
-        "explanation": "Swiatek beat Taylor Townsend in a three-set first-round match, crying on court after the win."
-      }
-    },
-    {
-      "id": "ca073749-eac0-4400-8ab0-a6890a345ae6",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "SUPREME COURT",
-      "headline": "Supreme Court upholds transgender athlete bans",
-      "summary": "The US Supreme Court issued a ruling upholding state laws that bar transgender girls and women from competing on school athletic teams. Justices voted to overturn judgments issued by lower courts in favour of trans students who had sued after being barred from competing in West Virginia and Idaho. The decision marks a major legal milestone in the ongoing national debate over transgender participation in sports.",
-      "readSeconds": 22,
-      "sources": [
-        "Guardian",
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "Which two states were at the centre of the Supreme Court's transgender athlete ruling?",
-        "options": [
-          "Texas and Florida",
-          "West Virginia and Idaho",
-          "California and New York",
-          "Ohio and Georgia"
-        ],
-        "correctIndex": 1,
-        "explanation": "The Supreme Court overturned lower court rulings in favour of trans students who sued after being barred from competing in West Virginia and Idaho."
-      }
-    },
-    {
-      "id": "ec11747e-fe25-40ff-9646-42292538b185",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "NBA OFFSEASON",
-      "headline": "Warriors reportedly pursuing LeBron, Davis and Curry superteam",
-      "summary": "The Golden State Warriors are reportedly lining up moves to unite LeBron James, Stephen Curry, and Anthony Davis on the same roster. Draymond Green declined his $27.6 million player option, freeing up financial space to potentially facilitate deals. Kristaps Porzingis has already agreed to a two-year, $40 million deal to return to the Warriors.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian",
-        "CBS Sports",
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "How much is Kristaps Porzingis' new deal with the Golden State Warriors worth?",
-        "options": [
-          "$30 million over two years",
-          "$40 million over two years",
-          "$44 million over three years",
-          "$50 million over two years"
-        ],
-        "correctIndex": 1,
-        "explanation": "Porzingis agreed to a two-year, $40 million contract to return to the Golden State Warriors."
-      }
-    },
-    {
-      "id": "fceaec3b-251b-4e86-93cb-e4ef9a233868",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "NFL CRIME",
-      "headline": "Lions release Terrion Arnold after kidnapping arrest",
-      "summary": "The Detroit Lions have released cornerback Terrior Arnold just days after his arrest on felony charges of armed robbery and kidnapping. A judge set Arnold's bail at $1 million, with prosecutors saying the player believed he was a robbery victim. The release ends Arnold's time with the Lions almost immediately after the charges emerged.",
-      "readSeconds": 18,
-      "sources": [
-        "Guardian",
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "What was Terrion Arnold's bail set at following his arrest?",
-        "options": [
-          "$500,000",
-          "$750,000",
-          "$1 million",
-          "$2 million"
-        ],
-        "correctIndex": 2,
-        "explanation": "A judge set Arnold's bail at $1 million after he was arrested on felony charges of armed robbery and kidnapping."
-      }
-    },
-    {
-      "id": "e712c311-e11d-4f70-8cf4-16bc66788932",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "NBA CRIME",
-      "headline": "Former NBA players indicted in federal gambling case",
-      "summary": "Former NBA players Malik Beasley and Ed Davis have been indicted in a federal gambling investigation. The case represents a significant legal development involving ex-professional basketball players. No further details on the specific charges were available in reports.",
-      "readSeconds": 14,
-      "sources": [
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "Which two former NBA players were indicted in a federal gambling investigation?",
-        "options": [
-          "Malik Beasley and Ed Davis",
-          "Jalen Duren and Kawhi Leonard",
-          "Kristaps Porzingis and Draymond Green",
-          "LeBron James and Anthony Davis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Former NBA players Malik Beasley and Ed Davis were indicted in a federal gambling investigation."
-      }
-    },
-    {
-      "id": "a7ff313d-5036-4ca5-bb47-63966245091a",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "JA MORANT TRADE",
-      "headline": "Ja Morant traded to Portland, NBA future in question",
-      "summary": "Ja Morant, once touted as the future face of the NBA, has been traded to the Portland Trail Blazers following a period marked by off-court problems and injuries. Portland also agreed to a three-year, $44 million extension with centre Robert Williams III during the same busy offseason period. Morant's move completes what analysts describe as a spectacular fall from his status as a marquee star.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian",
-        "ESPN"
-      ],
-      "quiz": {
-        "prompt": "Which team did Ja Morant get traded to?",
-        "options": [
-          "Los Angeles Lakers",
-          "Golden State Warriors",
-          "Portland Trail Blazers",
-          "Sacramento Kings"
-        ],
-        "correctIndex": 2,
-        "explanation": "Ja Morant was traded to the Portland Trail Blazers after off-court problems and injuries derailed his career as a marquee NBA star."
-      }
-    },
-    {
-      "id": "49bce1f6-79f9-4eba-9d15-77e67d1cc805",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "France's bold tactical changes set up deep run",
-      "summary": "France manager Didier Deschamps has made significant changes to personnel and formation that are being credited with revitalising the 2022 World Cup runners-up. Analysts suggest the tactical overhaul could propel France to go one better than their final appearance four years ago. France face Sweden in the last 32 as one of the tournament favourites.",
-      "readSeconds": 16,
-      "sources": [
-        "BBC",
-        "CBS Sports"
-      ],
-      "quiz": {
-        "prompt": "How far did France reach at the 2022 World Cup?",
-        "options": [
-          "Quarter-finals",
-          "Semi-finals",
-          "Third place",
-          "The final"
-        ],
-        "correctIndex": 3,
-        "explanation": "France were runners-up at the 2022 World Cup, and Deschamps' changes are aimed at going one better in 2026."
-      }
-    },
-    {
-      "id": "388355b7-498f-4a26-863a-35241969562b",
+      "id": "5b30380d-0f3f-4529-a174-2f450f163864",
       "vertical": "general",
       "region": "US",
       "topicTag": "SUPREME COURT",
       "headline": "Supreme Court blocks Trump's birthright citizenship order",
-      "summary": "The US Supreme Court upheld birthright citizenship in a major ruling against President Trump, affirming that nearly all infants born on US soil automatically become citizens. The 6-3 decision firmly rejected the executive order Trump issued on the first day of his second term. Civil rights groups and Democrats welcomed the ruling, which was described as a significant blow to Trump's agenda.",
+      "summary": "The US Supreme Court ruled 6-3 to uphold birthright citizenship, blocking President Trump's executive order that sought to end the automatic citizenship granted to nearly all infants born on US soil. The decision was described as a major blow to Trump's agenda and came on the final day of the court's term. Civil rights groups and Democrats welcomed the ruling.",
       "readSeconds": 22,
       "sources": [
         "BBC",
@@ -986,98 +988,48 @@
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "How did the Supreme Court vote on birthright citizenship?",
+        "prompt": "How did the Supreme Court rule on Trump's birthright citizenship executive order?",
         "options": [
-          "6-3 in favor of upholding it",
-          "5-4 in favor of upholding it",
-          "6-3 against upholding it",
-          "Unanimous in favor of upholding it"
-        ],
-        "correctIndex": 0,
-        "explanation": "The Supreme Court voted 6-3 to uphold birthright citizenship, rejecting Trump's executive order to end it."
-      }
-    },
-    {
-      "id": "e82a0d78-47ef-41a7-9a69-830f47d53e68",
-      "vertical": "general",
-      "region": "US",
-      "topicTag": "TRANS ATHLETES",
-      "headline": "Supreme Court upholds bans on transgender women in sports",
-      "summary": "The US Supreme Court ruled that states can ban transgender athletes from competing in women's and girls' sports, overturning judgments issued by lower courts in favor of trans students in West Virginia and Idaho. Justice Brett Kavanaugh wrote the majority opinion. The ruling was one of several consequential decisions handed down on the final day of the court's term.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "NPR",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "Which justice wrote the majority opinion on the transgender athletes ruling?",
-        "options": [
-          "Clarence Thomas",
-          "Brett Kavanaugh",
-          "Samuel Alito",
-          "Amy Coney Barrett"
+          "Upheld it 6-3",
+          "Blocked it 6-3",
+          "Sent it back to lower courts",
+          "Ruled 5-4 in Trump's favor"
         ],
         "correctIndex": 1,
-        "explanation": "Justice Brett Kavanaugh wrote the court's majority opinion upholding state bans on transgender athletes in women's and girls' sports."
+        "explanation": "The Supreme Court ruled 6-3 to block Trump's executive order, affirming that nearly all infants born on US soil automatically become citizens."
       }
     },
     {
-      "id": "0b2ab97b-a8ac-4748-ab6b-a9e0c94447a1",
+      "id": "0fae9dfc-98e3-4417-8b85-477951825189",
       "vertical": "general",
       "region": "US",
       "topicTag": "CAMPAIGN FINANCE",
-      "headline": "Supreme Court strikes down limits on party campaign spending",
-      "summary": "The Supreme Court struck down a post-Watergate law that Congress passed to limit the amount of money individuals can give to political parties, removing long-standing restrictions on coordinated party expenditures. The case stemmed from a 2022 lawsuit challenging the Federal Election Commission's enforcement of those limits. Critics say the ruling further undermines Congress's authority over campaign finance.",
+      "headline": "Supreme Court strikes down political party spending limits",
+      "summary": "The Supreme Court struck down a post-Watergate law that had limited the amount individuals can give to political parties for coordinated spending. The case stemmed from a 2022 lawsuit challenging Federal Election Commission enforcement of those limits. Critics argue the ruling further undermines Congress's ability to regulate money in politics.",
       "readSeconds": 20,
       "sources": [
         "NPR",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What was the origin of the law the Supreme Court struck down on campaign spending?",
+        "prompt": "What law did the Supreme Court strike down in its campaign finance ruling?",
         "options": [
-          "A post-Watergate law limiting individual donations to parties",
-          "A post-9/11 national security measure",
-          "An Obama-era FEC regulation",
-          "A Clinton-era campaign reform bill"
+          "A post-Watergate law limiting coordinated party spending",
+          "The Citizens United ruling",
+          "The McCain-Feingold Act",
+          "A law banning corporate donations"
         ],
         "correctIndex": 0,
-        "explanation": "The struck-down law was a post-Watergate measure Congress passed to limit the amount of money individuals can give to political parties."
+        "explanation": "The Court struck down a post-Watergate law that Congress had passed to limit the amount individuals can give to political parties for coordinated expenditures."
       }
     },
     {
-      "id": "7fc52ae8-9e42-4eea-b509-bb0e5c41a4a6",
+      "id": "91977b94-df59-4cf5-a8ea-2cf5ffaf53f7",
       "vertical": "general",
-      "region": "Global",
-      "topicTag": "MONACO BOMBING",
-      "headline": "Manhunt launched after bomb injures Ukrainian oligarch in Monaco",
-      "summary": "A makeshift explosive device containing bolts and pellets detonated outside a residential building in Monaco, injuring three people including a reported Ukrainian tycoon and his family. Monaco prosecutors said there was no evidence of terrorism and a suspect remained at large. The head of Monaco's government confirmed the nature of the device.",
-      "readSeconds": 19,
-      "sources": [
-        "BBC",
-        "SkyNews",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What did Monaco prosecutors say about the bombing?",
-        "options": [
-          "There was no evidence of terrorism",
-          "It was a confirmed terrorist attack",
-          "The suspect had been arrested",
-          "The device was remotely detonated"
-        ],
-        "correctIndex": 0,
-        "explanation": "Monaco prosecutors stated there was no evidence of terrorism following the explosion, with a suspect still at large."
-      }
-    },
-    {
-      "id": "4a86c0c5-6f24-4915-8ffa-91418b1378ca",
-      "vertical": "general",
-      "region": "Global",
-      "topicTag": "VENEZUELA EARTHQUAKE",
-      "headline": "Venezuela earthquake hits as deportees arrive from US",
-      "summary": "Powerful twin earthquakes struck Venezuela, with Venezuelans in devastated areas accusing the government of negligence over the emergency response. Separately, 146 Venezuelans deported from Texas to Caracas were in a guarded hotel when the quakes struck hours after their arrival. The Guardian noted the disaster tests state capacity in a country already reeling from years of crisis.",
+      "region": "US",
+      "topicTag": "TRANS ATHLETES",
+      "headline": "Supreme Court upholds state bans on transgender athletes",
+      "summary": "The Supreme Court ruled that states can ban transgender athletes from competing in women's and girls' sports, overturning lower court judgments that had favored trans students who sued after being barred in West Virginia and Idaho. Justice Brett Kavanaugh wrote the majority opinion. The ruling was one of several major decisions handed down on the final day of the court's term.",
       "readSeconds": 21,
       "sources": [
         "BBC",
@@ -1085,132 +1037,181 @@
         "Guardian"
       ],
       "quiz": {
-        "prompt": "How many Venezuelans were deported from Texas to Caracas shortly before the earthquakes struck?",
+        "prompt": "Which justice wrote the Supreme Court's majority opinion on transgender athletes in sports?",
         "options": [
-          "146",
-          "200",
-          "89",
-          "312"
+          "Clarence Thomas",
+          "Samuel Alito",
+          "Brett Kavanaugh",
+          "John Roberts"
         ],
-        "correctIndex": 0,
-        "explanation": "According to reports, 146 Venezuelans were deported from Texas to Caracas, and powerful twin earthquakes struck hours after their arrival."
+        "correctIndex": 2,
+        "explanation": "Justice Brett Kavanaugh wrote the majority opinion upholding state bans on transgender athletes competing in women's and girls' sports."
       }
     },
     {
-      "id": "22ed5912-93d2-474e-b265-5a651532f3a0",
+      "id": "128cc40e-6b35-4044-bf75-5cc622a01fc7",
       "vertical": "general",
       "region": "Global",
-      "topicTag": "US-IRAN TALKS",
-      "headline": "US and Iran hold indirect talks in Doha via Qatar",
-      "summary": "US envoys traveled to Doha to meet mediators, but Qatar's foreign ministry confirmed no direct high-level talks between the US and Iran were scheduled. Iran said it sent a technical delegation to Doha to follow up on the release of frozen Iranian funds and discuss implementing its memorandum of understanding deal with the US. The nature and scope of the negotiations remained a point of conflicting statements.",
-      "readSeconds": 21,
+      "topicTag": "MONACO BOMBING",
+      "headline": "Manhunt underway after bomb injures Ukrainian oligarch in Monaco",
+      "summary": "An explosive device containing bolts and pellets detonated in Monaco, injuring a Ukrainian oligarch. The head of Monaco's government confirmed the nature of the device, and prosecutors said there is no evidence of terrorism. A suspect fled the scene and a manhunt is underway.",
+      "readSeconds": 19,
       "sources": [
         "BBC",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "What did Qatar's foreign ministry say about US-Iran talks in Doha?",
+        "prompt": "What did Monaco prosecutors say about the nature of the blast that injured a Ukrainian oligarch?",
         "options": [
-          "No direct high-level talks between the US and Iran were scheduled",
-          "Full diplomatic talks were underway",
-          "Iran and the US signed a new agreement",
-          "The talks had been cancelled"
+          "It was a terrorist attack",
+          "There was no terrorism evidence found",
+          "It was an accident",
+          "A foreign government was responsible"
         ],
-        "correctIndex": 0,
-        "explanation": "Qatar's foreign ministry spokesman confirmed that no high-level meetings or direct talks between the US and Iran were scheduled, with only indirect contact via mediators."
+        "correctIndex": 1,
+        "explanation": "Monaco prosecutors said there was no evidence of terrorism after the explosion, which was caused by a device containing bolts and pellets."
       }
     },
     {
-      "id": "1d4e584b-90d4-4d22-b528-1aafced3060a",
+      "id": "78b24f86-82e7-4a5b-a849-6fa466e6b54c",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "US-IRAN TALKS",
+      "headline": "US envoys in Doha for indirect Iran nuclear talks",
+      "summary": "US envoys traveled to Doha for indirect talks, with Iran sending a technical delegation to follow up on a memorandum of understanding deal and the release of frozen Iranian funds. Qatar's foreign ministry confirmed no high-level or direct US-Iran meetings are scheduled. The talks mark a continued diplomatic channel between the two countries.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "What did Qatar's foreign ministry say about direct US-Iran meetings in Doha?",
+        "options": [
+          "They were confirmed at the highest level",
+          "None were scheduled",
+          "They took place in secret",
+          "Iran refused to attend"
+        ],
+        "correctIndex": 1,
+        "explanation": "Qatar's foreign ministry spokesman confirmed that no high-level meetings or direct talks between the US and Iran were scheduled."
+      }
+    },
+    {
+      "id": "45a0562c-49d8-4ee3-95e3-3cab6a757b7f",
       "vertical": "general",
       "region": "US",
-      "topicTag": "MURDER RATE",
-      "headline": "US murder rate approaches an all-time record low",
-      "summary": "The US murder rate is approaching a record low, according to new data, a significant shift from fears just a few years ago about a 'new normal' of elevated violent crime. Experts had previously warned that post-pandemic crime levels might be permanently higher. The trend marks a notable turnaround in one of the country's most closely watched public safety indicators.",
-      "readSeconds": 19,
+      "topicTag": "VIOLENT CRIME",
+      "headline": "US murder rate approaches record all-time low",
+      "summary": "The US murder rate is approaching a record low, reversing fears from a few years ago that elevated violent crime had become a 'new normal.' Experts had previously worried after a spike in homicides during the pandemic era. The trend marks a significant shift in the country's public safety landscape.",
+      "readSeconds": 18,
       "sources": [
         "NPR"
       ],
       "quiz": {
-        "prompt": "What do new figures show about the US murder rate?",
+        "prompt": "What are experts saying about the current US murder rate?",
         "options": [
-          "It is approaching an all-time record low",
-          "It has reached an all-time record high",
-          "It has remained unchanged for five years",
-          "It has risen sharply since the pandemic"
+          "It is at a historic high",
+          "It is approaching a record low",
+          "It has remained flat for a decade",
+          "It has risen sharply this year"
         ],
-        "correctIndex": 0,
-        "explanation": "New data shows the US murder rate is approaching an all-time record low, reversing earlier fears about a permanently elevated post-pandemic crime level."
+        "correctIndex": 1,
+        "explanation": "The US murder rate is approaching a record low, reversing earlier fears of a 'new normal' of elevated violent crime."
       }
     },
     {
-      "id": "c446019d-71e9-4a7a-9840-787830dca80b",
+      "id": "5f27d0a1-2828-44ef-812a-88810d47c610",
       "vertical": "general",
       "region": "Global",
       "topicTag": "UK DEFENCE",
-      "headline": "UK's Starmer announces £300bn defence investment plan",
-      "summary": "UK Prime Minister Keir Starmer announced a £300 billion defence investment plan, which includes more than £5 billion for drones and autonomous systems over four years, according to the Ministry of Defence. The announcement signals a major shift in UK defence spending priorities. Details of the broader plan were outlined alongside the drone and autonomous systems commitment.",
-      "readSeconds": 18,
+      "headline": "UK announces £300 billion defence investment plan",
+      "summary": "UK Prime Minister Keir Starmer announced a £300 billion defence investment plan, which includes more than £5 billion for drones and autonomous systems over four years. The plan is designed to help the UK hit NATO's spending targets. BBC Verify has been examining what the large numbers mean for military spending pledges.",
+      "readSeconds": 19,
       "sources": [
+        "BBC",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "How much of the UK's new defence plan is earmarked for drones and autonomous systems?",
+        "prompt": "How much of the UK's new defence plan is earmarked specifically for drones and autonomous systems?",
         "options": [
-          "More than £5 billion over four years",
-          "£300 billion over ten years",
-          "£1 billion over two years",
-          "£10 billion over five years"
+          "£300 billion",
+          "£1.5 billion",
+          "More than £5 billion",
+          "£10 billion"
         ],
-        "correctIndex": 0,
-        "explanation": "The UK's defence plan includes more than £5 billion specifically for drones and autonomous systems over four years, as part of the broader £300 billion investment."
+        "correctIndex": 2,
+        "explanation": "The UK defence investment plan includes more than £5 billion for drones and autonomous systems over four years."
       }
     },
     {
-      "id": "013285f5-1045-4684-bf02-77ed4f7f63a6",
+      "id": "d90c8433-462b-4fbe-99a2-ce7b79cbb1cc",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "VENEZUELA EARTHQUAKE",
+      "headline": "Venezuelans accuse government of neglect after earthquakes",
+      "summary": "People in areas devastated by twin earthquakes in Venezuela say rescuers have not been sent and they need more support from the government. The disaster is being seen as a test of state capacity in a country already struggling with years of crisis. Advocacy groups have also raised concerns about deportees sent to Ghana amid separate legal disputes.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What are Venezuelans in earthquake-affected areas accusing their government of?",
+        "options": [
+          "Sending too many military personnel",
+          "Neglecting to send rescuers",
+          "Misreporting the death toll",
+          "Blocking international aid"
+        ],
+        "correctIndex": 1,
+        "explanation": "People in devastated areas said no rescuers had been sent and accused the Venezuelan government of negligence in responding to the twin earthquakes."
+      }
+    },
+    {
+      "id": "b340f1c1-ef6c-4e56-965d-672b133bb4b1",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "MATERNITY CARE",
+      "headline": "UK inquiry finds racism harming maternity patient safety",
+      "summary": "An independent inquiry found 'unacceptable racism and discrimination' affecting patient safety in UK maternity care, with the government promising to act on failings described as shaming society. The findings highlight systemic issues in how maternity services are delivered across the country. A Sky News interactive tool has also mapped the state of maternity care by postcode.",
+      "readSeconds": 19,
+      "sources": [
+        "BBC",
+        "SkyNews"
+      ],
+      "quiz": {
+        "prompt": "What did the independent maternity care inquiry in the UK find?",
+        "options": [
+          "Underfunding was the sole cause of failings",
+          "Unacceptable racism and discrimination affecting patient safety",
+          "Staff shortages were fully addressed",
+          "Private hospitals outperformed NHS ones"
+        ],
+        "correctIndex": 1,
+        "explanation": "The independent inquiry found 'unacceptable racism and discrimination' was affecting patient safety in UK maternity care."
+      }
+    },
+    {
+      "id": "0ca2160f-1092-4fb8-a603-9d5b25b286f3",
       "vertical": "general",
       "region": "Global",
       "topicTag": "WORLD CUP HEAT",
       "headline": "World Cup matches played in potentially dangerous heat",
-      "summary": "Analysis found that nine group-stage matches at the 2026 World Cup were played in potentially dangerous heat, prompting warnings from the players' union about climate risks to the sport. The union pointed to lessons the findings hold for football more broadly. Separately, Germany were eliminated after a defeat by Paraguay in a penalty shootout in the round of 32.",
-      "readSeconds": 19,
-      "sources": [
-        "Guardian",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "How many World Cup group-stage matches were played in potentially dangerous heat?",
-        "options": [
-          "Nine",
-          "Five",
-          "Twelve",
-          "Three"
-        ],
-        "correctIndex": 0,
-        "explanation": "Analysis found nine group-stage matches were played amid potentially dangerous heat, leading the players' union to issue a climate warning for the sport."
-      }
-    },
-    {
-      "id": "8e3a3f46-dc8a-4c3b-b18e-82257e487cde",
-      "vertical": "general",
-      "region": "Global",
-      "topicTag": "SOUTH AFRICA PROTESTS",
-      "headline": "South Africa deploys police as anti-immigrant rallies grow",
-      "summary": "Anti-migrant groups in South Africa held rallies demanding that undocumented foreigners leave the country by Tuesday, prompting the government to deploy police amid fears of unrest. The demonstrations reflect rising tensions over immigration in the country. Authorities moved to maintain order as the deadline set by protest organizers approached.",
+      "summary": "Nine group-stage matches at the 2026 World Cup were played amid potentially dangerous heat conditions, according to analysis cited by the players' union. The union has pointed to the findings as a warning for the broader sport and called for lessons to be learned. The issue has reignited debate about player welfare in high-temperature playing conditions.",
       "readSeconds": 18,
       "sources": [
-        "AlJazeera"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "What did anti-migrant groups in South Africa demand?",
+        "prompt": "How many World Cup group-stage games were played in potentially dangerous heat?",
         "options": [
-          "That undocumented foreigners leave the country by Tuesday",
-          "That the government close all borders immediately",
-          "That foreign workers be registered within a week",
-          "That parliament hold an emergency debate"
+          "Three",
+          "Five",
+          "Nine",
+          "Twelve"
         ],
-        "correctIndex": 0,
-        "explanation": "Anti-migrant groups demanded that undocumented foreigners leave South Africa by Tuesday, prompting police deployment amid fears of unrest."
+        "correctIndex": 2,
+        "explanation": "Analysis found that nine group-stage matches at the 2026 World Cup were played amid potentially dangerous heat conditions."
       }
     }
   ]
