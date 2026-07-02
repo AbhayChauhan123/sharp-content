@@ -16,7 +16,7 @@ Dependency-free (stdlib). Run:
     python3 generate.py --dry-run    # fetch + per-vertical counts only (no key)
 """
 
-import json, os, re, sys, html, uuid, datetime, ssl, urllib.request, urllib.error
+import json, os, re, sys, html, uuid, datetime, ssl, time, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -118,17 +118,32 @@ Return STRICT JSON only (no markdown):
 {items}
 """
 
-def call_claude(prompt, key):
-    body = json.dumps({"model": MODEL, "max_tokens": 6000,
+def call_claude(prompt, key, attempts=3):
+    # max_tokens bumped to 8000 so a long vertical can't truncate the JSON (a truncated
+    # response is unparseable and was silently killing the whole run).
+    body = json.dumps({"model": MODEL, "max_tokens": 8000,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
-    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, method="POST",
-        headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120, context=SSL_CTX) as r:
-        data = json.loads(r.read())
-    text = "".join(b.get("text", "") for b in data.get("content", [])).strip()
-    if text.startswith("```"):
-        text = re.sub(r"^```[a-zA-Z]*\n?", "", text).rsplit("```", 1)[0].strip()
-    return json.loads(text)
+    last = None
+    for attempt in range(1, attempts + 1):
+        try:
+            req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, method="POST",
+                headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+            with urllib.request.urlopen(req, timeout=180, context=SSL_CTX) as r:
+                data = json.loads(r.read())
+            text = "".join(b.get("text", "") for b in data.get("content", [])).strip()
+            if text.startswith("```"):
+                text = re.sub(r"^```[a-zA-Z]*\n?", "", text).rsplit("```", 1)[0].strip()
+            return json.loads(text)
+        except Exception as e:
+            last = e
+            detail = ""
+            if isinstance(e, urllib.error.HTTPError):
+                try: detail = " " + e.read().decode()[:160]
+                except Exception: pass
+            print(f"    attempt {attempt}/{attempts} failed: {type(e).__name__}: {str(e)[:120]}{detail}")
+            if attempt < attempts:
+                time.sleep(5 * attempt)   # simple backoff for transient overload/timeout
+    raise last
 
 def gen_vertical(vertical, items, key):
     lines = "\n".join(f"- [{it['source']}] {it['title']} :: {it['summary'][:200]}" for it in items)
@@ -178,11 +193,20 @@ def main():
         print(f"\nSynthesizing {v} with {MODEL}...")
         try:
             cards = gen_vertical(v, groups[v], key)
-        except urllib.error.HTTPError as e:
-            print(f"  API error {e.code}: {e.read().decode()[:200]}"); continue
+        except Exception as e:
+            # One vertical failing must NOT lose the whole day's feed. Skip it and keep going.
+            print(f"  ⚠️ {v} synthesis failed ({type(e).__name__}: {str(e)[:160]}) — skipping this vertical")
+            continue
         by_vertical[v] = len(cards)
         all_cards.extend(cards)
         print(f"  {len(cards)} cards")
+
+    # Safety net: never overwrite a good feed with a near-empty one. If we got too few
+    # cards, fail loudly and leave the existing latest.json intact (yesterday's beats nothing).
+    MIN_CARDS = 20
+    if len(all_cards) < MIN_CARDS:
+        print(f"\n❌ Only {len(all_cards)} cards (< {MIN_CARDS}) — keeping existing latest.json, not overwriting.")
+        sys.exit(1)
 
     out = {"generatedAt": datetime.date.today().isoformat(), "model": MODEL,
            "cardCount": len(all_cards), "byVertical": by_vertical, "cards": all_cards}
