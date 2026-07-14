@@ -1,263 +1,264 @@
 {
   "generatedAt": "2026-07-14",
   "model": "claude-sonnet-4-6",
-  "cardCount": 40,
+  "cardCount": 50,
   "byVertical": {
     "finance": 10,
     "tech": 10,
     "politics": 10,
-    "sports": 10
+    "sports": 10,
+    "general": 10
   },
   "cards": [
     {
-      "id": "5ede7480-98ee-474c-8f2c-fe63914ead1b",
+      "id": "2e003ba6-09d8-402c-9564-44604aead16f",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "BANKING EARNINGS",
-      "headline": "Big banks post blockbuster Q2 amid market boom",
-      "summary": "JPMorgan, Goldman Sachs, Bank of America, and Citigroup all reported strong second-quarter results, driven by surging equities trading revenue, the SpaceX IPO, and Iran war volatility. JPMorgan beat profit expectations by the most in five years and raised its outlook for net interest income. Goldman Sachs profits soared, while Bank of America reported a 27% jump in profit and a 15% revenue increase versus a year earlier.",
-      "readSeconds": 24,
+      "topicTag": "INFLATION RELIEF",
+      "headline": "US inflation eases to 3.5% in June",
+      "summary": "US inflation cooled to an annual rate of 3.5% in June, driven largely by a fall in energy and gas prices during a brief US-Iran ceasefire. Markets reacted positively, with the cooler-than-expected reading curbing expectations of further Federal Reserve rate hikes. However, renewed US-Iran conflict and a blockade on the Strait of Hormuz are already pushing oil prices higher, threatening to reverse the progress.",
+      "readSeconds": 22,
       "sources": [
-        "CNBC",
+        "BBC",
+        "Guardian",
         "MarketWatch",
-        "YahooFin",
-        "Guardian"
+        "YahooFin"
       ],
       "quiz": {
-        "prompt": "What factors were cited as driving big bank revenue in Q2?",
+        "prompt": "What was the main driver of US inflation cooling to 3.5% in June?",
         "options": [
-          "Rising mortgage rates and home sales",
-          "SpaceX IPO, Iran war volatility, and rebound in commercial lending",
-          "Federal Reserve rate cuts and bond market rallies",
-          "Consumer credit card spending and auto loans"
+          "A fall in food prices",
+          "A drop in energy and gas prices",
+          "Lower housing costs",
+          "Reduced consumer spending"
         ],
         "correctIndex": 1,
-        "explanation": "Multiple sources cited the SpaceX IPO, Iran war volatility, and a rebound in commercial lending as the key drivers of Wall Street's strong Q2 results."
+        "explanation": "The snippets indicate that a plunge in gas prices, partly due to a brief US-Iran ceasefire, was the key factor behind inflation easing to 3.5% in June."
       }
     },
     {
-      "id": "316f0ed0-9b88-4cdc-b62c-56a608108ba1",
+      "id": "24e9d458-b6c0-4de2-98ce-54d716904596",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "HORMUZ BLOCKADE",
-      "headline": "Oil surges 5% as Trump reinstates Hormuz blockade",
-      "summary": "Oil prices rose 5% after President Trump reinstated a US blockade of Iranian shipping through the Strait of Hormuz, announcing a 20% toll on the key trade route to cover 'safety and security' costs. The move followed a third consecutive night of US strikes on Iran and prompted gas price volatility for American consumers. Used EV prices also climbed 12% year-on-year as high gas prices drove demand for alternatives.",
+      "topicTag": "MIDDLE EAST OIL",
+      "headline": "Oil prices surge as Hormuz blockade reinstated",
+      "summary": "Oil prices rose around 5% after Donald Trump reinstated a US blockade on Iranian shipping through the Strait of Hormuz, imposing a 20% charge on vessels using the critical trade route. The US also launched a third consecutive night of strikes on Iran, with the UAE condemning Iran's attacks on tankers. The disruption has sent gas prices swinging and raised fresh concerns about inflation reversing its recent downward trend.",
       "readSeconds": 23,
       "sources": [
-        "Guardian",
         "BBC",
-        "NPR",
-        "CNBC"
+        "Guardian",
+        "NPR"
       ],
       "quiz": {
         "prompt": "What charge did Trump announce as part of the Hormuz blockade?",
         "options": [
-          "10% toll on all shipping",
-          "A flat fee per tanker",
-          "20% toll on Iranian shipping through the strait",
-          "A 25% tariff on Iranian oil exports"
+          "10%",
+          "15%",
+          "20%",
+          "25%"
         ],
         "correctIndex": 2,
-        "explanation": "Trump announced a 20% charge on shipping through the Strait of Hormuz as part of the reinstated blockade on Iranian shipping."
+        "explanation": "According to the snippets, Trump announced a 20% charge on vessels as part of the new blockade on the Strait of Hormuz."
       }
     },
     {
-      "id": "b3084127-1dca-4263-a9e2-8aacad341bcc",
+      "id": "8b72b48c-fcef-4839-9b4c-a36515454908",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "PARAMOUNT MERGER BLOCKED",
-      "headline": "12 states sue to block Paramount-Warner Bros merger",
-      "summary": "A bipartisan group of 12 state attorneys general, led by California, filed a lawsuit to block the $110 billion merger between Paramount and Warner Bros. Discovery. Plaintiffs argue the deal would hurt competition and lead to thousands of job losses in Hollywood and TV newsrooms. California joined the suit given that both studios are headquartered in the state.",
-      "readSeconds": 21,
+      "topicTag": "BANK EARNINGS",
+      "headline": "JPMorgan and big banks post blowout earnings",
+      "summary": "JPMorgan beat second-quarter earnings expectations, with CEO Jamie Dimon describing markets as 'booming' and consumers as 'fine.' The SpaceX IPO, Iran war-driven market volatility, and a rebound in commercial lending fuelled strong revenue across major banks, with Bank of America reporting a 27% profit jump. Dimon also noted that AI has helped JPMorgan cut up to 40% of jobs in certain roles.",
+      "readSeconds": 22,
       "sources": [
-        "BBC",
-        "NPR",
-        "Guardian",
-        "CNBC"
+        "CNBC",
+        "MarketWatch",
+        "YahooFin"
       ],
       "quiz": {
-        "prompt": "What is the estimated value of the Paramount–Warner Bros. Discovery merger being challenged?",
+        "prompt": "According to Jamie Dimon, AI has helped JPMorgan cut up to what percentage of jobs in certain roles?",
         "options": [
-          "$50 billion",
-          "$75 billion",
-          "$110 billion",
-          "$200 billion"
+          "20%",
+          "30%",
+          "40%",
+          "50%"
         ],
         "correctIndex": 2,
-        "explanation": "The lawsuit describes the Paramount and Warner Bros. Discovery merger as a $110 billion deal that attorneys general argue would harm competition."
+        "explanation": "Dimon stated that AI has helped JPMorgan cut up to 40% of jobs in certain roles, according to the snippets."
       }
     },
     {
-      "id": "c0269078-f95a-487f-a248-3b7ca56c6453",
+      "id": "b45983f0-a28c-448d-8474-aadc062c6aac",
       "vertical": "finance",
       "region": "Global",
       "topicTag": "VOLKSWAGEN CUTS",
       "headline": "VW plans to cut up to 100,000 jobs globally",
-      "summary": "Volkswagen, whose group includes Porsche and Audi, is proposing to slash up to 100,000 jobs and close factories as part of a radical transformation plan. The move follows a steep fall in profits and intensifying competition from Chinese automakers. Workers staged protests at 18 sites across Germany as the proposal was put to the company's board.",
+      "summary": "Volkswagen, whose group includes Porsche and Audi, is proposing to slash up to 100,000 jobs and close factories as part of a radical transformation plan. The company has faced a steep fall in profits and intensifying competition from Chinese automakers. Workers staged protests at 18 sites in Germany as the plan was put before the company's board.",
       "readSeconds": 20,
       "sources": [
         "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What has driven Volkswagen to propose cutting up to 100,000 jobs?",
+        "prompt": "Why is Volkswagen planning to cut up to 100,000 jobs?",
         "options": [
-          "A government fine over emissions violations",
-          "Steep profit declines and tough competition from China",
-          "Rising steel and aluminium tariffs from the US",
-          "A collapse in European consumer spending"
+          "Falling profits and tough competition from China",
+          "Rising European Union tariffs on car imports",
+          "A drop in global fuel prices reducing car demand",
+          "Loss of a major US trade deal"
         ],
-        "correctIndex": 1,
-        "explanation": "BBC and Guardian both report that a steep fall in profits and tough competition from Chinese carmakers are behind VW's drastic restructuring plan."
+        "correctIndex": 0,
+        "explanation": "The snippets state that VW has faced a steep fall in profits and tough competition from China, prompting the sweeping job-cut plan."
       }
     },
     {
-      "id": "4e7a524e-989f-47cc-b4fc-db819216b223",
+      "id": "d4253e0f-bc60-45a4-8ce6-36582aaea0a6",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "IBM EARNINGS SHOCK",
-      "headline": "IBM stock dives after surprise earnings miss",
-      "summary": "IBM's stock plunged toward its worst single day in nearly 40 years after the company released preliminary earnings that came in well below expectations on both profit and revenue. The surprise miss sent shockwaves through the market, contributing to a broader Dow Jones decline. Multiple sources reported the stock crashing as investors digested the disappointing figures.",
-      "readSeconds": 19,
+      "topicTag": "MEDIA MERGER",
+      "headline": "12 states sue to block Paramount-WBD merger",
+      "summary": "A bipartisan group of 12 state attorneys general, led by California, filed a lawsuit to block the $110 billion merger between Paramount and Warner Bros. Discovery. The states argue the deal would harm competition and lead to thousands of job losses. California is home to the headquarters of both studios.",
+      "readSeconds": 18,
       "sources": [
-        "MarketWatch",
-        "YahooFin"
+        "BBC",
+        "NPR",
+        "Guardian",
+        "CNBC"
       ],
       "quiz": {
-        "prompt": "Why did IBM's stock plunge sharply?",
+        "prompt": "What is the estimated value of the Paramount and Warner Bros. Discovery merger being challenged?",
         "options": [
-          "It announced a major acquisition at a premium price",
-          "It released preliminary earnings well below profit and revenue expectations",
-          "It lost a major government contract to a rival",
-          "It issued a profit warning tied to the Iran conflict"
+          "$50bn",
+          "$75bn",
+          "$110bn",
+          "$200bn"
         ],
-        "correctIndex": 1,
-        "explanation": "MarketWatch and YahooFin both report that IBM released preliminary earnings that missed expectations on profit and revenue, sending the stock sharply lower."
+        "correctIndex": 2,
+        "explanation": "The snippets describe the lawsuit as targeting a $110bn merger between Paramount and Warner Bros. Discovery."
       }
     },
     {
-      "id": "b019d09e-ea78-46d1-bd2f-3093ac16585c",
+      "id": "68ec1f20-a2af-4c8a-bb64-b6e69f6309b6",
       "vertical": "finance",
       "region": "US",
       "topicTag": "TARIFF REFUNDS",
       "headline": "US refunds $81bn in Trump tariffs after court ruling",
-      "summary": "The US government has been forced to refund $81 billion in tariffs to companies that imported goods hit by Trump's duties, after the Supreme Court ruled them illegal. The repayments represent a significant legal and financial setback for the administration's trade policy. The development comes as broader tariff policy continues to generate economic and legal uncertainty.",
+      "summary": "The US government has been forced to refund $81 billion in tariffs to companies that imported goods hit by Trump-era duties, after the Supreme Court ruled them illegal. The refunds represent a significant legal and financial setback for the administration's trade policy. The development comes as broader tariff disputes with trading partners continue.",
       "readSeconds": 18,
       "sources": [
         "Guardian"
       ],
       "quiz": {
-        "prompt": "Why is the US government refunding $81 billion in tariffs?",
+        "prompt": "Why was the US government forced to refund $81bn in tariffs?",
         "options": [
-          "Congress passed a new trade relief bill",
-          "The Supreme Court ruled the tariffs illegal",
-          "A WTO arbitration panel ordered repayment",
-          "The administration voluntarily reversed the policy"
+          "Congress voted to repeal the tariffs",
+          "The Supreme Court ruled them illegal",
+          "A trade deal with China was signed",
+          "The tariffs were voluntarily withdrawn"
         ],
         "correctIndex": 1,
-        "explanation": "The Guardian reports the government was forced to refund $81 billion after the Supreme Court ruled Trump's tariffs illegal."
+        "explanation": "According to the Guardian snippet, the Supreme Court ruled the tariffs illegal, forcing the government to refund $81bn to affected importers."
       }
     },
     {
-      "id": "af6a3583-74a0-4e27-be90-1830984f1f5b",
+      "id": "06da62ac-7d1e-4f77-b87f-572a18b7beba",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "IBM EARNINGS",
+      "headline": "IBM stock craters around 20% on weak results",
+      "summary": "IBM shares fell sharply — by approximately 20% — after the company reported disappointing earnings results. Analysts attributed the poor performance to a shift in capital expenditure toward AI infrastructure, which is disrupting IBM's traditional business lines. The dramatic stock move was one of the most significant single-day drops for the tech giant in recent memory.",
+      "readSeconds": 18,
+      "sources": [
+        "YahooFin"
+      ],
+      "quiz": {
+        "prompt": "What was cited as a key reason for IBM's disappointing earnings results?",
+        "options": [
+          "A major cybersecurity breach",
+          "A shift in capital expenditure toward AI infrastructure",
+          "Loss of a large government contract",
+          "Rising interest rates hurting its financing arm"
+        ],
+        "correctIndex": 1,
+        "explanation": "The snippets indicate IBM was hit by a shift in AI capital expenditure, disrupting its traditional business and contributing to the sharp stock decline."
+      }
+    },
+    {
+      "id": "9fed92c8-386e-41cb-b936-fbe03ca78239",
       "vertical": "finance",
       "region": "US",
       "topicTag": "HOUSING MARKET",
-      "headline": "US home sales fall as prices hit all-time high",
-      "summary": "Existing home sales dropped in June month over month as mortgage rates remain stubbornly high, according to new data. Despite weaker sales, prices reached an all-time high. A separate CNBC survey found far more real estate agents now report seeing a balanced market, with the share reporting price cuts on active listings dropping dramatically.",
+      "headline": "US home sales drop as prices hit all-time high",
+      "summary": "Home sales fell in June on a month-over-month basis as mortgage rates remain stubbornly high, making affordability a persistent challenge for buyers. Despite weaker sales volume, prices reached an all-time high during the period. Separately, a major housing affordability bill described as the largest in decades became law without President Trump's signature.",
+      "readSeconds": 20,
+      "sources": [
+        "CNBC",
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "What happened to US home prices in June despite falling sales?",
+        "options": [
+          "They dropped for the first time in two years",
+          "They remained flat",
+          "They hit an all-time high",
+          "They rose modestly by 2%"
+        ],
+        "correctIndex": 2,
+        "explanation": "The CNBC snippet states that home prices hit an all-time high in June even as sales volumes declined due to high mortgage rates."
+      }
+    },
+    {
+      "id": "0cbb8345-59d0-4de9-830d-da9895cfe75d",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "EASYJET TAKEOVER",
+      "headline": "EasyJet agrees to surprise takeover bid from Apollo",
+      "summary": "EasyJet has agreed to a takeover bid from US firm Apollo, which trumped a previous offer from rival Castlelake. The surprise move marks a significant shift in the airline's ownership structure. No financial terms were detailed in the available snippets.",
+      "readSeconds": 15,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "Which firm's takeover bid for EasyJet did Apollo's offer beat out?",
+        "options": [
+          "Ryanair",
+          "Castlelake",
+          "Delta",
+          "KKR"
+        ],
+        "correctIndex": 1,
+        "explanation": "The BBC snippet states that Apollo's bid trumped a recent takeover offer from Castlelake for EasyJet."
+      }
+    },
+    {
+      "id": "f57a3f92-816f-4881-bc49-8aa8db97bf61",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "RIVIAN DILUTION",
+      "headline": "Rivian stock falls 18% after major share sale",
+      "summary": "Rivian's stock dropped 18% after the electric vehicle maker sold 75 million shares to raise capital. The capital raise came during extended hours trading, following a strong recent run that had seen Rivian shares rise more than 19% in the prior week. The move highlights the ongoing cash pressures facing EV manufacturers even as demand for used EVs rises amid high gas prices.",
       "readSeconds": 19,
       "sources": [
         "CNBC"
       ],
       "quiz": {
-        "prompt": "What happened to US home prices in June despite a drop in sales?",
+        "prompt": "How many shares did Rivian sell in the capital raise that triggered the 18% stock drop?",
         "options": [
-          "They fell to a two-year low",
-          "They remained flat",
-          "They hit an all-time high",
-          "They rose modestly but stayed below prior peaks"
+          "25 million",
+          "50 million",
+          "75 million",
+          "100 million"
         ],
         "correctIndex": 2,
-        "explanation": "CNBC reports that even as sales dropped in June due to high mortgage rates, home prices reached an all-time high."
+        "explanation": "According to the CNBC snippet, Rivian sold 75 million shares to raise capital, which caused the stock to fall 18%."
       }
     },
     {
-      "id": "2e37d621-5b69-4ad6-8392-a74d6e5f62fd",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "DELTA AIRLINES",
-      "headline": "Delta expects higher airfares to persist into 2026",
-      "summary": "Delta Air Lines reported a $1.4 billion profit in its latest quarter despite recording its highest quarterly fuel expense in history. The airline's CEO said elevated airfares are likely to last, bringing the company's 2026 profit goal within reach. Delta also launched new stripped-down 'basic business' fares without lounge access or seat selection as it restructures its premium cabin offerings.",
-      "readSeconds": 21,
-      "sources": [
-        "Guardian",
-        "CNBC"
-      ],
-      "quiz": {
-        "prompt": "Despite falling oil prices, what did Delta's CEO say about airfares?",
-        "options": [
-          "Fares will fall sharply in the second half of 2025",
-          "Elevated airfares are likely to persist",
-          "Fares will return to pre-pandemic levels by 2026",
-          "Delta plans to offer more discounted routes"
-        ],
-        "correctIndex": 1,
-        "explanation": "The Guardian and CNBC both report Delta's CEO said elevated airfares are likely to last despite a recent drop in oil prices."
-      }
-    },
-    {
-      "id": "08c57955-6fe0-4d83-985a-7eb1a2233e88",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "EASYJET TAKEOVER",
-      "headline": "EasyJet accepts surprise US Apollo takeover bid",
-      "summary": "EasyJet has agreed to a surprise takeover bid from US firm Apollo, which has trumped a previous offer from rival firm Castlelake. The deal marks a major move by a US private equity player into European aviation. EasyJet described Apollo's bid as the superior offer.",
-      "readSeconds": 16,
-      "sources": [
-        "BBC"
-      ],
-      "quiz": {
-        "prompt": "Which firm's takeover bid did EasyJet agree to accept?",
-        "options": [
-          "Castlelake",
-          "Blackstone",
-          "Apollo",
-          "Carlyle Group"
-        ],
-        "correctIndex": 2,
-        "explanation": "BBC reports that EasyJet agreed to a surprise takeover bid from US firm Apollo, which beat a prior offer from Castlelake."
-      }
-    },
-    {
-      "id": "8797a6e1-86a0-422c-a5be-bb240c3efa5f",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "TOYOTA US INVESTMENT",
-      "headline": "Toyota invests $3.6bn to move Tacoma production to Texas",
-      "summary": "Toyota announced it is investing $3.6 billion to shift production of its Tacoma midsize pickup truck from Mexico to its San Antonio, Texas manufacturing campus. The move comes amid ongoing tariff pressures on goods imported from Mexico. It represents one of the largest single manufacturing investments by an automaker in the US in recent years.",
-      "readSeconds": 18,
-      "sources": [
-        "CNBC"
-      ],
-      "quiz": {
-        "prompt": "Where will Toyota move Tacoma pickup truck production from Mexico to?",
-        "options": [
-          "Detroit, Michigan",
-          "San Antonio, Texas",
-          "Nashville, Tennessee",
-          "Columbus, Ohio"
-        ],
-        "correctIndex": 1,
-        "explanation": "CNBC reports Toyota is investing $3.6 billion to move Tacoma production from Mexico to its San Antonio, Texas campus."
-      }
-    },
-    {
-      "id": "4b3dc3a4-49a9-496a-8b33-9ac4445509db",
+      "id": "11af68fa-5a2f-4a5a-87f7-010db19e6cb4",
       "vertical": "tech",
       "region": "US",
       "topicTag": "AI TRADE SECRETS",
       "headline": "Apple sues OpenAI over alleged trade secret theft",
-      "summary": "Apple filed a lawsuit against OpenAI alleging that a former employee exploited a rare security bug to download confidential files after leaving for the rival company. The suit claims OpenAI's nascent hardware business is built on stolen intellectual property, with allegations ranging from unauthorized system access to job candidates being asked to bring Apple proprietary material. The case marks one of the most high-profile trade-secret clashes between two of tech's biggest players.",
+      "summary": "Apple filed a lawsuit alleging that OpenAI's nascent hardware business benefited from trade secrets stolen by former Apple employees who joined the company. The suit claims a former employee exploited a rare bug to download confidential files after leaving for OpenAI, and that job candidates were allegedly asked to bring Apple proprietary material. Apple described OpenAI's hardware operation as 'rotten to its core.'",
       "readSeconds": 22,
       "sources": [
         "BBC",
@@ -265,24 +266,24 @@
         "TechCrunch"
       ],
       "quiz": {
-        "prompt": "What did Apple allege a former employee did before joining OpenAI?",
+        "prompt": "What did Apple allege a former employee exploited to steal confidential files?",
         "options": [
-          "Hacked OpenAI's servers remotely",
-          "Exploited a bug to download confidential Apple files",
-          "Leaked Apple chip designs to the press",
-          "Recruited Apple engineers without permission"
+          "A phishing attack on Apple's servers",
+          "A rare software bug in Apple's network",
+          "An insider tip from an OpenAI executive",
+          "A data breach by a third-party contractor"
         ],
         "correctIndex": 1,
-        "explanation": "Apple's lawsuit claims a former employee exploited a rare bug to download sensitive files from Apple's network after departing for OpenAI."
+        "explanation": "Apple alleged the former employee exploited a 'rare' bug that allowed him to download sensitive files from Apple's network after he had already departed for OpenAI."
       }
     },
     {
-      "id": "5abb6f41-ba2b-45bc-9696-5a74e06d7c7e",
+      "id": "7378ca0b-b588-46c1-a933-389e39df3274",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "META AI BACKLASH",
-      "headline": "Meta pulls AI image feature after Instagram privacy outcry",
-      "summary": "Meta released an AI feature this week allowing users to generate images from public Instagram profile pictures, drawing immediate backlash from privacy advocates who called it a 'recipe for disaster.' The company said users could opt out, but critics argued the default setting put people at risk. Meta subsequently pulled the feature after days of sustained public and regulatory pressure.",
+      "topicTag": "META AI PRIVACY",
+      "headline": "Meta pulls AI image feature after Instagram privacy backlash",
+      "summary": "Meta released an AI feature that allowed users to alter Instagram content using images from public profiles, drawing immediate backlash from privacy advocates who called it a 'recipe for disaster.' The company said users could opt out, but critics argued the default opt-in approach was unacceptable. Meta pulled the feature within days of its launch amid the outcry.",
       "readSeconds": 20,
       "sources": [
         "BBC",
@@ -291,259 +292,284 @@
       "quiz": {
         "prompt": "What was the main privacy concern raised about Meta's new AI image feature?",
         "options": [
-          "It stored images on foreign servers",
-          "It used public Instagram profile pics to generate AI images without prior consent",
-          "It shared images with advertisers automatically",
-          "It disabled users' ability to delete their accounts"
+          "It sold user data to third parties",
+          "It used public Instagram profile pictures to generate AI images without explicit consent",
+          "It deleted users' original photos after processing",
+          "It shared images with government agencies"
         ],
         "correctIndex": 1,
-        "explanation": "Privacy campaigners objected that Meta's feature used public Instagram profile pictures to create AI-generated images, with opt-out rather than opt-in as the default."
+        "explanation": "Privacy campaigners objected that Meta's feature used public Instagram profile pictures to generate AI images, with opt-out rather than opt-in consent, which they called a 'recipe for disaster.'"
       }
     },
     {
-      "id": "a90b7f8a-d078-4b1a-af68-90f94fccd5b4",
+      "id": "155158d7-1f29-4cbb-b401-de8224ca1a4c",
       "vertical": "tech",
       "region": "US",
       "topicTag": "MICROSOFT LAYOFFS",
-      "headline": "Microsoft cuts 4,800 jobs in major Xbox restructure",
-      "summary": "Microsoft has announced sweeping layoffs affecting 4,800 employees, equivalent to 2.1% of its total workforce, with 1,600 jobs at Xbox cut immediately. The company described the move as a 'significant restructure,' signalling a major strategic shift in its gaming division. The cuts come as Microsoft continues to invest heavily in AI and cloud infrastructure.",
+      "headline": "Microsoft cuts 4,800 jobs in major restructure",
+      "summary": "Microsoft announced sweeping layoffs affecting 4,800 employees, equivalent to 2.1% of its total workforce, as part of a significant restructuring. The Xbox division was among the hardest hit, with 1,600 immediate job losses there. The cuts signal a major strategic shift at one of the world's largest technology companies.",
       "readSeconds": 18,
       "sources": [
-        "BBC"
+        "BBC",
+        "TechCrunch"
       ],
       "quiz": {
-        "prompt": "What percentage of Microsoft's total workforce do the 4,800 layoffs represent?",
+        "prompt": "What percentage of Microsoft's workforce do the 4,800 layoffs represent?",
         "options": [
-          "5.3%",
+          "1.0%",
           "2.1%",
-          "3.7%",
-          "1.0%"
+          "3.5%",
+          "5.0%"
         ],
         "correctIndex": 1,
-        "explanation": "According to reports, the 4,800 job cuts equate to 2.1% of Microsoft's overall workforce."
+        "explanation": "According to reports, the 4,800 job cuts equate to 2.1% of Microsoft's total workforce, with Xbox bearing a significant share of the immediate losses."
       }
     },
     {
-      "id": "6f5195aa-1ad5-4457-bf8c-afadc45c08b1",
+      "id": "fef42566-1fe6-49cf-9ade-abf48d41594d",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "CHILD AI SAFETY",
-      "headline": "Parents warned as AI turns children's photos into abuse material",
-      "summary": "The UK's National Crime Agency has warned parents about a growing threat of children's images being harvested from social media to create AI-generated child sexual abuse material. Regulators and child safety groups are urging parents to reconsider publicly sharing photos of their children online as nudification and deepfake tools become more sophisticated. A separate class-action lawsuit in the US has expanded against AI companies whose tools were allegedly used to generate explicit images of minors.",
-      "readSeconds": 22,
+      "topicTag": "AI CHILD SAFETY",
+      "headline": "Parents warned as AI weaponizes children's photos",
+      "summary": "The UK's National Crime Agency warned that children's publicly shared images are increasingly being used to create AI-generated child sexual abuse material, urging parents to limit posting children's photos online. Separately, a US class action lawsuit against AI companies including Stability AI expanded, with new plaintiffs alleging their childhood images were used to generate sexually explicit material. Regulators and child safety advocates are calling for urgent action as imaging tools grow more sophisticated.",
+      "readSeconds": 23,
       "sources": [
         "BBC",
-        "Guardian",
-        "NPR"
+        "NPR",
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "Which UK agency issued a warning about children's images being misused by AI tools?",
+        "prompt": "Which UK agency issued a warning to parents about children's images being misused by AI?",
         "options": [
           "Ofcom",
           "The National Crime Agency",
           "The Information Commissioner's Office",
-          "GCHQ"
+          "The Home Office"
         ],
         "correctIndex": 1,
-        "explanation": "The National Crime Agency warned that children's images shared publicly online face a growing risk of being used to create AI-generated child abuse material."
+        "explanation": "The National Crime Agency warned parents about the growing threat of children's images being used to create AI-generated child abuse material."
       }
     },
     {
-      "id": "67866031-b560-44bb-901b-5e1af52c5a0e",
+      "id": "09119299-c6c0-412f-8a64-2b02ca037cf9",
       "vertical": "tech",
       "region": "Global",
       "topicTag": "EU META FINES",
-      "headline": "EU threatens Meta with fines over addictive app features",
-      "summary": "European regulators have threatened Meta with fines, arguing that features such as infinite scroll on Facebook and Instagram contribute to 'compulsive use' and 'unhealthy habits' among users. The action is part of a broader regulatory push to hold tech platforms accountable for design choices that critics say are engineered to maximise engagement at users' expense. The move adds to Meta's mounting regulatory pressure across Europe.",
-      "readSeconds": 19,
+      "headline": "EU threatens Meta with fines over addictive design",
+      "summary": "European regulators warned Meta that features like infinite scroll on Facebook and Instagram contribute to 'compulsive use' and 'unhealthy habits,' and threatened the company with fines. The move is part of a broader regulatory push to hold platforms accountable for design choices that critics say are engineered to maximise time spent on apps. Meta faces increasing legal and regulatory pressure across multiple fronts simultaneously.",
+      "readSeconds": 20,
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "Which specific design feature did EU regulators single out as contributing to compulsive use?",
+        "prompt": "Which specific design feature did EU regulators cite as contributing to compulsive use of Facebook and Instagram?",
         "options": [
-          "Autoplay video",
-          "Notification badges",
+          "Autoplay videos",
+          "Push notifications",
           "Infinite scroll",
-          "Story disappearing timers"
+          "Personalised advertising"
         ],
         "correctIndex": 2,
-        "explanation": "EU regulators cited infinite scroll as one of the features they say contributes to compulsive use and unhealthy habits on Facebook and Instagram."
+        "explanation": "EU regulators specifically named infinite scroll as one of the features they say contributes to 'compulsive use' and 'unhealthy habits' on Meta's platforms."
       }
     },
     {
-      "id": "2b4627a4-370e-4199-9d66-186f14a5b663",
+      "id": "165a1c53-ab32-4272-b169-ad402a1d58a4",
       "vertical": "tech",
-      "region": "US",
+      "region": "Global",
+      "topicTag": "AI NURSES REPLACED",
+      "headline": "New York hospital replaces nurses with AI systems",
+      "summary": "Montefiore hospital in New York laid off 12 utilization review nurses, with their union alleging the company broke a contract the nurses had recently won through a strike. The union said the replacements should 'concern every patient who cares about quality of care.' The case is being seen as an early, concrete example of AI displacing skilled healthcare workers.",
+      "readSeconds": 19,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What type of nurses were laid off at Montefiore hospital, reportedly replaced by AI?",
+        "options": [
+          "Emergency room nurses",
+          "Utilization review nurses",
+          "Surgical nurses",
+          "Pediatric nurses"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reported that 12 utilization review nurses were laid off by Montefiore hospital, with their union alleging the company broke a contract recently won through a strike."
+      }
+    },
+    {
+      "id": "c48ddbaa-f118-4986-9c9e-4b2b5e7ba1b7",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "BIG TECH EMISSIONS",
+      "headline": "Big tech carbon emissions surge amid data centre boom",
+      "summary": "Microsoft, Amazon, and Google's collective carbon emissions have increased by nearly a fifth, driven by a construction boom in data centres needed to power AI services. The three companies' combined emissions now equal roughly a third of those of France. Despite this, all three firms say they still aim to achieve net zero output.",
+      "readSeconds": 19,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "By approximately how much have Microsoft, Amazon, and Google's collective carbon emissions increased?",
+        "options": [
+          "A tenth",
+          "A fifth",
+          "A third",
+          "A half"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reported that the three companies' collective carbon emissions have increased by nearly a fifth, driven by the data centre construction boom powering AI."
+      }
+    },
+    {
+      "id": "0b429747-52d7-4609-9d20-b1a835695e59",
+      "vertical": "tech",
+      "region": "Global",
       "topicTag": "STARSHIP TEST FLIGHT",
       "headline": "SpaceX cleared for Starship's 13th test flight",
-      "summary": "SpaceX has received clearance to fly Starship again following a booster failure in May, with the 13th test flight expected later this week. This will be the first Starship test since SpaceX became a publicly traded company, testing investor appetite for the firm's iterative 'fly, fail, fix' development approach. The flight will put Starship under higher pressure and test new Starlink satellite deployment in orbit.",
-      "readSeconds": 20,
+      "summary": "SpaceX has received clearance to fly Starship again following a booster failure in May, with the 13th test flight expected later this week. The flight will put Starship under higher pressure and test new Starlink satellites in orbit. It will also be the first Starship test since SpaceX became a public company, making the outcome closely watched by investors.",
+      "readSeconds": 19,
       "sources": [
         "ArsTechnica",
         "TechCrunch"
       ],
       "quiz": {
-        "prompt": "What makes SpaceX's upcoming Starship test flight historically notable?",
+        "prompt": "What makes Starship's upcoming 13th test flight particularly significant beyond the technical goals?",
         "options": [
-          "It is the first crewed Starship flight",
-          "It is the first flight since SpaceX went public",
+          "It carries the first human crew",
+          "It is the first test since SpaceX became a public company",
           "It will attempt a Mars trajectory",
           "It uses a fully reusable heat shield for the first time"
         ],
         "correctIndex": 1,
-        "explanation": "The upcoming flight is the first Starship test to take place since SpaceX became a publicly traded company."
+        "explanation": "TechCrunch noted it will be the first Starship test flight for SpaceX as a public company, making investor and market scrutiny especially high."
       }
     },
     {
-      "id": "0de2e7a5-28b3-4bb7-adc7-a689b3a09bc9",
-      "vertical": "tech",
-      "region": "Global",
-      "topicTag": "BIG TECH EMISSIONS",
-      "headline": "Big tech carbon emissions surge amid data centre boom",
-      "summary": "Microsoft, Amazon, and Google have seen their collective carbon emissions rise by nearly a fifth, driven by a construction boom in data centres needed to power AI workloads. The three companies' combined emissions now equal roughly a third of France's total carbon output. Despite the surge, all three firms say they still aim to achieve net-zero emissions.",
-      "readSeconds": 18,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "By how much have Microsoft, Amazon, and Google's collective carbon emissions increased?",
-        "options": [
-          "Nearly a fifth",
-          "More than a third",
-          "About half",
-          "Less than 5%"
-        ],
-        "correctIndex": 0,
-        "explanation": "According to reports, the three tech giants' combined carbon emissions have increased by nearly a fifth amid the data centre construction boom."
-      }
-    },
-    {
-      "id": "204926ea-835a-4215-8e4b-2c554fc1c0ac",
-      "vertical": "tech",
-      "region": "US",
-      "topicTag": "NURSES REPLACED BY AI",
-      "headline": "Hospital replaces nurses with AI, union raises alarm",
-      "summary": "Twelve utilisation review nurses at Montefiore hospital in New York were laid off and replaced by AI, according to their union, which says the move violated a contract recently won through a strike. The union warned the situation 'should concern every patient who cares about quality of care,' raising broader questions about AI's role in clinical decision-making. The case is being watched as a bellwether for AI displacement in healthcare.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "Why did Montefiore nurses' union say the AI-driven layoffs were particularly egregious?",
-        "options": [
-          "The nurses were replaced without any notice period",
-          "The move violated a contract the union had recently won through a strike",
-          "The hospital used an unregulated AI system",
-          "The nurses were replaced by overseas contractors"
-        ],
-        "correctIndex": 1,
-        "explanation": "The union argued that replacing the nurses with AI violated a contract they had recently secured through strike action."
-      }
-    },
-    {
-      "id": "27ca88e1-1a6b-424c-8d6e-f2b1ce6e6c4b",
+      "id": "261fb8b6-d637-4472-b771-240e997b5b59",
       "vertical": "tech",
       "region": "US",
       "topicTag": "WAYMO PRIVACY",
       "headline": "Waymo called police on teen riders, sparking privacy debate",
-      "summary": "Waymo disabled a driverless taxi and alerted police after two 15-year-olds were allegedly drinking alcohol and firing toy guns inside the vehicle. The incident has raised questions about the extent of surveillance inside autonomous vehicles and what data companies like Waymo collect and act upon during rides. Privacy advocates say the case highlights the need for clearer policies on passenger monitoring in robotaxis.",
-      "readSeconds": 19,
+      "summary": "Waymo disabled its driverless taxi and alerted police after two 15-year-olds were allegedly drinking alcohol and shooting toy guns during a ride. The incident has raised broader questions about how much surveillance autonomous vehicle companies conduct on passengers and when they share that data with law enforcement. Critics say it highlights the privacy trade-offs of riding in vehicles operated by AI systems.",
+      "readSeconds": 20,
       "sources": [
         "NPR"
       ],
       "quiz": {
-        "prompt": "What action did Waymo take after detecting the teenagers' behaviour in its vehicle?",
+        "prompt": "What action did Waymo take when two teen riders were allegedly misbehaving in its driverless taxi?",
         "options": [
-          "Rerouted them to the nearest police station automatically",
-          "Disabled the vehicle and alerted police",
-          "Locked the doors until police arrived",
-          "Issued an in-app warning and continued the trip"
+          "It rerouted them to a police station automatically",
+          "It disabled the vehicle and alerted police",
+          "It locked them inside until police arrived",
+          "It sent a human driver to take over"
         ],
         "correctIndex": 1,
-        "explanation": "Waymo disabled the driverless taxi and contacted police after the two teenagers were allegedly drinking and shooting toy guns inside the vehicle."
+        "explanation": "NPR reported that Waymo disabled the driverless taxi and alerted police after the two 15-year-olds were allegedly drinking and shooting toy guns during the ride."
       }
     },
     {
-      "id": "60ee73ea-b9be-4228-bb0e-b488cb9f52db",
+      "id": "7ee9b8eb-16a3-468b-92c7-62e20b94ecfa",
       "vertical": "tech",
       "region": "US",
-      "topicTag": "SUPREME COURT APPS",
-      "headline": "Supreme Court allows Texas minors app store law to stand",
-      "summary": "The US Supreme Court has allowed Texas's App Store Accountability Act to take effect while legal challenges continue in lower courts. The law requires minors to obtain parental permission before downloading most apps, representing one of the most significant state-level moves to regulate children's digital access. Tech industry groups have challenged the legislation, but the Supreme Court declined to block it for now.",
-      "readSeconds": 19,
+      "topicTag": "APP STORE MINORS",
+      "headline": "Supreme Court lets Texas app store age-check law stand",
+      "summary": "The US Supreme Court has allowed Texas's App Store Accountability Act to go into effect while legal challenges continue in lower courts. The law requires minors to obtain parental permission before downloading most apps. The decision means the restrictions will apply to app stores in Texas while the broader constitutional questions are still being resolved.",
+      "readSeconds": 18,
       "sources": [
         "NPR"
       ],
       "quiz": {
         "prompt": "What does Texas's App Store Accountability Act require of minors?",
         "options": [
-          "They must use a separate child-only app store",
+          "They must use a child-only version of app stores",
           "They must have parental permission to download most apps",
-          "They are banned from social media until age 16",
-          "They must register with the state before creating accounts"
+          "They are banned from downloading social media apps entirely",
+          "They must verify their age with a government ID"
         ],
         "correctIndex": 1,
-        "explanation": "The Texas law requires minors to have their parents' permission before downloading most apps from app stores."
+        "explanation": "NPR reported that the Texas law requires minors to have their parents' permission to download most apps, and the Supreme Court has allowed it to take effect while litigation continues."
       }
     },
     {
-      "id": "0ca82df0-d954-4607-b741-5a2bfde50af6",
+      "id": "72239788-ba33-4d6a-925a-2f8edd10c06f",
       "vertical": "politics",
       "region": "Global",
-      "topicTag": "US-IRAN WAR",
-      "headline": "US strikes Iran as Hormuz blockade resumes fighting",
-      "summary": "The US military announced a blockade of Iranian ships over the Strait of Hormuz and launched fresh strikes on Iran, with Tehran striking back against Gulf targets and tankers. Trump has threatened to attack a heavily-fortified underground nuclear facility in Iran known as Pickaxe Mountain, while saying a deal remains possible. Senate Minority Leader Schumer publicly criticized Trump over the escalating conflict, and Pakistan is urging dialogue while analysts say it has few tools to halt the latest round of escalation.",
-      "readSeconds": 25,
+      "topicTag": "US-IRAN CONFLICT",
+      "headline": "US strikes Iran amid Hormuz blockade standoff",
+      "summary": "The US military has reinstated a blockade over the Strait of Hormuz and struck Iran, as Tehran vowed to assert its own control over the critical international waterway. The two countries exchanged fire over the weekend, threatening a return to all-out war after agreeing to a ceasefire last month. Senate Democratic leader Chuck Schumer has publicly criticized Trump over the renewed military confrontation.",
+      "readSeconds": 22,
       "sources": [
         "NPRWorld",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "What strategic waterway is at the center of the latest US-Iran military confrontation?",
+        "prompt": "What waterway is at the center of the renewed US-Iran military confrontation?",
         "options": [
           "Strait of Malacca",
-          "Suez Canal",
           "Strait of Hormuz",
+          "Suez Canal",
           "Bab al-Mandeb"
         ],
-        "correctIndex": 2,
-        "explanation": "The US announced a blockade of Iranian ships over the Strait of Hormuz, which Iran also vowed to assert control over."
+        "correctIndex": 1,
+        "explanation": "The US reinstated a blockade over the Strait of Hormuz and struck Iran as Tehran vowed to assert its own control over the waterway."
       }
     },
     {
-      "id": "5ff631df-9960-4b5e-a7f5-f2bb47ee8791",
+      "id": "64ce9d08-e3b3-4feb-bf62-343211551726",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "BANGKOK FIRE",
       "headline": "Bangkok bar fire kills 30, locked exits probed",
-      "summary": "A fire at a popular Bangkok music bar killed at least 30 people and left 24 others in critical condition, making it the city's deadliest blaze in 17 years. Survivors and first responders reported locked doors and a lack of emergency exit signage, and police say negligence is their primary theory. The bar's owner offered 'deepest apologies' as forensic teams investigated the scene, with investigators focusing on the ceiling above the stage area.",
+      "summary": "A fire at a Bangkok music bar has killed at least 30 people, with more than 70 injured and 24 still in critical condition. Survivors and first responders reported locked doors and a lack of emergency exit signage, and police say negligence is the primary theory under investigation. Forensic teams have been examining the scene, with focus on the ceiling above the performance area and windowless bathrooms near a rear exit where many victims were trapped.",
       "readSeconds": 22,
       "sources": [
         "BBC",
         "NPRWorld",
-        "AlJazeera",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What did survivors report about the Bangkok bar's emergency exits?",
+        "prompt": "What do investigators say is the primary theory behind the Bangkok bar fire deaths?",
         "options": [
-          "They were clearly marked but too narrow",
-          "Doors were locked and exit signs were missing",
-          "Windows were used as emergency exits",
-          "Sprinklers blocked the exit routes"
+          "Arson by a disgruntled employee",
+          "An electrical fault in the sound system",
+          "Negligence, including blocked or hard-to-access exits",
+          "A gas leak beneath the building"
         ],
-        "correctIndex": 1,
-        "explanation": "Survivors and first responders reported locked doors and a lack of signage marking emergency exits."
+        "correctIndex": 2,
+        "explanation": "Police said negligence is the primary theory, with reports of locked doors and a lack of emergency exit signage trapping victims inside."
       }
     },
     {
-      "id": "668e8751-b423-4dc0-99b2-0ecf95fd7269",
+      "id": "790303cc-0789-4fad-9778-0439c7c6c3da",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "HOUTHIS ESCALATION",
+      "headline": "Houthis fire missiles at Saudi Arabia after Sanaa strikes",
+      "summary": "Yemen's Iran-backed Houthis launched missiles targeting Abha airport in Saudi Arabia, saying it was retaliation for strikes on Sanaa airport. Analysts warn that if fighting in Yemen expands and the Houthis attempt to block the Bab al-Mandeb strait, the global economy could face a significant new shock. The escalation adds to broader regional tensions already inflamed by the US-Iran confrontation over the Strait of Hormuz.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "Which airport did the Houthis say they targeted in Saudi Arabia?",
+        "options": [
+          "Riyadh King Khalid Airport",
+          "Jeddah King Abdulaziz Airport",
+          "Abha Airport",
+          "Dammam King Fahd Airport"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Houthis said they targeted Abha airport in Saudi Arabia in retaliation for strikes on Sanaa airport in Yemen."
+      }
+    },
+    {
+      "id": "d033cabb-1726-4746-9736-2a1695023d74",
       "vertical": "politics",
       "region": "US",
       "topicTag": "ICE KILLINGS",
       "headline": "ICE agents kill migrants in Maine and Houston",
-      "summary": "An ICE agent fatally shot a Colombian national during an immigration operation in Maine, coming less than a week after an undocumented migrant was killed by an immigration agent in Houston. Al Jazeera reports that more than 60 people have died in ICE shootings or while in detention since Donald Trump returned to power. Mexico announced it would file criminal complaints over the killing of a Mexican national by ICE agents in Houston, with President Claudia Sheinbaum saying Mexicans were 'outraged.'",
+      "summary": "An ICE agent killed a Colombian national during an immigration operation in Maine, coming less than a week after an undocumented migrant was fatally shot by an immigration agent in Houston. Al Jazeera reported that more than 60 people have died in ICE shootings or while in ICE detention since Donald Trump returned to power. Mexico announced it would file criminal complaints over the killing of a Mexican national by agents in Houston, with President Claudia Sheinbaum saying Mexicans were outraged.",
       "readSeconds": 22,
       "sources": [
         "BBC",
@@ -551,191 +577,168 @@
         "Guardian"
       ],
       "quiz": {
-        "prompt": "How did Mexico respond to the killing of a Mexican national by ICE agents in Houston?",
+        "prompt": "What action did Mexican President Claudia Sheinbaum announce in response to the ICE killing in Houston?",
         "options": [
-          "It recalled its ambassador to Washington",
-          "It announced it would file criminal complaints",
-          "It imposed trade sanctions on the US",
-          "It requested a UN investigation"
+          "Expelling the US ambassador",
+          "Filing criminal complaints",
+          "Suspending trade negotiations",
+          "Imposing retaliatory tariffs"
         ],
         "correctIndex": 1,
-        "explanation": "Mexican President Claudia Sheinbaum announced that Mexico would file criminal complaints over the killing of the Mexican national by ICE agents."
+        "explanation": "Sheinbaum announced Mexico would file criminal complaints over the killing of Lorenzo Salgado Araujo by ICE agents in Houston."
       }
     },
     {
-      "id": "6abaa62b-6fce-4ffb-84ef-ac2304c3c463",
+      "id": "8d6e8ff0-e476-4533-bfb9-451bee40cdb2",
       "vertical": "politics",
       "region": "US",
-      "topicTag": "LINDSEY GRAHAM",
-      "headline": "Lindsey Graham's sister named to fill Senate seat",
-      "summary": "South Carolina Governor Henry McMaster appointed Darline Graham, the late senator's younger sister, to serve out the remainder of Lindsey Graham's Senate term after Graham died in office on Saturday at age 71. Top Republicans, including President Trump, coalesced around the pick. The appointment triggers a wide-open primary to determine the GOP nominee for a full Senate term, and Graham's three decades in Congress made him one of the most influential voices on US foreign policy.",
-      "readSeconds": 22,
+      "topicTag": "LINDSEY GRAHAM LEGACY",
+      "headline": "Graham's sister appointed to fill his Senate seat",
+      "summary": "South Carolina Governor Henry McMaster appointed Darline Graham, the late senator's sister, to serve out Lindsey Graham's Senate term after his death on Saturday at age 71. Top Republicans including President Trump coalesced around the pick, while the appointment triggers a wide-open primary for the GOP nominee for a full Senate term. Graham, who served three decades in Congress, was widely regarded as one of Washington's most influential voices on foreign policy and US military engagement.",
+      "readSeconds": 20,
       "sources": [
         "BBC",
         "NPRPolitics",
         "Politico"
       ],
       "quiz": {
-        "prompt": "Who appointed Darline Graham to fill the Senate seat left vacant by Lindsey Graham's death?",
+        "prompt": "Who appointed Darline Graham to serve out her late brother's Senate term?",
         "options": [
-          "President Trump",
-          "The South Carolina state legislature",
-          "Governor Henry McMaster",
-          "A Republican Party committee"
+          "President Donald Trump",
+          "Senate Majority Leader",
+          "South Carolina Governor Henry McMaster",
+          "The South Carolina state legislature"
         ],
         "correctIndex": 2,
-        "explanation": "South Carolina Governor Henry McMaster appointed Darline Graham to serve out the remainder of her late brother's Senate term."
+        "explanation": "South Carolina Governor Henry McMaster appointed Darline Graham to finish the term of her late brother, Senator Lindsey Graham."
       }
     },
     {
-      "id": "0efd2f50-fba4-4d52-b785-a276ce8b4400",
-      "vertical": "politics",
-      "region": "US",
-      "topicTag": "TRUMP TAX DEAL",
-      "headline": "Judge voids Trump's $1.8bn IRS settlement",
-      "summary": "A US judge voided a $1.8 billion settlement between Donald Trump and the IRS that had granted him immunity from tax audits, ruling the suit was brought for 'improper purposes.' The judge also referred a Trump attorney for possible disciplinary action. The ruling removes a legal shield that had protected Trump from IRS scrutiny under the terms of the voided agreement.",
-      "readSeconds": 18,
-      "sources": [
-        "BBC"
-      ],
-      "quiz": {
-        "prompt": "Why did a US judge void Trump's $1.8bn IRS settlement?",
-        "options": [
-          "The amount was deemed unconstitutionally large",
-          "The suit was brought for improper purposes",
-          "The IRS had not approved the terms",
-          "Trump's attorneys failed to file on time"
-        ],
-        "correctIndex": 1,
-        "explanation": "The judge ruled the suit was brought for 'improper purposes' and referred a Trump attorney for possible disciplinary action."
-      }
-    },
-    {
-      "id": "67b7424f-2a73-420c-a5f6-34e0c9b1504c",
+      "id": "a210ecb4-f2a5-483e-9531-ef122cdb9607",
       "vertical": "politics",
       "region": "Global",
-      "topicTag": "YEMEN ESCALATION",
-      "headline": "Houthis fire missiles at Saudi Arabia after Sanaa strikes",
-      "summary": "Yemen's Iran-backed Houthis launched missiles at Abha airport in Saudi Arabia after blaming Riyadh for strikes on Sanaa's international airport. Analysts warn that if fighting in Yemen expands and the Houthis attempt to block the Bab al-Mandeb strait, the global economy could face a significant new energy shock. The escalation adds another flashpoint to an already volatile regional situation tied to broader US-Iran tensions.",
+      "topicTag": "SUDAN WAR CRIMES",
+      "headline": "Sudan RSF chief sentenced to death for war crimes",
+      "summary": "A Sudanese court sentenced RSF paramilitary leader Mohamed Hamdan Dagalo, known as Hemedti, to death in absentia, along with 15 RSF commanders and allies. The trial in Port Sudan centered on atrocities committed in West Darfur. Separately, the EU announced a ban on gold imports from Sudan to stop money from financing the ongoing war, while also restricting exports of mercury and cyanide used in gold mining.",
       "readSeconds": 20,
       "sources": [
         "BBC",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "Which Saudi airport did the Houthis say they targeted in retaliation for strikes on Sanaa?",
+        "prompt": "How was RSF chief Mohamed Hamdan Dagalo convicted by the Sudanese court?",
         "options": [
-          "King Khalid International Airport",
-          "Riyadh Air Base",
-          "Abha airport",
-          "Jeddah airport"
+          "After surrendering to authorities",
+          "Through a plea bargain",
+          "In absentia",
+          "Following extradition from a third country"
         ],
         "correctIndex": 2,
-        "explanation": "The Houthis said they targeted Abha airport in Saudi Arabia in response to strikes on Sanaa's airport."
+        "explanation": "Dagalo was convicted and sentenced to death in absentia, along with 15 RSF commanders and allies."
       }
     },
     {
-      "id": "66fdcd90-152b-4930-9ba8-f9104301b83b",
+      "id": "e34f99ab-3af9-4d99-9b61-c908ee2df4d2",
       "vertical": "politics",
       "region": "Global",
-      "topicTag": "SUDAN CONFLICT",
-      "headline": "Sudan RSF chief sentenced to death for war crimes",
-      "summary": "A court convicted Mohamed Hamdan Dagalo, head of Sudan's paramilitary Rapid Support Forces, in absentia for war crimes, sentencing him to death along with 15 RSF commanders and allies. Separately, the EU announced a ban on gold imports from Sudan to cut off funding for the ongoing war, also restricting exports of mercury and cyanide, chemicals widely used in gold mining. The twin developments mark significant international moves to hold parties accountable for the conflict.",
+      "topicTag": "EBOLA OUTBREAK",
+      "headline": "DRC Ebola outbreak may be double official count",
+      "summary": "The WHO warned that the Ebola outbreak in the Democratic Republic of the Congo may be double the official tally, with cases significantly underreported. Healthcare workers at an Ebola treatment centre have gone on strike, compounding the crisis, while two drugs are being trialled in the Ituri region in a programme launched just six weeks after the outbreak was declared. A US national who contracted Ebola in the DRC was flown to Berlin for treatment after the Trump administration barred Americans from traveling to the US on commercial flights.",
       "readSeconds": 22,
       "sources": [
-        "BBC",
-        "Guardian"
+        "Guardian",
+        "AlJazeera"
       ],
       "quiz": {
-        "prompt": "Why did the EU ban exports of mercury and cyanide to Sudan alongside its gold import ban?",
+        "prompt": "Why was a US Ebola patient flown to Germany rather than returning home for treatment?",
         "options": [
-          "They are used as chemical weapons in the conflict",
-          "They are chemicals widely used in gold mining",
-          "They are used to manufacture drones",
-          "They contaminate water supplies used by civilians"
+          "German hospitals have the only approved Ebola drug",
+          "The Trump administration barred Americans from traveling to the US on commercial flights",
+          "The patient requested treatment in Europe",
+          "WHO protocols require treatment in the nearest high-capacity facility"
         ],
         "correctIndex": 1,
-        "explanation": "The EU restricted exports of mercury and cyanide to Sudan because they are chemicals widely used in gold mining, which finances the war."
+        "explanation": "The Guardian reported the Trump administration barred Americans from traveling to the US on commercial flights, so the US national was flown to Berlin for treatment."
       }
     },
     {
-      "id": "8cfd7f5f-f829-4928-a41d-27f9d72f6b96",
+      "id": "a16f9754-5216-49ee-8f94-ed066d8d4fc7",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "HUNGARY POLITICS",
+      "headline": "Hungary parliament ousts Orbán-aligned president",
+      "summary": "Hungary's parliament voted to remove President Tamás Sulyok from office, ending his tenure as an ally widely seen as loyal to former Prime Minister Viktor Orbán. Orbán himself lost power in April after 16 years in government. The removal marks a significant shift in Hungary's political landscape following the end of Orbán's long grip on the country's institutions.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "What was Tamás Sulyok's political significance before being removed from office?",
+        "options": [
+          "He was a longtime opponent of Viktor Orbán",
+          "He was widely seen as a loyalist of former PM Viktor Orbán",
+          "He was the leader of Hungary's main opposition party",
+          "He was appointed by the European Union"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sulyok was widely seen as a loyalist of former Prime Minister Viktor Orbán, who had himself lost power in April after 16 years."
+      }
+    },
+    {
+      "id": "71c05f70-d957-432b-8a79-5b41fcaa7286",
       "vertical": "politics",
       "region": "Global",
       "topicTag": "PARIS WILDFIRE",
       "headline": "Wildfire near Paris may have been deliberately set",
-      "summary": "A wildfire raging south of Paris has scorched around 1,300 hectares, with France's interior minister saying the blaze could have been set deliberately and two people have been arrested. France has deployed 70,000 security personnel across the country for Bastille Day and World Cup semifinal events. The fire is striking as France endures its third heatwave in three months, with unusually warm rivers already affecting nuclear power plant cooling.",
-      "readSeconds": 20,
+      "summary": "A wildfire raging south of Paris has scorched around 1,300 hectares as France endures its third heatwave in three months. France's interior minister said the fire could have been set deliberately, and two people have been arrested in connection with the blaze. France deployed 70,000 security personnel across the country on the same day for Bastille Day and World Cup semifinal events.",
+      "readSeconds": 18,
       "sources": [
         "BBC",
         "AlJazeera",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What has France's interior minister said about the cause of the wildfire near Paris?",
+        "prompt": "How much land had the wildfire near Paris scorched, according to reports?",
         "options": [
-          "It was caused by a lightning strike",
-          "It started from an unattended campfire",
-          "It could have been set deliberately, with two arrested",
-          "It was sparked by downed power lines"
+          "300 hectares",
+          "700 hectares",
+          "1,300 hectares",
+          "2,500 hectares"
         ],
         "correctIndex": 2,
-        "explanation": "France's interior minister said the fire near Paris could have been set deliberately, and two people have been arrested in connection with it."
+        "explanation": "Al Jazeera reported the wildfires near Paris scorched 1,300 hectares as France endured its third heatwave in three months."
       }
     },
     {
-      "id": "13bfcf20-c8c0-437c-919d-23830ac0b011",
+      "id": "9e62db80-5534-4691-a16a-6024fcc49559",
       "vertical": "politics",
       "region": "Global",
-      "topicTag": "UKRAINE PATRIOTS",
-      "headline": "Trump grants Ukraine permission to produce Patriot missiles",
-      "summary": "President Trump has granted Ukraine permission to produce Patriot air-defense missiles domestically, a significant shift that could bolster the country's long-term defense capacity. Defense analysts note the move could reduce Ukraine's dependence on US deliveries and strengthen its ability to sustain air defenses. The development comes as Ukraine continues to face ongoing military pressure.",
-      "readSeconds": 18,
-      "sources": [
-        "NPRWorld"
-      ],
-      "quiz": {
-        "prompt": "What has President Trump granted Ukraine permission to do regarding Patriot missiles?",
-        "options": [
-          "Purchase them at a discounted rate",
-          "Produce them domestically",
-          "Receive unlimited US deliveries",
-          "Transfer them to European allies"
-        ],
-        "correctIndex": 1,
-        "explanation": "Trump granted Ukraine permission to produce Patriot missiles domestically, which analysts say could strengthen the country's long-term air defense capacity."
-      }
-    },
-    {
-      "id": "f3a2fa33-c806-4dee-ac9c-6c4a61cd19e6",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "HUNGARY POLITICS",
-      "headline": "Hungary parliament removes president from office",
-      "summary": "The Hungarian parliament voted to remove President Tamás Sulyok from office, a figure widely seen as a loyalist of former prime minister Viktor Orbán, who lost power in April after 16 years in government. The removal marks another shift in Hungary's political landscape following Orbán's departure from power. No further details on the grounds for removal were provided in the reports.",
-      "readSeconds": 18,
+      "topicTag": "VOLKSWAGEN JOBS",
+      "headline": "Volkswagen plans to cut up to 100,000 jobs globally",
+      "summary": "Volkswagen Group, which includes brands such as Porsche and Audi, is planning to cut up to 100,000 jobs globally. The company has faced a steep fall in profits alongside tough competition from Chinese automakers. The announcement represents one of the largest planned job cuts in the automotive industry in recent years.",
+      "readSeconds": 16,
       "sources": [
         "BBC"
       ],
       "quiz": {
-        "prompt": "How long had Viktor Orbán held power in Hungary before losing it in April?",
+        "prompt": "What are the two main pressures cited for Volkswagen's planned job cuts?",
         "options": [
-          "8 years",
-          "12 years",
-          "16 years",
-          "20 years"
+          "Rising raw material costs and supply chain disruptions",
+          "A steep fall in profits and tough competition from China",
+          "Stricter EU emissions regulations and declining European demand",
+          "Trade tariffs and a weakening euro"
         ],
-        "correctIndex": 2,
-        "explanation": "Viktor Orbán lost power in April after 16 years as prime minister, and the removed president Tamás Sulyok was widely seen as his loyalist."
+        "correctIndex": 1,
+        "explanation": "BBC reported that Volkswagen has faced a steep fall in profits and tough competition from China as reasons behind the planned cuts of up to 100,000 jobs."
       }
     },
     {
-      "id": "06d33d5b-776a-4b29-857b-8c97e24a3522",
+      "id": "100bd7df-a724-4a37-8cfe-b3bb5d27cc23",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "WORLD CUP 2026",
       "headline": "England face Argentina in high-security Atlanta semi-final",
-      "summary": "England will play Argentina in a World Cup semi-final in Atlanta on Wednesday, a fixture steeped in historical rivalry. Declan Rice is fit and available to start after overcoming illness. Atlanta police have increased staffing and resources for the match, with England fans' behaviour described as 'exemplary' so far in the tournament.",
+      "summary": "England take on Argentina in a World Cup semi-final in Atlanta on Wednesday, with authorities stepping up security staffing and resources across the city. Declan Rice has been confirmed fit and available to start after battling illness. The fixture revives one of football's most storied rivalries, with history stretching back decades.",
       "readSeconds": 22,
       "sources": [
         "BBC",
@@ -743,213 +746,170 @@
         "SkySports"
       ],
       "quiz": {
-        "prompt": "Where is the England vs Argentina World Cup semi-final being held?",
+        "prompt": "Where is the England vs Argentina World Cup semi-final being played?",
         "options": [
           "Dallas",
           "Miami",
           "Atlanta",
-          "Houston"
+          "New York"
         ],
         "correctIndex": 2,
-        "explanation": "The snippets confirm Atlanta is hosting the England vs Argentina World Cup semi-final, with Atlanta police stepping up security for the match."
+        "explanation": "Multiple sources confirm the England vs Argentina semi-final is taking place in Atlanta, with police increasing security measures for the match."
       }
     },
     {
-      "id": "ca6837a3-145e-4ca2-8e4e-8fbe4ffd92a3",
+      "id": "8fca8544-e3c0-420d-9ef8-0ea3072de29f",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "WORLD CUP 2026",
-      "headline": "France face Spain in 'spectacular' Dallas semi-final",
-      "summary": "France and Spain meet in a World Cup semi-final in Dallas, with France midfielder Warren Zaïre-Emery saying his team want revenge on Spain after a previous Euros defeat. France boss Didier Deschamps is predicting a 'spectacular' game. The match also sets up a high-profile duel between Kylian Mbappé and teenage Spanish star Lamine Yamal.",
-      "readSeconds": 22,
+      "headline": "France vs Spain clash for World Cup final spot Tuesday",
+      "summary": "France and Spain meet in Dallas on Tuesday in the other World Cup semi-final, with Kylian Mbappe and Lamine Yamal set for a high-profile showdown. France boss Didier Deschamps has predicted a 'spectacular' match, while French midfielder Zaïre-Emery says the team wants revenge for a previous Euros defeat to Spain. Lamine Yamal, who celebrated his 19th birthday on the eve of the match, said his only desired present was a win.",
+      "readSeconds": 25,
       "sources": [
         "BBC",
         "Guardian",
         "CBSSports"
       ],
       "quiz": {
-        "prompt": "What did France midfielder Zaïre-Emery say France want against Spain?",
+        "prompt": "What did France midfielder Zaïre-Emery say his team wanted against Spain?",
         "options": [
-          "To win their third consecutive trophy",
-          "To revenge the Euros",
-          "To break the World Cup scoring record",
-          "To prove Mbappé is world's best"
+          "A clean sheet",
+          "Revenge for the Euros",
+          "To break the scoring record",
+          "To honour Deschamps"
         ],
         "correctIndex": 1,
-        "explanation": "According to the snippets, Zaïre-Emery said France want to 'exact revenge on Spain and banish' memories of a previous Euros result."
+        "explanation": "Zaïre-Emery stated that France wanted to exact revenge on Spain and banish memories of a previous Euros defeat."
       }
     },
     {
-      "id": "5000354b-0691-4e4f-96e6-4813820987e8",
+      "id": "8bdb95b3-538e-4d5b-b3e2-0eafd9254cc2",
+      "vertical": "sports",
+      "region": "US",
+      "topicTag": "HOME RUN DERBY",
+      "headline": "Jordan Walker wins Home Run Derby with stunning finish",
+      "summary": "St. Louis Cardinals outfielder Jordan Walker won the 2026 MLB Home Run Derby by homering on his final six consecutive swings, defeating hometown favourite Kyle Schwarber in Philadelphia. Walker, 24, took home the $1 million prize and became the first Cardinal to win the competition. Schwarber and Contreras finished second and third respectively.",
+      "readSeconds": 22,
+      "sources": [
+        "Guardian",
+        "ESPN",
+        "CBSSports"
+      ],
+      "quiz": {
+        "prompt": "How many consecutive home runs did Jordan Walker hit to close out the Home Run Derby?",
+        "options": [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "correctIndex": 3,
+        "explanation": "According to multiple sources, Walker homered on his last six swings to claim the Derby title and $1 million prize."
+      }
+    },
+    {
+      "id": "039f6f2e-72fc-45e4-ab25-9bddd60fa1bc",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Lamine Yamal turns 19 ahead of France semi-final",
-      "summary": "Spain's Lamine Yamal celebrated his 19th birthday ahead of the World Cup semi-final against France, saying 'what I want as a present is a win.' The teenage winger is set for a marquee individual duel with France's Kylian Mbappé. Yamal's three-year-old brother Keyne has also become a viral sensation among fans at the tournament.",
+      "topicTag": "CONOR MCGREGOR",
+      "headline": "McGregor vows to fight again after 69-second UFC return",
+      "summary": "Conor McGregor says he plans to fight again in the UFC despite his return to competition lasting just 69 seconds, ending in a first-round finish in Las Vegas on Saturday. The Irishman said he will undergo surgery on his leg following the bout. McGregor's highly anticipated comeback was over almost as soon as it began.",
       "readSeconds": 20,
       "sources": [
-        "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What did Lamine Yamal say he wanted as a birthday present?",
+        "prompt": "How long did Conor McGregor's UFC return bout last?",
         "options": [
-          "A goal against France",
-          "A win",
-          "The Golden Boot",
-          "A new contract"
+          "One minute 9 seconds",
+          "Two minutes 30 seconds",
+          "Three minutes 15 seconds",
+          "Four minutes 45 seconds"
         ],
-        "correctIndex": 1,
-        "explanation": "The snippets quote Yamal saying 'What I want as a present is a win' ahead of the semi-final against France."
+        "correctIndex": 0,
+        "explanation": "The Guardian reported McGregor's return lasted just 69 seconds, ending in a first-round finish in Las Vegas."
       }
     },
     {
-      "id": "f5e0c5d0-2450-4dc7-9466-c4e63b3cf72d",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Harry Kane enters defining World Cup week for career",
-      "summary": "England striker Harry Kane is described as entering the most defining week of his career, with a World Cup final and Ballon d'Or potentially within reach. Outshining Lionel Messi against Argentina is cited as a key route to cementing his legacy as an all-time great beyond England. Kane is driven by what is described as a sense of destiny.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What individual award is cited as potentially within reach for Harry Kane this week?",
-        "options": [
-          "FIFA Best Award",
-          "Golden Boot",
-          "Ballon d'Or",
-          "UEFA Player of the Year"
-        ],
-        "correctIndex": 2,
-        "explanation": "The Guardian snippet states the Ballon d'Or is within reach for Kane, with outshining Messi identified as the key route to winning it."
-      }
-    },
-    {
-      "id": "864a7246-5ec9-4477-9a3e-27502f8997b9",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "WORLD CUP 2026",
-      "headline": "Norway welcome 100,000 fans despite semi-final exit",
-      "summary": "More than 100,000 fans flooded the streets of Oslo to celebrate Norway's World Cup campaign despite their semi-final exit. The squad performed one last 'Viking row' on the palace steps during the parade. The celebrations briefly had to be paused due to low-hanging overhead cables.",
-      "readSeconds": 18,
-      "sources": [
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What did the Norway squad perform on the palace steps during their homecoming parade?",
-        "options": [
-          "A penalty shootout re-enactment",
-          "A Viking row",
-          "A lap of honour",
-          "A press conference"
-        ],
-        "correctIndex": 1,
-        "explanation": "According to the Guardian, the Norway squad performed one last 'Viking row' on the palace steps during their homecoming parade in Oslo."
-      }
-    },
-    {
-      "id": "c5e61e19-a0b6-4e07-b7c4-12f55e181818",
+      "id": "90e35014-3908-4d19-b654-fd34dba75412",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "TRANSFER NEWS",
-      "headline": "Man City eye Morocco teenager Bouaddi for £85m",
-      "summary": "Manchester City are intent on signing Lille's 18-year-old Moroccan midfielder Ayyoub Bouaddi for around £85m. Bouaddi impressed during the World Cup and the deal would take City's spending on two midfielders to around £200m. The story is corroborated by both the Guardian and Sky Sports.",
+      "headline": "Brighton sign Vuskovic from Spurs for club-record £46m",
+      "summary": "Brighton have completed the signing of 19-year-old Croatia defender Luka Vuskovic from Tottenham Hotspur for a club-record fee of £46 million. The teenager signed a five-year deal with an option for a further year. Vuskovic impressed on loan at Hamburg last season before this move.",
       "readSeconds": 18,
       "sources": [
+        "BBC",
         "Guardian",
         "SkySports"
       ],
       "quiz": {
-        "prompt": "How much are Manchester City reportedly willing to pay for Ayyoub Bouaddi?",
+        "prompt": "What fee did Brighton pay for Luka Vuskovic?",
         "options": [
-          "£65m",
-          "£75m",
-          "£85m",
-          "£100m"
-        ],
-        "correctIndex": 2,
-        "explanation": "The Guardian reports Manchester City are intent on signing Bouaddi for €100m, equivalent to £85m."
-      }
-    },
-    {
-      "id": "517d4e98-c86b-4a75-bb10-a9b33908cf71",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "MLB ALL-STAR",
-      "headline": "Jordan Walker wins 2026 Home Run Derby in Philadelphia",
-      "summary": "Jordan Walker won the 2026 MLB Home Run Derby at Citizens Bank Park in Philadelphia, denying hometown favourite Kyle Schwarber and the hostile Phillies fans a title. The All-Star break has taken over Philadelphia, with the Home Run Derby and All-Star Game both held there. Tigers rookie Kevin McGonigle, 21, also starred at the All-Star Game in the same stadium where he used to be a fan.",
-      "readSeconds": 22,
-      "sources": [
-        "CBSSports"
-      ],
-      "quiz": {
-        "prompt": "Who did Jordan Walker defeat to win the 2026 Home Run Derby?",
-        "options": [
-          "Aaron Judge",
-          "Shohei Ohtani",
-          "Kyle Schwarber",
-          "Yordan Alvarez"
-        ],
-        "correctIndex": 2,
-        "explanation": "CBSSports reports Walker won the 2026 Home Run Derby by denying Kyle Schwarber and the Phillies fans a home title at Citizens Bank Park."
-      }
-    },
-    {
-      "id": "bcfddd2e-b689-4e67-85ed-769f29ff67e1",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "BRIGHTON TRANSFER",
-      "headline": "Brighton sign Vuskovic from Spurs for record £46m",
-      "summary": "Brighton have signed Croatia defender Luka Vuskovic from Tottenham Hotspur for a club-record fee of £46m on a five-year contract, with an option for a further year. The deal is confirmed by both BBC and Sky Sports. It represents Brighton's biggest ever transfer outlay.",
-      "readSeconds": 16,
-      "sources": [
-        "BBC",
-        "SkySports"
-      ],
-      "quiz": {
-        "prompt": "How much did Brighton pay for Luka Vuskovic?",
-        "options": [
-          "£36m",
+          "£35m",
           "£40m",
           "£46m",
           "£52m"
         ],
         "correctIndex": 2,
-        "explanation": "Both BBC and Sky Sports confirm Brighton signed Vuskovic from Spurs for a club-record fee of £46m."
+        "explanation": "Multiple sources confirm Brighton paid a club-record £46 million to sign Vuskovic from Tottenham on a five-year contract."
       }
     },
     {
-      "id": "fdd5b9fc-e608-4fe0-9656-89d680de5cd8",
+      "id": "8c8f74a5-4816-4168-9441-2932cb1fe3bf",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "MMA UFC",
-      "headline": "McGregor fights again after comeback lasts 69 seconds",
-      "summary": "Conor McGregor's return to UFC in Las Vegas ended in the first round after just 69 seconds. Despite the swift defeat, McGregor says he plans to fight again in the UFC and will undergo surgery on his leg. The brief comeback was widely anticipated after a lengthy absence from competition.",
-      "readSeconds": 18,
+      "topicTag": "TRANSFER NEWS",
+      "headline": "Man City target Morocco teen Bouaddi for £85m",
+      "summary": "Manchester City are intent on signing Lille's 18-year-old Moroccan midfielder Ayyoub Bouaddi for around £85 million, according to reports. Bouaddi impressed during the World Cup and the potential signing would take City's outlay on two midfielders to approximately £200 million. The club are showing strong interest in securing the highly rated teenager.",
+      "readSeconds": 20,
       "sources": [
+        "Guardian",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "Which club does Ayyoub Bouaddi currently play for?",
+        "options": [
+          "PSG",
+          "Monaco",
+          "Lyon",
+          "Lille"
+        ],
+        "correctIndex": 3,
+        "explanation": "Both the Guardian and Sky Sports report that Bouaddi is a Lille midfielder whom Manchester City are targeting for around £85 million."
+      }
+    },
+    {
+      "id": "b99acf62-ca1d-47b2-99fc-e4011cf4dca2",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "WIMBLEDON 2026",
+      "headline": "Wimbledon 2026 produces spectacular shots and stories",
+      "summary": "Wimbledon 2026 is generating highlights featuring players including Novak Djokovic, Coco Gauff, and Great Britain's Arthur Fery. Filipino player Alexandra Eala has emerged as a giantkiller and fan favourite, lighting up the tournament and generating widespread attention in the Philippines. Her performances have outpaced her previous career achievements and raised questions about her future trajectory.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "How long did Conor McGregor's UFC comeback bout last?",
+        "prompt": "Which nation does Wimbledon giantkiller Alexandra Eala represent?",
         "options": [
-          "23 seconds",
-          "69 seconds",
-          "112 seconds",
-          "One full round"
+          "Indonesia",
+          "Thailand",
+          "Philippines",
+          "Malaysia"
         ],
-        "correctIndex": 1,
-        "explanation": "The Guardian reports McGregor's return to UFC in Las Vegas finished in the first round after just 69 seconds."
+        "correctIndex": 2,
+        "explanation": "The Guardian describes Eala as a Filipino sensation who has been embraced by her nation after her giantkiller performances at Wimbledon 2026."
       }
     },
     {
-      "id": "b0be89a9-dc38-4f6e-822a-bd9fa5632ab4",
+      "id": "e835dcde-14b5-4301-8677-f6c129031f0d",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "CRICKET",
-      "headline": "India beat England by 270 runs in historic Lord's Test",
-      "summary": "India bowled out England before lunch to seal an emphatic 270-run victory in the historic women's Test match at Lord's. India took the required four wickets in the final session to complete a dominant win. The result represents a significant moment in women's Test cricket at the home of the game.",
+      "headline": "India beat England by 270 runs in historic women's Test",
+      "summary": "India bowled out England to seal an emphatic 270-run victory in the historic women's Test match at Lord's, taking the final four wickets before lunch. The result represents a significant win for India in a high-profile fixture at cricket's most famous ground. The match had been billed as a landmark occasion for the women's game.",
       "readSeconds": 18,
       "sources": [
         "BBC"
@@ -957,13 +917,297 @@
       "quiz": {
         "prompt": "By how many runs did India beat England in the women's Test at Lord's?",
         "options": [
-          "170 runs",
-          "220 runs",
+          "150 runs",
+          "200 runs",
           "270 runs",
           "310 runs"
         ],
         "correctIndex": 2,
-        "explanation": "BBC reports India sealed a 270-run victory over England in the historic women's Test match at Lord's."
+        "explanation": "BBC Sport reported India sealed victory by 270 runs, taking the last four wickets before lunch on the final day at Lord's."
+      }
+    },
+    {
+      "id": "525865ef-fdfc-4d68-ac66-2d7ec42bc35c",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "WORLD CUP 2026",
+      "headline": "Norway draw 100,000 fans for World Cup homecoming parade",
+      "summary": "More than 100,000 fans flooded the streets of Oslo to welcome Norway home following their World Cup exit, turning heartbreak into celebration. The squad performed one final 'Viking row' on the palace steps during the parade. The event was briefly halted due to low-hanging overhead cables.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What gesture did the Norway squad perform on the palace steps during their homecoming parade?",
+        "options": [
+          "A lap of honour",
+          "The Viking row",
+          "A group salute",
+          "A lap of the palace"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reported the squad performed one last 'Viking row' on the palace steps before more than 100,000 fans in Oslo."
+      }
+    },
+    {
+      "id": "8cf8f915-3f62-476f-85af-9c9722775b15",
+      "vertical": "sports",
+      "region": "US",
+      "topicTag": "WNBA",
+      "headline": "Lynx rookie Miles reaches historic WNBA statistical milestone",
+      "summary": "Minnesota Lynx rookie Olivia Miles scored a career-high 33 points to help defeat the Phoenix Mercury, becoming the first WNBA player to reach 400 points, 100 rebounds and 100 assists in only 22 career games. Miles combined with McBride for 70 points in the win. The feat underlines what has been a remarkable start to her professional career.",
+      "readSeconds": 20,
+      "sources": [
+        "ESPN"
+      ],
+      "quiz": {
+        "prompt": "How many career games did it take Olivia Miles to reach 400 points, 100 rebounds and 100 assists?",
+        "options": [
+          "18",
+          "22",
+          "25",
+          "30"
+        ],
+        "correctIndex": 1,
+        "explanation": "ESPN reported Miles reached the combined statistical milestone in just 22 career games, faster than any other WNBA player."
+      }
+    },
+    {
+      "id": "7e2529b8-4f4b-449e-9119-13f4d0d603f1",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "US-IRAN CONFLICT",
+      "headline": "US reinstates Hormuz blockade as Iran vows resistance",
+      "summary": "The US military announced it will begin a blockade of Iranian ships over the Strait of Hormuz, with Trump also threatening to impose tolls on shipping through the waterway. Iran has vowed to assert its own control over the critical international waterway, and two tankers have reportedly been hit by Iranian cruise missiles. The escalating standoff raises significant concerns about global energy supplies and broader regional stability.",
+      "readSeconds": 22,
+      "sources": [
+        "NPR",
+        "Guardian",
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "What action did the US military announce regarding the Strait of Hormuz?",
+        "options": [
+          "It would impose a blockade on Iranian ships",
+          "It would withdraw naval forces from the region",
+          "It would broker a ceasefire with Iran",
+          "It would transfer control to Gulf nations"
+        ],
+        "correctIndex": 0,
+        "explanation": "According to the sources, the US military announced it would begin a blockade of Iranian ships over the Strait of Hormuz."
+      }
+    },
+    {
+      "id": "34fab4c4-8ae8-4ec6-8877-cbdbeec28613",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "TRUMP TARIFFS",
+      "headline": "US refunds $81bn after tariffs ruled illegal",
+      "summary": "The US government has been forced to refund approximately $81 billion in tariffs after the Supreme Court ruled them illegal. The duties had been imposed on companies importing goods into the United States under Trump's tariff regime. The ruling represents a significant legal and financial blow to the administration's trade policy.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian",
+        "SkyNews"
+      ],
+      "quiz": {
+        "prompt": "Why did the US government refund $81 billion in tariffs?",
+        "options": [
+          "Congress voted to repeal them",
+          "The Supreme Court ruled them illegal",
+          "A trade deal made them unnecessary",
+          "A federal appeals court blocked collection"
+        ],
+        "correctIndex": 1,
+        "explanation": "The sources state the US was forced to refund the duties after the Supreme Court ruled the tariffs illegal."
+      }
+    },
+    {
+      "id": "bec444fa-dc6f-4d1b-abe1-d5c3fce42b77",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "ICE SHOOTINGS",
+      "headline": "ICE kills man in Maine amid growing death toll",
+      "summary": "A 26-year-old was shot dead by federal agents during an immigration enforcement operation in Maine, at least the seventh person killed in ICE shootings since January 2025. More than 60 people have died in ICE shootings or while in detention since Trump returned to power, according to reports. The fatal shooting comes just days after a similar incident in Texas and has renewed debate over the use of lethal force during immigration enforcement.",
+      "readSeconds": 22,
+      "sources": [
+        "Guardian",
+        "AlJazeera",
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "How many people have died in ICE shootings or while in ICE detention since Trump returned to power, according to Al Jazeera?",
+        "options": [
+          "More than 20",
+          "More than 40",
+          "More than 60",
+          "More than 100"
+        ],
+        "correctIndex": 2,
+        "explanation": "Al Jazeera reported that more than 60 people have died in ICE shootings or while in detention since Donald Trump returned to power."
+      }
+    },
+    {
+      "id": "93ba9bdf-7d22-49a6-b191-58a3704ab865",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "EBOLA OUTBREAK",
+      "headline": "Ebola outbreak in DRC may be double official count",
+      "summary": "The WHO has warned that the Ebola outbreak in the Democratic Republic of the Congo may be significantly underreported, with the true number of cases potentially double the official tally. Healthcare workers at an Ebola treatment centre have gone on strike amid the crisis. A US national who contracted Ebola in the DRC has been flown to Germany for treatment, as the Trump administration bars Americans from returning to the US on commercial flights.",
+      "readSeconds": 22,
+      "sources": [
+        "AlJazeera",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "Where was the American Ebola patient flown for treatment?",
+        "options": [
+          "France",
+          "The United Kingdom",
+          "Germany",
+          "Switzerland"
+        ],
+        "correctIndex": 2,
+        "explanation": "The sources state a US national who contracted Ebola in the DRC arrived in Germany for treatment."
+      }
+    },
+    {
+      "id": "f1555492-3347-493a-849c-7dafefa74693",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "UK COVID INQUIRY",
+      "headline": "PPE failures wasted £10bn and left NHS staff exposed",
+      "summary": "The UK Covid inquiry has found that PPE failures left NHS healthcare staff unable to properly protect themselves or patients from dangerous infections. The report identified major problems with government planning and purchasing of vital items like gloves and gowns, costing taxpayers an estimated £10 billion. The findings have reignited scrutiny of decision-making at the height of the pandemic.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "How much did the Covid inquiry find was wasted on PPE failures?",
+        "options": [
+          "£1 billion",
+          "£5 billion",
+          "£10 billion",
+          "£20 billion"
+        ],
+        "correctIndex": 2,
+        "explanation": "The BBC reported that the Covid inquiry found PPE failures wasted £10 billion of taxpayer money."
+      }
+    },
+    {
+      "id": "77d19fed-d3f8-404f-a14a-a8ec8bccb8e9",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "ANN WIDDECOMBE MURDER",
+      "headline": "Counter-terrorism police lead Ann Widdecombe murder probe",
+      "summary": "A 28-year-old white British male suspect has been re-arrested by counter-terrorism police investigating the murder of former UK politician Ann Widdecombe, who was found dead in her home after sustaining serious injuries. The case has sparked renewed debate over politicians' security, with critics arguing the government is failing to adequately protect public figures. Questions have also been raised about the security of other prominent politicians including Nigel Farage.",
+      "readSeconds": 22,
+      "sources": [
+        "BBC",
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "Which branch of police took over the Ann Widdecombe murder investigation?",
+        "options": [
+          "Metropolitan Police",
+          "Counter-terrorism police",
+          "National Crime Agency",
+          "Regional homicide unit"
+        ],
+        "correctIndex": 1,
+        "explanation": "The sources state that counter-terrorism police took over the investigation and re-arrested the suspect."
+      }
+    },
+    {
+      "id": "92570790-f917-4a36-aae7-71317d35fd49",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "BASTILLE DAY PARADE",
+      "headline": "Ukraine soldiers march in Paris Bastille Day parade",
+      "summary": "France celebrated Bastille Day with a parade through Paris that featured soldiers from the 'Coalition of the Willing' and Ukraine taking centre stage. The parade included traditional military fanfare and flyovers. The prominent role of Ukrainian troops underscored Europe's continued alignment with Kyiv amid the ongoing conflict with Russia.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "Who took centre stage at the Bastille Day parade in Paris?",
+        "options": [
+          "NATO commanders and US troops",
+          "Soldiers from the Coalition of the Willing and Ukraine",
+          "French Foreign Legion exclusively",
+          "UN peacekeeping forces"
+        ],
+        "correctIndex": 1,
+        "explanation": "The BBC reported that soldiers from the Coalition of the Willing and Ukraine took centre stage in the Bastille Day parade."
+      }
+    },
+    {
+      "id": "a02d4f2c-66cf-464b-b618-e421b3fe267d",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "BANGKOK FIRE",
+      "headline": "Bangkok music bar fire death toll rises to 30",
+      "summary": "The death toll from a fire at a music bar in Bangkok has risen to 30, with more than 70 people injured in total. Twenty-four of the injured remain in critical condition, according to the Bangkok Metropolitan Administration. The incident has raised serious questions about fire safety standards at entertainment venues in the Thai capital.",
+      "readSeconds": 18,
+      "sources": [
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "How many people were still in critical condition after the Bangkok music bar fire?",
+        "options": [
+          "7",
+          "14",
+          "24",
+          "30"
+        ],
+        "correctIndex": 2,
+        "explanation": "NPR reported that 24 people remained in critical condition following the Bangkok music bar fire, according to the Bangkok Metropolitan Administration."
+      }
+    },
+    {
+      "id": "598dc898-3b83-4c55-8957-8e046928ec2d",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "MEDIA PRESS FREEDOM",
+      "headline": "Trump subpoenas New York Times journalists at home",
+      "summary": "Federal agents have shown up at reporters' homes serving subpoenas to New York Times journalists, in what critics describe as a brazen escalation of the administration's attacks on the press. The move targets journalists for reporting that is protected under the First Amendment, according to press freedom advocates. The subpoenas have drawn widespread condemnation from journalism and civil liberties groups.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What constitutional protection do critics say the subpoenaed journalists were exercising?",
+        "options": [
+          "Fourth Amendment rights",
+          "First Amendment press protections",
+          "Fifth Amendment rights",
+          "Sixth Amendment rights"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reported that federal agents targeted journalists for doing exactly what the First Amendment protects."
+      }
+    },
+    {
+      "id": "efd93e20-2b7e-4f98-9cb0-6271c4fd1c46",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "UK WILDFIRES",
+      "headline": "Wildfires spark major incidents across UK regions",
+      "summary": "Major incidents have been declared in North Wales and Glossop, Derbyshire in the Peak District after wildfires broke out across parts of the UK. Fire chiefs have warned of extreme pressure on emergency services as the blazes continue to burn. Separately, wildfires near Paris have scorched around 1,300 hectares as France endures its third heatwave in three months.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "In which two UK locations were major incidents declared due to wildfires?",
+        "options": [
+          "South Wales and Sheffield",
+          "North Wales and Glossop in Derbyshire",
+          "Cornwall and the Lake District",
+          "East Anglia and the Scottish Highlands"
+        ],
+        "correctIndex": 1,
+        "explanation": "The BBC reported that major incidents were declared in North Wales and in Glossop, Derbyshire in the Peak District."
       }
     }
   ]
