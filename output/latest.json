@@ -11,67 +11,64 @@
   },
   "cards": [
     {
-      "id": "96098a37-388f-4dc6-b650-573755be563b",
+      "id": "7567f1a8-03ee-4a4e-84dc-bc7b420b5af0",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "GAS PRICES",
-      "headline": "US diesel tops $5 as Iran tensions spike",
-      "summary": "Average US diesel prices have risen above $5 a gallon, with regular gasoline approaching $4, nearly $1.25 more than a year ago, according to the Guardian. The surge is tied to heightened US-Iran tensions over the Strait of Hormuz driving up crude costs. Heating oil customers are also set to receive compensation following the price spikes.",
+      "topicTag": "FUEL COSTS",
+      "headline": "US gas and diesel prices surge on Iran tensions",
+      "summary": "Average diesel prices have topped $5 a gallon in the US while regular gasoline has climbed to nearly $4 — roughly $1.25 more than a year ago. The rise is tied to heightened US-Iran tensions over the Strait of Hormuz. Analysts warn that if the conflict escalates further, energy costs could push inflation higher after it had just begun to ease.",
       "readSeconds": 20,
       "sources": [
-        "Guardian",
-        "BBC"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "How much more expensive is regular US gasoline compared to a year ago?",
+        "prompt": "How much more expensive is regular gasoline compared to a year ago, according to the Guardian?",
         "options": [
           "About 50 cents more",
-          "About $1.25 more",
           "About 75 cents more",
+          "About $1.25 more",
           "About $2 more"
         ],
-        "correctIndex": 1,
-        "explanation": "The Guardian reported regular gas is nearly a dollar and a quarter — about $1.25 — more than a year ago."
+        "correctIndex": 2,
+        "explanation": "The Guardian reported that regular gas has reached almost $4, nearly a dollar and a quarter more than a year ago."
       }
     },
     {
-      "id": "a3009937-e77e-4936-a208-9ec49d6bf1e8",
+      "id": "cdf34613-1059-470d-8228-3b1889c3432c",
       "vertical": "finance",
       "region": "US",
       "topicTag": "NETFLIX EARNINGS",
       "headline": "Netflix stock falls on disappointing earnings forecast",
-      "summary": "Netflix shares fell after the company reported mixed earnings and announced it would cut back on the frequency of its 'What We Watched' engagement reports, a move that displeased Wall Street. The streaming giant said it would provide fewer updates on viewing data going forward. Both CNBC and MarketWatch flagged investor frustration with the reduced transparency.",
-      "readSeconds": 19,
+      "summary": "Netflix shares fell after the company issued an earnings forecast that disappointed investors. The streaming giant also announced it would reduce the frequency of its 'What We Watched' engagement reports, which had given investors a window into viewership data. The dual news — weaker outlook and less transparency on engagement — rattled markets.",
+      "readSeconds": 18,
       "sources": [
-        "CNBC",
-        "MarketWatch"
+        "CNBC"
       ],
       "quiz": {
-        "prompt": "Why did Wall Street react negatively to Netflix's latest earnings update?",
+        "prompt": "What reporting change did Netflix announce alongside its disappointing earnings forecast?",
         "options": [
-          "Netflix announced a price increase",
-          "Netflix said it would publish less viewing engagement data",
-          "Netflix missed subscriber targets badly",
-          "Netflix announced a major acquisition"
+          "It would stop publishing subscriber counts",
+          "It would cut back on 'What We Watched' engagement reports",
+          "It would no longer report quarterly revenue",
+          "It would end its analyst earnings calls"
         ],
         "correctIndex": 1,
-        "explanation": "Netflix said it would cut back on the frequency of its 'What We Watched' reports, which Wall Street uses to gauge engagement."
+        "explanation": "CNBC reported that Netflix said it would reduce the frequency of its 'What We Watched' reports, which provide a picture of engagement."
       }
     },
     {
-      "id": "907fe043-e970-4128-84aa-cebb1bd5c139",
+      "id": "d066083f-d3c3-43b1-80ca-5bb3be41f461",
       "vertical": "finance",
       "region": "US",
       "topicTag": "UNITEDHEALTH RESULTS",
       "headline": "UnitedHealth beats estimates, raises earnings outlook",
-      "summary": "UnitedHealth Group beat analyst estimates and raised its earnings outlook as the healthcare giant works to stabilize margins by shrinking membership and exiting unprofitable contracts, according to CNBC. The company is also pouring $1.5 billion into AI as part of its cost-reining strategy. The strong results come as rival health insurer Elevance's earnings rattled the broader health insurance sector.",
-      "readSeconds": 20,
+      "summary": "UnitedHealth Group posted results that blew past analyst estimates and raised its full-year earnings outlook. The healthcare giant is reining in costs by shrinking membership, exiting unprofitable contracts, and investing $1.5 billion in artificial intelligence. The strong results stand in contrast to recent turbulence the company has faced over its insurance business.",
+      "readSeconds": 18,
       "sources": [
-        "CNBC",
-        "YahooFin"
+        "CNBC"
       ],
       "quiz": {
-        "prompt": "How much is UnitedHealth investing in AI as part of its turnaround strategy?",
+        "prompt": "How much is UnitedHealth investing in artificial intelligence as part of its cost-stabilisation strategy?",
         "options": [
           "$500 million",
           "$1 billion",
@@ -79,853 +76,777 @@
           "$2 billion"
         ],
         "correctIndex": 2,
-        "explanation": "CNBC reported UnitedHealth is pouring $1.5 billion into AI to help stabilize its margins."
+        "explanation": "CNBC reported that UnitedHealth is pouring $1.5 billion into AI as part of efforts to stabilise margins."
       }
     },
     {
-      "id": "eeb2039d-e27a-4523-ad44-4db6ac29348a",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "ALPHABET AI WORRIES",
-      "headline": "Alphabet shares drop on Gemini delay concerns",
-      "summary": "Alphabet's stock fell more than 4% after Gemini delays raised concerns that Google is falling further behind rivals in the artificial-intelligence race, according to MarketWatch. Investors interpreted the delays as a sign that the company is struggling to keep pace with competitors. The selloff highlights growing anxiety about which tech giants will lead the next phase of AI development.",
-      "readSeconds": 18,
-      "sources": [
-        "MarketWatch"
-      ],
-      "quiz": {
-        "prompt": "Why did Alphabet's stock fall more than 4%?",
-        "options": [
-          "A major antitrust ruling against Google",
-          "Delays to its Gemini AI product raised competitiveness concerns",
-          "Weaker-than-expected advertising revenue",
-          "A data breach affecting Google Cloud"
-        ],
-        "correctIndex": 1,
-        "explanation": "MarketWatch reported that Gemini delays suggested Google is struggling to keep up in the AI race, sending shares down more than 4%."
-      }
-    },
-    {
-      "id": "4118eebe-82c9-4b65-9b30-96d99d9ae86d",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "SPACEX STOCK",
-      "headline": "SpaceX shares slip below IPO debut price",
-      "summary": "Share trading in Elon Musk's SpaceX has been volatile since the company went public about a month ago, and the stock has now notched its first close below its IPO price, according to BBC and MarketWatch. Analysts describe the success of its megarocket as the company's 'single most important watch item' as it prepares for a crucial upcoming launch. The dip marks a notable moment for one of the most anticipated public listings in recent memory.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "MarketWatch"
-      ],
-      "quiz": {
-        "prompt": "What milestone did SpaceX's stock recently hit?",
-        "options": [
-          "It doubled from its IPO price",
-          "It closed below its IPO price for the first time",
-          "It was suspended from trading",
-          "It was added to the S&P 500"
-        ],
-        "correctIndex": 1,
-        "explanation": "MarketWatch reported SpaceX's stock notched its first close below its IPO price amid volatile trading since going public."
-      }
-    },
-    {
-      "id": "e409d467-e8c4-4167-9124-1f72af40fd86",
+      "id": "d30abf73-e4e7-419b-aa79-3a1ea31a0434",
       "vertical": "finance",
       "region": "US",
       "topicTag": "TRUMP MEDIA",
-      "headline": "Trump Media launches paid fast-feed for Wall Street traders",
-      "summary": "Trump Media is launching a premium paid feed giving Wall Street traders early access to its most influential social media posts, according to the BBC. The product is aimed at professional investors who want to react quickly to market-moving statements. The move represents a direct monetisation of the platform's political signal value to financial markets.",
-      "readSeconds": 17,
+      "headline": "Trump Media launching paid feed of market-moving posts",
+      "summary": "Trump Media is launching a fast, paid subscription feed giving Wall Street traders early access to its most influential social media posts. The service is designed to capitalise on the market-moving potential of posts from the platform. The announcement raises fresh questions about the intersection of political communications and financial trading.",
+      "readSeconds": 18,
       "sources": [
         "BBC"
       ],
       "quiz": {
-        "prompt": "What is Trump Media's new paid product designed to offer Wall Street traders?",
+        "prompt": "What is the stated purpose of Trump Media's new paid feed?",
         "options": [
-          "Exclusive stock tips",
-          "Early access to key social media posts",
-          "A dedicated financial news channel",
-          "Discounted brokerage fees"
+          "To promote Trump's re-election campaign",
+          "To give Wall Street traders fast access to market-moving social posts",
+          "To replace the official White House press briefings",
+          "To offer discounted advertising to financial firms"
         ],
         "correctIndex": 1,
-        "explanation": "The BBC reported Trump Media is launching a fast, paid feed giving traders early access to its most influential posts."
+        "explanation": "BBC reported that Trump Media is launching a fast, paid feed to its most influential posts specifically aimed at Wall Street traders."
       }
     },
     {
-      "id": "de354fd0-845d-4ca9-8535-014398a796fe",
+      "id": "96f40937-f922-47cf-be06-399d09450735",
       "vertical": "finance",
       "region": "US",
-      "topicTag": "BLACKROCK EARNINGS",
-      "headline": "BlackRock shares jump after earnings beat",
-      "summary": "BlackRock shares rose after the asset management giant reported an earnings beat, with CEO Larry Fink expressing optimism about market strength and momentum, according to YahooFin. However, the firm's crypto assets declined 39% in the second quarter. The results add to a strong earnings season for major US financial institutions.",
-      "readSeconds": 17,
-      "sources": [
-        "YahooFin"
-      ],
-      "quiz": {
-        "prompt": "What happened to BlackRock's crypto assets in the second quarter?",
-        "options": [
-          "They rose 39%",
-          "They declined 39%",
-          "They remained flat",
-          "They were fully liquidated"
-        ],
-        "correctIndex": 1,
-        "explanation": "YahooFin reported BlackRock's crypto assets declined 39% in the second quarter, even as overall earnings beat expectations."
-      }
-    },
-    {
-      "id": "236aff8e-aa51-4598-a916-c1489df32f02",
-      "vertical": "finance",
-      "region": "US",
-      "topicTag": "HOUSING MARKET",
-      "headline": "Record home prices deter buyers despite builder discounts",
-      "summary": "Existing-home prices have hit a new record high while mortgage rates remain elevated and consumer confidence is stressed, contributing to a drop in existing home sales and builder sentiment, according to CNBC. MarketWatch notes that builders in at least 10 US metro areas are slashing prices on new homes to attract buyers. The combination of high prices and high borrowing costs is making this one of the most difficult summers in recent memory for the housing market.",
-      "readSeconds": 22,
-      "sources": [
-        "CNBC",
-        "MarketWatch"
-      ],
-      "quiz": {
-        "prompt": "What are some builders doing in certain US metro areas to attract buyers?",
-        "options": [
-          "Offering zero-interest mortgages",
-          "Slashing prices on new homes",
-          "Partnering with the federal government on subsidies",
-          "Offering free upgrades only"
-        ],
-        "correctIndex": 1,
-        "explanation": "MarketWatch reported that builders in 10 US metro areas are cutting prices on new homes as existing-home prices hit record highs."
-      }
-    },
-    {
-      "id": "b2591033-2ba0-4f9e-97d4-479804e32b20",
-      "vertical": "finance",
-      "region": "Global",
-      "topicTag": "UK ECONOMY",
-      "headline": "UK economy returns to growth in May",
-      "summary": "The UK economy returned to modest growth in May, reversing a slight contraction seen the previous month, according to the BBC. The data offers some relief after a difficult period for the British economy. The figures arrive as the UK also sealed a £5.2 billion trade deal with Switzerland, which includes scrapping roaming charges and allowing British nationals to use e-gates at Swiss airports.",
-      "readSeconds": 19,
+      "topicTag": "INSIDER TRADING",
+      "headline": "White House staffer accused of $100k speech-betting scheme",
+      "summary": "A White House teleprompter operator has been accused of using advance knowledge of presidential speeches to place nearly $100,000 in winning bets on prediction platform Kalshi. The case highlights growing concerns about insider trading risks as political prediction markets expand in the US. It comes as Kalshi itself faces scrutiny over its expanding range of betting markets.",
+      "readSeconds": 20,
       "sources": [
         "BBC",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What did the UK's May GDP data show?",
+        "prompt": "On which platform did the White House staffer allegedly place bets using advance speech knowledge?",
         "options": [
-          "A sharp contraction",
-          "A return to modest growth",
-          "No change from April",
-          "The fastest growth in five years"
+          "PredictIt",
+          "Polymarket",
+          "Kalshi",
+          "Robinhood"
         ],
-        "correctIndex": 1,
-        "explanation": "The BBC reported UK GDP returned to modest growth in May, reversing the slight contraction seen the previous month."
+        "correctIndex": 2,
+        "explanation": "BBC reported the staffer used Kalshi, a prediction market platform, to make nearly $100,000 from bets based on insider knowledge of Trump speeches."
       }
     },
     {
-      "id": "99b3db99-88ec-4660-8aa8-c111871ced43",
+      "id": "8654a6ae-926e-4fbc-be73-86845b5d3710",
       "vertical": "finance",
-      "region": "Global",
-      "topicTag": "SMARTPHONE SLUMP",
-      "headline": "Smartphone shipments hit 13-year low in Q2",
-      "summary": "Global smartphone shipments fell to a 13-year low in the second quarter, with an AI-related memory shortage identified as a key factor hammering the industry, according to YahooFin. The shortage is driven by surging demand for AI chips and memory, which is crowding out supply for consumer devices. The decline underscores how the AI investment boom is creating unexpected knock-on effects across the tech supply chain.",
-      "readSeconds": 19,
+      "region": "US",
+      "topicTag": "UNITED AIRLINES",
+      "headline": "United Airlines tops estimates but flags $6bn fuel costs",
+      "summary": "United Airlines reported stronger-than-expected quarterly earnings, with higher revenue across premium, corporate, basic economy, and both domestic and international routes. However, the airline warned it expects $6 billion in additional fuel costs — a significant headwind tied to rising energy prices. The results reflect both the resilience of air travel demand and the mounting pressure from costlier oil.",
+      "readSeconds": 20,
       "sources": [
-        "YahooFin"
+        "CNBC"
       ],
       "quiz": {
-        "prompt": "What is cited as a key reason for the 13-year low in Q2 smartphone shipments?",
+        "prompt": "How much in added fuel costs does United Airlines expect?",
         "options": [
-          "Weak consumer demand in China only",
-          "An AI-related memory shortage",
-          "New import tariffs on handsets",
-          "A major factory fire in Asia"
+          "$2 billion",
+          "$4 billion",
+          "$6 billion",
+          "$8 billion"
         ],
-        "correctIndex": 1,
-        "explanation": "YahooFin reported that an AI memory shortage was a key factor hammering smartphone shipments to a 13-year low in Q2."
+        "correctIndex": 2,
+        "explanation": "CNBC reported that United Airlines expects $6 billion in added fuel costs despite topping earnings estimates."
       }
     },
     {
-      "id": "b956a423-3d36-4fa3-9a2c-8faae3abf6c9",
+      "id": "bff71453-c208-4ee7-9228-5f045df881d0",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "PREDICTION MARKETS",
+      "headline": "Kalshi expands into drug trial and FDA outcome bets",
+      "summary": "Prediction platform Kalshi is expanding its wagers to include bets on drug trial results and FDA regulatory decisions, moving well beyond its origins in political and economic forecasting. The move comes as prediction platforms rapidly gain popularity and face questions about their tax treatment — Kalshi avoids billions in taxes by classifying itself as a non-gambling operator. Critics argue the expansion into healthcare regulation raises serious ethical questions.",
+      "readSeconds": 22,
+      "sources": [
+        "Guardian",
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "What new category of bets is Kalshi expanding into?",
+        "options": [
+          "Sports match outcomes",
+          "Drug trial results and FDA decisions",
+          "Corporate earnings reports",
+          "Central bank interest rate decisions"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Guardian reported that Kalshi is expanding its wagers to include bets on drug trial results and FDA regulatory decisions."
+      }
+    },
+    {
+      "id": "6cb5a2f0-1386-4764-ab54-5c4a3eaac2c7",
+      "vertical": "finance",
+      "region": "US",
+      "topicTag": "HOUSING MARKET",
+      "headline": "High rates and record prices squeeze US housing market",
+      "summary": "The US housing market is under significant pressure this summer, with mortgage rates elevated, home prices at all-time highs, and consumers financially stressed. Existing home sales have fallen and builder sentiment has weakened. The combination of unaffordable prices and high borrowing costs is keeping many potential buyers on the sidelines.",
+      "readSeconds": 18,
+      "sources": [
+        "CNBC"
+      ],
+      "quiz": {
+        "prompt": "According to CNBC, what is happening to US home prices alongside the drop in existing home sales?",
+        "options": [
+          "They are falling sharply",
+          "They are flat year-on-year",
+          "They have hit record highs",
+          "They are rising modestly below inflation"
+        ],
+        "correctIndex": 2,
+        "explanation": "CNBC reported that home prices are at record levels, contributing alongside high mortgage rates to a drop in existing home sales and builder sentiment."
+      }
+    },
+    {
+      "id": "d7e2cdf0-1b55-454a-923a-7738f03f3248",
+      "vertical": "finance",
+      "region": "Global",
+      "topicTag": "SPACEX STOCK",
+      "headline": "SpaceX shares slide below IPO price after launch abort",
+      "summary": "Shares in SpaceX have declined to below the company's stock market debut price, with a roughly 4% drop in premarket trading following the postponement of a crucial launch mission. The stock has been volatile since SpaceX went public approximately one month ago. The setback adds to pressure on a company whose valuation had been among the most anticipated in recent IPO history.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC",
+        "MarketWatch"
+      ],
+      "quiz": {
+        "prompt": "What triggered the latest drop in SpaceX shares, according to BBC and MarketWatch?",
+        "options": [
+          "A profit warning from management",
+          "A postponed crucial launch mission",
+          "A regulatory investigation into Starlink",
+          "A rival rocket company's successful launch"
+        ],
+        "correctIndex": 1,
+        "explanation": "MarketWatch reported that SpaceX shares fell about 4% in premarket trading after an aborted mission, with the stock now below its IPO price."
+      }
+    },
+    {
+      "id": "1f59ea80-716d-4755-98f4-961083b5d9e4",
+      "vertical": "finance",
+      "region": "Global",
+      "topicTag": "SOUTH KOREA MARKETS",
+      "headline": "South Korean retail traders hit by mass margin calls",
+      "summary": "South Korea's army of retail investors, known colloquially as 'the ants,' suffered a severe blow as 1.2 million of them received margin calls during a market crash — representing more than 3% of the country's adult population. The ripple effects spread across Asian markets during what MarketWatch described as a bad week for retail traders. The episode underscores the risks of highly leveraged retail investing in volatile markets.",
+      "readSeconds": 22,
+      "sources": [
+        "MarketWatch"
+      ],
+      "quiz": {
+        "prompt": "Approximately what share of South Korea's adult population received margin calls during the market crash?",
+        "options": [
+          "More than 1%",
+          "More than 3%",
+          "More than 5%",
+          "More than 10%"
+        ],
+        "correctIndex": 1,
+        "explanation": "MarketWatch reported that 1.2 million South Korean retail investors received margin calls, representing more than 3% of the country's adult population."
+      }
+    },
+    {
+      "id": "0958cf3b-a8e4-41d0-9b5d-412a9f6a8ae1",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "HACKING SENTENCED",
-      "headline": "Scattered Spider hackers jailed for TfL cyberattack",
-      "summary": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, were each sentenced to five and a half years in jail for hacking Transport for London. The attack cost TfL £39 million and resulted in the theft of data belonging to millions of commuters. The pair had pleaded guilty to their roles in the breach.",
-      "readSeconds": 20,
+      "topicTag": "SCATTERED SPIDER",
+      "headline": "Teen hackers who hit London transport network jailed",
+      "summary": "Owen Flowers and Thalha Jubair, both teenagers, were sentenced to five and a half years each for a cyber-attack on Transport for London that cost the network £39 million. The attack led to the theft of data belonging to millions of commuters and disrupted services across London. Their arrest is also said to have disrupted the broader operations of the prolific Scattered Spider hacking group.",
+      "readSeconds": 22,
       "sources": [
         "BBC",
         "Guardian",
         "TechCrunch"
       ],
       "quiz": {
-        "prompt": "How much did the Transport for London cyberattack cost the organisation?",
+        "prompt": "How much did the cyber-attack on Transport for London cost the network?",
         "options": [
+          "£10 million",
           "£39 million",
-          "£19 million",
-          "£59 million",
-          "£9 million"
+          "£55 million",
+          "£100 million"
         ],
-        "correctIndex": 0,
-        "explanation": "The Guardian reported the attack cost Transport for London £39 million."
+        "correctIndex": 1,
+        "explanation": "According to the Guardian and TechCrunch, the attack cost Transport for London £39 million."
       }
     },
     {
-      "id": "172b5eda-16f7-490d-9454-ed90ac7596b6",
+      "id": "f28aac9c-8078-465e-bef0-aa419596aadb",
       "vertical": "tech",
       "region": "Global",
       "topicTag": "STARSHIP ABORT",
-      "headline": "SpaceX aborts second Starship V3 launch after ignition",
-      "summary": "SpaceX suddenly aborted its second Starship V3 launch attempt after ignition, without immediately explaining what went wrong. The company's stock plunged more than 4% in after-hours trading before recovering some losses. The abort adds to a period of volatility for SpaceX shares since the company went public a month ago.",
+      "headline": "SpaceX aborts second Starship V3 launch at ignition",
+      "summary": "SpaceX suddenly aborted its second Starship V3 launch attempt after some of the vehicle's engines failed to start during ignition. The company said it would offload propellant and attempt another launch in a few days. SpaceX's stock dropped more than 4% in after-hours trading before partially recovering.",
       "readSeconds": 20,
       "sources": [
-        "TechCrunch",
-        "BBC"
+        "ArsTechnica",
+        "TechCrunch"
       ],
       "quiz": {
-        "prompt": "By how much did SpaceX stock fall in after-hours trading following the aborted launch?",
+        "prompt": "What was the immediate market reaction to SpaceX aborting the Starship V3 launch?",
         "options": [
-          "More than 4%",
-          "More than 10%",
-          "About 2%",
-          "About 7%"
+          "Stock rose 4% after hours",
+          "Stock fell more than 4% after hours",
+          "Stock was unchanged",
+          "Stock was suspended from trading"
         ],
-        "correctIndex": 0,
-        "explanation": "TechCrunch reported SpaceX's stock plunged more than 4% in after-hours trading before paring losses."
+        "correctIndex": 1,
+        "explanation": "TechCrunch reported that SpaceX's stock plunged more than 4% in after-hours trading before paring losses following the abort."
       }
     },
     {
-      "id": "0e2b0090-e998-4147-ae75-b03861a0547f",
+      "id": "a3adcd2f-1781-485f-b8fe-d0c228ddc720",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "XAI CSAM LAWSUIT",
-      "headline": "xAI sues user for generating child abuse images with Grok",
-      "summary": "Elon Musk's AI startup xAI has filed one of the first lawsuits by an AI company against a user, accusing a South Carolina man of using Grok to generate child sexual abuse material. The case comes as xAI can no longer deny Grok is capable of producing such content. A separate class-action lawsuit against multiple AI makers over deepfake CSAM has also expanded with new plaintiffs.",
+      "topicTag": "AI CHILD SAFETY",
+      "headline": "xAI sues user over Grok-generated child abuse images",
+      "summary": "Elon Musk's AI startup xAI has filed one of the first lawsuits by an AI company against a user, accusing a South Carolina man of using Grok to generate child sexual abuse material. The case comes after xAI could no longer deny that its tool had been used to create such content. Separately, a class action lawsuit against AI makers over deepfake child sexual abuse material has expanded with new plaintiffs.",
       "readSeconds": 22,
       "sources": [
         "Guardian",
-        "ArsTechnica"
+        "ArsTechnica",
+        "NPR"
       ],
       "quiz": {
-        "prompt": "Who has xAI sued in what is described as one of the first cases of its kind?",
+        "prompt": "Who did xAI sue in what is described as one of the first such cases brought by an AI company?",
         "options": [
-          "A South Carolina man accused of using Grok to generate CSAM",
-          "A rival AI company for copying its model",
-          "A journalist who published leaked Grok outputs",
-          "A former employee who stole training data"
+          "A former employee",
+          "A South Carolina man",
+          "A competing AI firm",
+          "A social media platform"
         ],
-        "correctIndex": 0,
-        "explanation": "The Guardian reported xAI sued a South Carolina man accused of using Grok to create child sexual abuse material, in one of the first such cases brought by an AI company against a user."
+        "correctIndex": 1,
+        "explanation": "According to the Guardian and ArsTechnica, xAI sued a South Carolina man accused of using Grok to generate child sexual abuse material."
       }
     },
     {
-      "id": "c477ddbf-a753-4d20-8a78-4e55f3a53696",
-      "vertical": "tech",
-      "region": "Global",
-      "topicTag": "UK TEEN CURFEW",
-      "headline": "UK proposes midnight social media ban for 16- and 17-year-olds",
-      "summary": "The UK government is proposing a midnight to 6am social media curfew for teenagers aged 16 and 17, saying it will improve young people's lives. Campaigners have called the plan a missed opportunity, and teenagers surveyed by the Guardian broadly disagreed with aspects of the proposal. A separate psychologist's perspective warns that the current debate around smartphones may obscure deeper issues facing adolescents.",
-      "readSeconds": 22,
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What hours would the UK's proposed social media curfew apply to for 16- and 17-year-olds?",
-        "options": [
-          "Midnight to 6am",
-          "10pm to 7am",
-          "11pm to 5am",
-          "9pm to 6am"
-        ],
-        "correctIndex": 0,
-        "explanation": "The BBC and Guardian both reported the proposed curfew would run from midnight to 6am."
-      }
-    },
-    {
-      "id": "dd6c1103-80fe-454d-ab61-17d72f907d0e",
-      "vertical": "tech",
-      "region": "Global",
-      "topicTag": "AI CHILDREN TOYS",
-      "headline": "AI toys for children: promise and serious peril",
-      "summary": "AI is rapidly moving beyond chatbots and into toys, dolls, and robots designed to befriend children. A leading child-development expert says the technology offers real promise but also risks crowding out human interaction crucial to healthy development. Separately, UK watchdogs are warning parents about the growing use of AI nudification apps to exploit children's photos.",
-      "readSeconds": 20,
-      "sources": [
-        "NPR",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What risk does a leading child-development expert associate with AI companions for children?",
-        "options": [
-          "Crowding out human interaction vital to healthy development",
-          "Causing excessive screen addiction",
-          "Exposing children to misinformation",
-          "Teaching children to distrust adults"
-        ],
-        "correctIndex": 0,
-        "explanation": "NPR reported that a leading child-development expert warned AI companions risk crowding out the human interaction children need for healthy development."
-      }
-    },
-    {
-      "id": "0528fc97-703f-4eb5-8051-3342a20cf095",
+      "id": "f9eecf74-5a67-4b8a-aea8-e4e4a6fd7496",
       "vertical": "tech",
       "region": "Global",
       "topicTag": "EU GOOGLE RULING",
-      "headline": "EU orders Google to share search data and open Android AI",
-      "summary": "The European Union has officially ruled that Google must share its search data with rivals and open up AI on Android devices. Google has warned that the changes could endanger user privacy and security. The decision marks a significant step in the EU's ongoing effort to curb the dominance of major tech platforms.",
-      "readSeconds": 18,
+      "headline": "EU forces Google to share search data and open Android AI",
+      "summary": "The European Union has officially ruled that Google must share its search data with rivals and open up AI features on Android. Google has warned that the changes could endanger user privacy and security. The ruling marks a significant escalation of EU efforts to rein in Google's dominance across search and mobile platforms.",
+      "readSeconds": 19,
       "sources": [
         "ArsTechnica"
       ],
       "quiz": {
-        "prompt": "What did Google say about the EU's ruling requiring it to share search data and open Android AI?",
+        "prompt": "What has the EU officially required Google to do under its new ruling?",
         "options": [
-          "The changes could endanger user privacy and security",
-          "The changes would benefit consumers",
-          "The ruling was fair and it would comply fully",
-          "The decision would have no practical effect"
+          "Ban Google Search in member states",
+          "Share search data and open up AI on Android",
+          "Split its advertising and search businesses",
+          "Pay a fine of €10 billion"
         ],
-        "correctIndex": 0,
-        "explanation": "Ars Technica reported Google warned that the EU-mandated changes could endanger user privacy and security."
+        "correctIndex": 1,
+        "explanation": "ArsTechnica reported that the EU will force Google to share search data with rivals and open up AI on Android."
       }
     },
     {
-      "id": "5ae751fc-4c35-40bd-a14e-e3290df99372",
+      "id": "1bc1e7fa-c53e-461d-acc3-f00c7e354e06",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "HUMANOID ROBOTS STRIKE",
-      "headline": "Hyundai workers strike over fear of humanoid robots",
-      "summary": "Workers at a Hyundai auto factory have gone on strike driven by fears over the planned deployment of humanoid robots. Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028. The walkout highlights growing labour unrest over automation as robot deployment moves from concept to concrete timelines.",
-      "readSeconds": 18,
+      "topicTag": "ROBOTICS STRIKE",
+      "headline": "Workers strike at Hyundai over humanoid robot fears",
+      "summary": "Human workers at a Hyundai auto factory have gone on strike driven by fears that humanoid robots will replace them. Hyundai has announced plans to deploy 25,000 Atlas robots, starting with US factories in 2028. The strike highlights growing worker anxiety about automation in manufacturing as humanoid robots move closer to large-scale deployment.",
+      "readSeconds": 20,
       "sources": [
         "ArsTechnica"
       ],
       "quiz": {
-        "prompt": "How many Atlas robots does Hyundai aim to deploy starting in 2028?",
+        "prompt": "How many Atlas robots does Hyundai plan to deploy starting with US factories in 2028?",
         "options": [
-          "25,000",
           "2,500",
           "10,000",
+          "25,000",
           "50,000"
         ],
-        "correctIndex": 0,
-        "explanation": "Ars Technica reported Hyundai aims to deploy 25,000 Atlas robots beginning with US factories in 2028."
+        "correctIndex": 2,
+        "explanation": "ArsTechnica reported that Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028."
       }
     },
     {
-      "id": "fc7b7ebd-27b3-4732-a7e7-c5a347f6db02",
+      "id": "6fe92a61-d10f-4346-8dae-a1ecc3eca977",
+      "vertical": "tech",
+      "region": "US",
+      "topicTag": "INSIDER TRADING AI",
+      "headline": "White House aide made $100,000 betting on Trump's words",
+      "summary": "Officials are investigating whether a White House teleprompter operator profited by betting on prediction markets based on advance knowledge of what President Trump would say. Reports indicate the aide made around $100,000 from the bets. It is described as the first known instance of suspected insider trading on a prediction market from inside the White House.",
+      "readSeconds": 21,
+      "sources": [
+        "NPR",
+        "ArsTechnica"
+      ],
+      "quiz": {
+        "prompt": "Why is the White House teleprompter operator case described as historically notable?",
+        "options": [
+          "It is the largest insider trading case in US history",
+          "It is the first known insider trading investigation tied to a prediction market from inside the White House",
+          "It involves cryptocurrency for the first time",
+          "It led to a new federal law on prediction markets"
+        ],
+        "correctIndex": 1,
+        "explanation": "NPR described it as the first known instance of officials investigating suspected insider trading on a prediction market from inside the White House."
+      }
+    },
+    {
+      "id": "0526187c-8c31-4894-a7d0-8251b85e96e8",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "AI BRAIN IMPLANT",
-      "headline": "Brain implant lets paralysed man feed himself again",
-      "summary": "A man paralysed from the chest down after a swimming accident six years ago can now move his arms and hands and feel the sensation of touch, thanks to a double neural bypass and months of training. The breakthrough, reported by the Guardian, allowed Keith Thomas to feed himself and drink from a cup. The case represents a significant advance in brain-computer interface technology for paralysis patients.",
-      "readSeconds": 20,
+      "topicTag": "CHINA AI SHIFT",
+      "headline": "US startups switching to cheaper Chinese AI models",
+      "summary": "As American AI products become an increasingly large business expense, some startups are cutting costs by switching to cheaper Chinese AI models. American-led export restrictions have simultaneously pushed China to build its own advanced AI capabilities, intensifying the US-China tech race. China's President Xi has also called for a stepped-up global effort in AI development as US curbs squeeze China's tech access.",
+      "readSeconds": 22,
+      "sources": [
+        "NPR"
+      ],
+      "quiz": {
+        "prompt": "Why are some US startups switching to Chinese AI models according to NPR?",
+        "options": [
+          "Chinese models are more accurate",
+          "US models have been banned in some states",
+          "American AI has become an expensive business cost",
+          "Chinese models are faster to deploy"
+        ],
+        "correctIndex": 2,
+        "explanation": "NPR reported that AI is a fast-growing business expense and some companies are cutting costs by switching to cheaper Chinese AI models."
+      }
+    },
+    {
+      "id": "3c39c466-8e09-4bec-86ab-edfca4746e97",
+      "vertical": "tech",
+      "region": "US",
+      "topicTag": "RANSOMWARE DAIRY",
+      "headline": "Ransomware attack suspends Fairlife dairy production",
+      "summary": "Coca-Cola has confirmed that production at its Fairlife dairy unit has been suspended in the United States following a ransomware attack. The company said production will remain suspended while it addresses the hack. The incident highlights the vulnerability of major food supply chains to cyber threats.",
+      "readSeconds": 18,
+      "sources": [
+        "TechCrunch"
+      ],
+      "quiz": {
+        "prompt": "What caused Coca-Cola's Fairlife dairy unit to suspend US production?",
+        "options": [
+          "A supply chain shortage",
+          "A ransomware attack",
+          "A federal food safety recall",
+          "A workers' strike"
+        ],
+        "correctIndex": 1,
+        "explanation": "TechCrunch reported that Coca-Cola said dairy production at its Fairlife unit will remain suspended following a ransomware hack."
+      }
+    },
+    {
+      "id": "2e450b8a-dd3d-4e48-985a-2e48a9144db7",
+      "vertical": "tech",
+      "region": "Global",
+      "topicTag": "BRAIN IMPLANT",
+      "headline": "Brain implant helps paralysed man feed himself again",
+      "summary": "A man paralysed from the chest down in a swimming accident six years ago has regained the ability to move his arms and hands and feel the sensation of touch after receiving a 'double neural bypass' brain implant. Keith Thomas achieved the recovery after months of training following the procedure. The case represents a significant milestone for neural implant technology in restoring function to paralysed patients.",
+      "readSeconds": 21,
       "sources": [
         "Guardian"
       ],
       "quiz": {
         "prompt": "What procedure allowed Keith Thomas to regain arm movement and touch sensation?",
         "options": [
-          "A double neural bypass combined with months of training",
-          "A full spinal cord transplant",
-          "Gene therapy targeting nerve regeneration",
-          "A robotic exoskeleton linked to eye movements"
+          "Gene therapy",
+          "A robotic exoskeleton",
+          "A double neural bypass brain implant",
+          "Stem cell treatment"
         ],
-        "correctIndex": 0,
-        "explanation": "The Guardian reported that a double neural bypass and months of training enabled Keith Thomas to move his arms and feel touch again."
+        "correctIndex": 2,
+        "explanation": "The Guardian reported that Keith Thomas regained movement and sensation after receiving a 'double neural bypass' brain implant and months of training."
       }
     },
     {
-      "id": "55bafca6-436e-4ae6-a7a3-33ff3fd6d571",
+      "id": "34c5800d-7859-4bd7-9b98-41d159542870",
       "vertical": "tech",
       "region": "Global",
-      "topicTag": "PEGASUS SPYWARE EXPOSED",
-      "headline": "Moroccan insider reveals widespread domestic Pegasus use",
-      "summary": "A former member of Morocco's domestic intelligence service has come forward as a whistleblower, revealing that the country's internal security services deployed Pegasus spyware from 2017 against key domestic and foreign targets. The disclosure provides rare insider confirmation of how the controversial surveillance tool was used within a country's own borders. The revelations add to international scrutiny of Pegasus deployments worldwide.",
-      "readSeconds": 20,
+      "topicTag": "PEGASUS SPYWARE",
+      "headline": "Moroccan insider reveals widespread Pegasus spyware use",
+      "summary": "A former member of Morocco's domestic intelligence service has come forward as a whistleblower to reveal that the country's internal security services deployed Pegasus hacking software from 2017 against key domestic and foreign targets. The disclosure provides new evidence of how widely the controversial spyware has been used by state actors. Pegasus, developed by Israeli firm NSO Group, has previously been linked to surveillance of journalists, activists, and political figures worldwide.",
+      "readSeconds": 22,
       "sources": [
         "Guardian"
       ],
       "quiz": {
-        "prompt": "From what year does the Moroccan whistleblower say Pegasus spyware was deployed internally?",
+        "prompt": "From what year did Morocco's security services reportedly begin deploying Pegasus spyware, according to the whistleblower?",
         "options": [
-          "2017",
-          "2019",
+          "2013",
           "2015",
-          "2021"
+          "2017",
+          "2020"
         ],
-        "correctIndex": 0,
-        "explanation": "The Guardian reported the whistleblower said Morocco's internal security services deployed Pegasus from 2017 against domestic and foreign targets."
+        "correctIndex": 2,
+        "explanation": "The Guardian reported that the whistleblower revealed Morocco's internal security services deployed Pegasus from 2017 against domestic and foreign targets."
       }
     },
     {
-      "id": "bf1ca3cc-b03e-4877-a92c-31c347d07514",
-      "vertical": "tech",
-      "region": "US",
-      "topicTag": "RANSOMWARE DAIRY",
-      "headline": "Ransomware attack halts Fairlife dairy production in US",
-      "summary": "Coca-Cola has confirmed that production at its Fairlife dairy unit will remain suspended in the United States following a ransomware attack. The company did not immediately provide details on when operations would resume. The incident underscores the growing vulnerability of food supply chains to cyberattacks.",
-      "readSeconds": 16,
-      "sources": [
-        "TechCrunch"
-      ],
-      "quiz": {
-        "prompt": "Which Coca-Cola unit had US dairy production suspended after a ransomware attack?",
-        "options": [
-          "Fairlife",
-          "Simply",
-          "Minute Maid",
-          "Gold Peak"
-        ],
-        "correctIndex": 0,
-        "explanation": "TechCrunch reported that Coca-Cola said dairy production at its Fairlife unit would remain suspended following a ransomware hack."
-      }
-    },
-    {
-      "id": "d9410c65-4fad-44a2-a83a-349fb27534bc",
+      "id": "092ccf6e-61b6-45a4-907f-4c085e562d95",
       "vertical": "politics",
       "region": "US",
       "topicTag": "US-IRAN WAR",
-      "headline": "US launches sixth straight night of Iran strikes",
-      "summary": "The United States has mounted its sixth consecutive night of attacks on Iran, with Iranian media reporting that an airport, a bridge, and a communications tower were targeted. Iran has warned of a wider war, and separately condemned one strike as a 'cowardly war crime' after a blast near a children's cancer hospital. The US also boarded a ship in the Strait of Hormuz as the confrontation continued to escalate.",
+      "headline": "US strikes destroy bridges in southern Iran",
+      "summary": "The US military expanded its strikes on Iran, destroying key bridges and a tower in southern Iran, with the Pentagon saying the attacks aimed to further degrade Iranian military capabilities. Iran accused the US of hitting civilian infrastructure. Tehran retaliated by striking targets in Bahrain, Qatar, Oman, Jordan, and Syria, widening the conflict across the Gulf region.",
       "readSeconds": 22,
       "sources": [
         "BBC",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What did Iran warn could follow the continued US strikes?",
-        "options": [
-          "A nuclear test",
-          "A wider war",
-          "An oil embargo",
-          "Closure of the Red Sea"
-        ],
-        "correctIndex": 1,
-        "explanation": "Iranian officials warned that the ongoing US strikes risked escalating into a wider war."
-      }
-    },
-    {
-      "id": "049412ff-2e47-441f-8e23-2702a59a2048",
-      "vertical": "politics",
-      "region": "US",
-      "topicTag": "VANCE ON ISRAEL",
-      "headline": "Vance accuses Israel of manipulating US Iran war opinion",
-      "summary": "US Vice President JD Vance has accused some Israeli politicians of trying to manipulate American public opinion in order to prolong the conflict with Iran. Vance said he believes certain Israeli figures are attempting to derail US efforts to end the fighting. Al Jazeera separately noted that Washington's most difficult partner in the Iran talks may be found within its own alliance.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What did JD Vance accuse some Israeli politicians of trying to do?",
-        "options": [
-          "Negotiate a separate ceasefire with Iran",
-          "Manipulate US public opinion to prolong the Iran war",
-          "Block US arms shipments to Ukraine",
-          "Pressure Congress to declare war on Iran"
-        ],
-        "correctIndex": 1,
-        "explanation": "Vance said he believes some Israeli politicians are trying to manipulate US public opinion in order to prolong the conflict with Iran."
-      }
-    },
-    {
-      "id": "2b0f9bfc-8081-4fe3-a679-a1dd16fd557d",
-      "vertical": "politics",
-      "region": "US",
-      "topicTag": "ELECTION ADDRESS",
-      "headline": "Trump to deliver primetime election integrity address",
-      "summary": "President Trump is scheduled to give a primetime address from the White House focused on election security, though details about the speech remain slim. Critics fear Trump may use the address to spread doubt about election integrity ahead of the 2026 midterms. Trump has for years made false claims about the security of American elections.",
-      "readSeconds": 20,
-      "sources": [
-        "NPRPolitics",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What upcoming event are critics concerned Trump's election integrity address could be aimed at influencing?",
-        "options": [
-          "The 2028 presidential election",
-          "The 2026 midterm elections",
-          "A special Senate runoff",
-          "A Supreme Court confirmation vote"
-        ],
-        "correctIndex": 1,
-        "explanation": "Critics fear Trump may use the primetime address to sow doubt about election integrity ahead of the 2026 midterm elections."
-      }
-    },
-    {
-      "id": "3497fefd-9a7b-4c29-b92f-ded770aad803",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "UKRAINE POLITICS",
-      "headline": "Zelenskyy defends firing popular defence minister",
-      "summary": "Ukrainian President Volodymyr Zelenskyy has defended his decision to dismiss Defence Minister Mykhailo Fedorov, saying he had to choose 'one side or the other' after a breakdown of relations between the ministry and military leaders. Fedorov was widely credited with advancing Ukraine's drone warfare capabilities and was considered the country's tech-savvy defence innovator. The dismissal has sparked protests and intense political criticism inside Ukraine.",
-      "readSeconds": 22,
-      "sources": [
-        "BBC",
-        "NPRWorld",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "What was Fedorov particularly known for during his tenure as Ukraine's defence minister?",
-        "options": [
-          "Negotiating peace talks with Russia",
-          "Advancing Ukraine's drone warfare capabilities",
-          "Overseeing recruitment and conscription",
-          "Managing foreign weapons procurement contracts"
-        ],
-        "correctIndex": 1,
-        "explanation": "Fedorov was widely credited with advancing Ukraine's use of drones on the battlefield and was regarded as the country's tech-savvy defence innovator."
-      }
-    },
-    {
-      "id": "7f231b59-8569-4e41-b0b3-dbd679b6de3e",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "EBOLA DIVERGENCE",
-      "headline": "Uganda Ebola-free as DRC outbreak worsens sharply",
-      "summary": "Uganda has discharged its last Ebola patient and begun a 42-day countdown to officially declaring its outbreak over, while also lobbying for travel restrictions to be lifted. In stark contrast, the WHO has warned that the Ebola outbreak in the Democratic Republic of the Congo has expanded faster than any previous outbreak on record. The diverging situations highlight the difficulty of containing the virus across borders.",
-      "readSeconds": 21,
-      "sources": [
-        "BBC",
-        "Guardian",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What milestone did Uganda reach in its Ebola situation?",
-        "options": [
-          "It vaccinated one million people",
-          "It discharged its last Ebola patient",
-          "It closed all land borders",
-          "It received a new WHO emergency grant"
-        ],
-        "correctIndex": 1,
-        "explanation": "Uganda discharged its last remaining Ebola patient and began the 42-day countdown required to officially declare the outbreak over."
-      }
-    },
-    {
-      "id": "0edd88c7-d660-45ce-807a-43e6b39ce967",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "CANADIAN WILDFIRES",
-      "headline": "Canadian wildfire smoke triggers US air quality alerts",
-      "summary": "Smoke from more than 800 wildfires in Canada has spread south, triggering air quality alerts across 20 US states from Minnesota to New York. Wildfires in Ontario made Toronto's air quality the worst in the world, turning the sky over the city yellow. Authorities in both countries urged people to stay indoors as conditions deteriorated.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "quiz": {
-        "prompt": "Approximately how many wildfires were burning in Canada as smoke spread into the United States?",
-        "options": [
-          "More than 800",
-          "Around 200",
-          "Roughly 400",
-          "Just under 100"
-        ],
-        "correctIndex": 0,
-        "explanation": "Smoke from more than 800 Canadian wildfires spread south, triggering air quality alerts across 20 US states."
-      }
-    },
-    {
-      "id": "be4c6677-b197-40d0-abb8-89b5707ac016",
-      "vertical": "politics",
-      "region": "Global",
-      "topicTag": "VENEZUELA EARTHQUAKE",
-      "headline": "Venezuela earthquake death toll rises to nearly 5,000",
-      "summary": "The number of confirmed dead from Venezuela's earthquake has risen to nearly 5,000, with the UN estimating that around 50,000 people are still missing and many more feared dead under rubble. The scale of the disaster has pushed Venezuela's ongoing democratic crisis into the background as the country focuses on recovery. The earthquakes struck with twin tremors that caused widespread destruction.",
-      "readSeconds": 20,
-      "sources": [
         "AlJazeera",
         "NPRWorld"
       ],
       "quiz": {
-        "prompt": "How many people does the UN estimate are still missing following Venezuela's earthquake?",
+        "prompt": "Which countries did Iran strike in retaliation for the latest US attacks?",
         "options": [
-          "Around 5,000",
-          "Approximately 10,000",
-          "About 50,000",
-          "Nearly 100,000"
+          "Saudi Arabia, Iraq, Kuwait, and UAE",
+          "Bahrain, Qatar, Oman, Jordan, and Syria",
+          "Israel, Turkey, Egypt, and Lebanon",
+          "UAE, Yemen, Sudan, and Libya"
         ],
-        "correctIndex": 2,
-        "explanation": "The UN estimates approximately 50,000 people are missing following the Venezuela earthquake, with many more feared dead under rubble."
+        "correctIndex": 1,
+        "explanation": "According to the reports, Iran struck Bahrain, Qatar, Oman, Jordan, and Syria in retaliation for the intensified US strikes on southern Iran."
       }
     },
     {
-      "id": "c4d54b41-0a5f-40aa-8adc-5931cb512272",
+      "id": "0290947b-3c57-427f-aedb-c99562795bd9",
       "vertical": "politics",
       "region": "US",
-      "topicTag": "ICE BODY CAMERAS",
-      "headline": "ICE agents still lack body cameras after DHS pledge",
-      "summary": "The Department of Homeland Security pledged months ago to equip all immigration agents with body cameras, but that commitment has not been fulfilled. In recent days, federal immigration agents fatally shot two immigrant fathers, and none of the officers involved were wearing body cameras. The White House separately confirmed that ICE traffic stops will continue despite the deadly incidents.",
+      "topicTag": "VANCE-ISRAEL RIFT",
+      "headline": "Vance accuses Israel of manipulating US public opinion",
+      "summary": "US Vice President JD Vance publicly accused some Israeli politicians of trying to manipulate American public opinion in order to prolong the conflict with Iran. Vance said he believed those politicians were attempting to derail US efforts to bring the fighting to an end. The remarks represent a rare and striking public split between the Trump administration and a close American ally.",
       "readSeconds": 20,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "What did JD Vance accuse some Israeli politicians of doing?",
+        "options": [
+          "Sharing classified intelligence with Iran",
+          "Manipulating US public opinion to prolong the Iran war",
+          "Blocking US access to Gulf military bases",
+          "Lobbying Congress to cut aid to Ukraine"
+        ],
+        "correctIndex": 1,
+        "explanation": "Vance said he believed some Israeli politicians were trying to manipulate US public opinion in order to derail efforts to end the conflict with Iran."
+      }
+    },
+    {
+      "id": "2b127b7f-365c-479a-9ee3-3aa971763605",
+      "vertical": "politics",
+      "region": "US",
+      "topicTag": "TRUMP ELECTION SPEECH",
+      "headline": "Trump claims voting systems vulnerable, offers no evidence",
+      "summary": "President Trump delivered a primetime White House address raising claims that US voting systems are vulnerable to being rigged and stolen, without providing new evidence of a single fraudulent vote in any election. Trump also alleged China meddled in the 2020 election, claims Beijing called fabricated. Democrats accused Trump of laying the groundwork to undermine confidence ahead of the midterm elections.",
+      "readSeconds": 22,
+      "sources": [
+        "NPRPolitics",
+        "AlJazeera",
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "What did Trump claim in his primetime address without providing new evidence?",
+        "options": [
+          "That Russia hacked the 2026 World Cup ballot",
+          "That US voting systems are vulnerable to being rigged and stolen",
+          "That mail-in ballots were destroyed in swing states",
+          "That the Federal Election Commission had been compromised"
+        ],
+        "correctIndex": 1,
+        "explanation": "Trump claimed US voting systems were vulnerable to being rigged and stolen but offered no new evidence of a single fraudulent vote cast in any election."
+      }
+    },
+    {
+      "id": "4d51d45f-cb1a-44a1-9e5f-1a32b7332b77",
+      "vertical": "politics",
+      "region": "US",
+      "topicTag": "LEFT-WING TERRORISM SUMM",
+      "headline": "Rubio convenes 60-plus nations on left-wing violence",
+      "summary": "Secretary of State Marco Rubio hosted leaders from more than 60 countries in Washington to discuss what the Trump administration characterises as an urgent threat from far-left political terrorism. The summit signals a deliberate reframing by the administration of the global counterterrorism agenda around left-wing, rather than Islamist or far-right, extremism. The gathering drew both international participation and domestic criticism.",
+      "readSeconds": 20,
+      "sources": [
+        "NPRPolitics",
+        "NPRWorld"
+      ],
+      "quiz": {
+        "prompt": "How many countries attended the summit convened by Secretary Rubio on left-wing political violence?",
+        "options": [
+          "More than 60",
+          "Around 30",
+          "Exactly 15",
+          "Nearly 100"
+        ],
+        "correctIndex": 0,
+        "explanation": "Reports state that leaders from more than 60 countries gathered in Washington for the summit convened by Secretary of State Marco Rubio."
+      }
+    },
+    {
+      "id": "7c0455af-9c45-451d-bf5e-d65914810ade",
+      "vertical": "politics",
+      "region": "US",
+      "topicTag": "ICE FORCE POLICY",
+      "headline": "White House confirms ICE traffic stops will continue",
+      "summary": "The White House confirmed that ICE traffic stops will continue despite earlier widespread reports suggesting they would be paused following the fatal shootings of two migrants by ICE agents. A new report also found that ICE officers' use of force has risen since President Trump began his second term. Mexico has formally requested that US state attorneys general criminally investigate cases involving deaths of Mexican migrants in ICE custody or operations.",
+      "readSeconds": 22,
       "sources": [
         "NPRPolitics",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What was notable about the ICE officers involved in the recent fatal shootings of two immigrant fathers?",
+        "prompt": "Why had reports suggested ICE traffic stops might be paused?",
         "options": [
-          "They were operating without warrants",
-          "None of them were wearing body cameras",
-          "They had not received use-of-force training",
-          "They were acting against direct orders"
+          "A federal court issued an injunction blocking them",
+          "Two migrants were fatally shot by ICE agents",
+          "Congress passed a resolution demanding a halt",
+          "An internal audit found widespread misconduct"
         ],
         "correctIndex": 1,
-        "explanation": "None of the federal immigration officers involved in the fatal shootings of two immigrant fathers were wearing body cameras, despite DHS having pledged to equip all agents with them."
+        "explanation": "Reports of a potential pause arose after two immigrants were fatally shot by ICE agents, but the White House subsequently confirmed the stops would continue."
       }
     },
     {
-      "id": "104f4c3a-158e-4615-b933-b34159c7a360",
+      "id": "cd5169cf-12d4-4d54-9d36-9c4477244db7",
       "vertical": "politics",
       "region": "Global",
-      "topicTag": "GENOA BRIDGE VERDICT",
-      "headline": "Italian motorway chief jailed over Genoa bridge collapse",
-      "summary": "Thirty-two people have been convicted over the 2018 collapse of the Morandi Bridge in Genoa, which killed 43 people. Former motorway operator chief Giovanni Castellucci received a 12-year prison sentence, the highest handed down in the case. The verdict follows years of legal proceedings over one of Italy's deadliest modern infrastructure disasters.",
-      "readSeconds": 19,
+      "topicTag": "UKRAINE POLITICS",
+      "headline": "Zelenskyy defends firing popular defence minister Fedorov",
+      "summary": "Ukraine's President Volodymyr Zelenskyy defended his dismissal of Defence Minister Mykhailo Fedorov, saying he had to choose sides after a breakdown in relations between the ministry and military leaders, particularly Commander-in-Chief Oleksandr Syrskyi. Fedorov had been credited with pioneering drone warfare and bringing battlefield innovation to Ukraine. Rallies in support of Fedorov have exposed what analysts describe as a significant political challenge for Zelenskyy.",
+      "readSeconds": 22,
       "sources": [
         "BBC",
+        "NPRWorld",
         "Guardian",
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "How many people were killed in the 2018 Genoa Morandi Bridge collapse?",
+        "prompt": "What was cited as the core reason for Zelenskyy's decision to fire Fedorov?",
         "options": [
-          "43",
-          "27",
-          "61",
-          "18"
+          "Fedorov was accused of corruption and bribery",
+          "A breakdown in relations between the ministry and military chief Syrskyi",
+          "Fedorov had secretly negotiated with Russia",
+          "NATO pressure to install a more senior official"
         ],
-        "correctIndex": 0,
-        "explanation": "The 2018 collapse of the Morandi Bridge in Genoa killed 43 people, leading to the convictions of 32 individuals including former motorway chief Giovanni Castellucci."
+        "correctIndex": 1,
+        "explanation": "Reports indicate a rift between Fedorov and Commander-in-Chief Oleksandr Syrskyi was at the heart of Zelenskyy's decision to dismiss the defence minister."
       }
     },
     {
-      "id": "ec9c2c52-c1fc-4afc-840d-5f982a24c7dd",
+      "id": "9bbd6ee3-4296-4550-97f1-be74d3f6aa36",
       "vertical": "politics",
-      "region": "US",
-      "topicTag": "INSIDER TRADING",
-      "headline": "White House staffer probed for betting on Trump speeches",
-      "summary": "A White House teleprompter operator has been accused of using inside knowledge of President Trump's speeches to make nearly $100,000 in bets on the prediction market platform Kalshi. Officials are now investigating the case, which is described as the first known instance of suspected insider trading on a prediction market originating from inside the White House. The staffer is alleged to have used advance access to speech content to place winning trades.",
-      "readSeconds": 21,
+      "region": "Global",
+      "topicTag": "ISRAEL ELECTION",
+      "headline": "Israel's Knesset dissolves, election set for October",
+      "summary": "Israel's parliament, the Knesset, has dissolved ahead of a general election scheduled for October 27, 2026, marking the first full parliamentary term since 1988. Prime Minister Netanyahu's political survival is said to be at stake in the vote. The dissolution comes as Israel is simultaneously engaged in military conflict involving Iran.",
+      "readSeconds": 18,
       "sources": [
-        "BBC",
-        "NPRPolitics"
+        "AlJazeera"
       ],
       "quiz": {
-        "prompt": "Which prediction market platform was allegedly used by the White House staffer to place bets on Trump's speeches?",
+        "prompt": "When is Israel's general election scheduled following the Knesset's dissolution?",
         "options": [
-          "PredictIt",
-          "Polymarket",
-          "Kalshi",
-          "Metaculus"
+          "March 2026",
+          "July 2026",
+          "October 27, 2026",
+          "January 2027"
         ],
         "correctIndex": 2,
-        "explanation": "The White House teleprompter operator is accused of using inside knowledge of Trump's speeches to make nearly $100,000 on the prediction market platform Kalshi."
+        "explanation": "According to reports, Israel's general election is scheduled for October 27, 2026, following the dissolution of the Knesset."
       }
     },
     {
-      "id": "c364c0df-42eb-44ba-a743-99d46b93b249",
+      "id": "814c3c4b-b378-425b-9bb6-b224edcdcd35",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "EBOLA UPDATE",
+      "headline": "Uganda discharges last Ebola patient, seeks travel relief",
+      "summary": "Uganda discharged its last Ebola patient and began a 42-day countdown to the outbreak being officially declared over, prompting the country to lobby other nations to lift travel restrictions. The WHO chief separately warned that the Ebola virus in the neighbouring Democratic Republic of the Congo is spreading rapidly. A US national who contracted Ebola in the DRC has been flown to Germany for treatment after the Trump administration barred Americans from flying to the US on commercial flights.",
+      "readSeconds": 22,
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What significant step did Uganda take after discharging its last Ebola patient?",
+        "options": [
+          "It imposed new border controls with the DRC",
+          "It began lobbying countries to lift Ebola-related travel restrictions",
+          "It declared a national health emergency",
+          "It requested emergency WHO funding"
+        ],
+        "correctIndex": 1,
+        "explanation": "After discharging its last Ebola patient, Uganda started lobbying other countries to lift travel restrictions and began a 42-day countdown to officially declaring the outbreak over."
+      }
+    },
+    {
+      "id": "fe8ad3f5-c25e-4df0-9b23-11d0a33f87f8",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "CANADIAN WILDFIRE SMOKE",
+      "headline": "Canadian wildfire smoke blankets US and Canadian cities",
+      "summary": "Smoke from more than 800 wildfires in Canada, including over 100 active blazes in Ontario alone, has caused severe air quality alerts across 20 US states, stretching from the Midwest and Great Lakes to New York. Toronto's air quality was ranked the worst in the world, with authorities urging residents to stay indoors. Environment Canada issued health warnings as skies over major cities turned yellow.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "How many wildfires were burning in Canada, producing smoke that affected the US and Canada?",
+        "options": [
+          "More than 800",
+          "Around 200",
+          "Roughly 50",
+          "More than 1,500"
+        ],
+        "correctIndex": 0,
+        "explanation": "Reports state that smoke from more than 800 blazes filled major cities across Canada and the US, prompting widespread air quality alerts."
+      }
+    },
+    {
+      "id": "5c5465a8-9eb6-4583-869a-720355a29048",
+      "vertical": "politics",
+      "region": "Global",
+      "topicTag": "ITALY BRIDGE VERDICT",
+      "headline": "Italian officials jailed for deadly Genoa bridge collapse",
+      "summary": "Italian courts handed jail terms to officials responsible for the 2018 Genoa bridge collapse, which killed 43 people. The former head of Italy's motorway operator, Giovanni Castellucci, received a 12-year sentence. The verdict follows years of legal proceedings into the disaster that shocked Europe and prompted widespread debate about infrastructure safety.",
+      "readSeconds": 18,
+      "sources": [
+        "BBC"
+      ],
+      "quiz": {
+        "prompt": "How many people were killed in the 2018 Genoa bridge collapse at the centre of the Italian court verdicts?",
+        "options": [
+          "17",
+          "43",
+          "28",
+          "61"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reports state that the 2018 Genoa bridge collapse killed 43 people, leading to the jail terms handed down to officials including ex-motorway operator chief Giovanni Castellucci."
+      }
+    },
+    {
+      "id": "9c03b78b-e9a7-440e-880a-fcf1036865ec",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "WORLD CUP FINAL",
+      "headline": "Trump to present trophy as Spain face Argentina",
+      "summary": "Donald Trump will attend Sunday's World Cup final and present the trophy to the winning side, with rings also to be awarded to the victorious team. Spanish Prime Minister Pedro Sanchez will also be in attendance to support Spain. The final pits two historic footballing nations against each other in what promises to be a blockbuster occasion.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "Guardian",
+        "CBSSports"
+      ],
+      "quiz": {
+        "prompt": "Who will present the trophy at the 2026 World Cup final?",
+        "options": [
+          "Gianni Infantino",
+          "Pedro Sanchez",
+          "Donald Trump",
+          "Keir Starmer"
+        ],
+        "correctIndex": 2,
+        "explanation": "According to reports, Donald Trump will present the trophy to the World Cup final winners on Sunday."
+      }
+    },
+    {
+      "id": "cb3fe0fd-cf06-4209-93c6-3e288e2eac5e",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "OPEN CHAMPIONSHIP",
-      "headline": "Suber leads Open as McIlroy struggles at Birkdale",
-      "summary": "American Jackson Suber moved to the top of the leaderboard at five under par after sinking an eagle on the 17th hole in the first round of the Open Championship at Royal Birkdale. Defending champion Scottie Scheffler and Bryson DeChambeau also made encouraging starts, while Rory McIlroy posted a sluggish round of 72. England's Dan Brown led the home contingent as attention shifts to golf following the national football team's World Cup exit.",
+      "headline": "Unknown Suber leads Open; McIlroy struggles at Birkdale",
+      "summary": "American Jackson Suber moved to the top of the Open Championship leaderboard after sinking an eagle on the 17th hole to reach five under par in the first round at Royal Birkdale. Rory McIlroy had a difficult opening round, with CBS Sports noting the course proved a tough test for the big names. World number one Scottie Scheffler was also among the early contenders.",
       "readSeconds": 22,
       "sources": [
         "BBC",
         "Guardian",
-        "SkySports"
+        "CBSSports"
       ],
       "quiz": {
-        "prompt": "Who led the Open Championship leaderboard after the first round at Royal Birkdale?",
+        "prompt": "How did Jackson Suber move to the top of the Open leaderboard?",
         "options": [
-          "Scottie Scheffler",
-          "Rory McIlroy",
-          "Jackson Suber",
-          "Bryson DeChambeau"
+          "A hole-in-one on the 18th",
+          "A birdie on the final hole",
+          "An eagle on the 17th hole",
+          "A chip-in on the 16th"
         ],
         "correctIndex": 2,
-        "explanation": "Jackson Suber moved to the top of the leaderboard on five under par after sinking an eagle on the 17th hole in round one."
+        "explanation": "Suber sank an eagle on the 17th hole to move to five under par and the top of the leaderboard at Royal Birkdale."
       }
     },
     {
-      "id": "ffc2a833-439d-4c60-a52c-a82523d7942b",
+      "id": "cda53af4-c48d-4e6c-9cfe-139799ea4a44",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "TUCHEL FUTURE",
-      "headline": "Tuchel vows '100%' commitment to England for Euro 2028",
-      "summary": "Thomas Tuchel says he is fully committed to remaining as England manager and leading the team at Euro 2028, despite fierce criticism over his defensive tactics in the 2-1 World Cup semi-final defeat to Argentina. BBC Sport reports that England players are hotly debating those tactics internally, and reports also suggest Tuchel was unhappy with Kobbie Mainoo's attitude during the tournament. Commentators including Gary Neville argue England's issues run deeper than any one manager, pointing to long-standing structural problems in English football.",
-      "readSeconds": 24,
+      "topicTag": "ENGLAND WORLD CUP",
+      "headline": "England players unhappy with Tuchel's defensive tactics",
+      "summary": "BBC Sport understands that Thomas Tuchel's defensive tactics in the World Cup semi-final defeat to Argentina are being hotly debated within the England squad, with some players disappointed by the approach. England captain Harry Kane said the team are \"missing that final piece of the jigsaw\" and need to find a way to improve. Former England captain Alan Shearer believes Tuchel will not be fazed by the criticism he has faced.",
+      "readSeconds": 22,
       "sources": [
         "BBC",
-        "Guardian",
-        "SkySports"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "What tournament has Tuchel pledged to lead England at following the World Cup exit?",
+        "prompt": "What did Harry Kane say England are missing after the Argentina defeat?",
         "options": [
-          "2027 Nations League",
-          "Euro 2028",
-          "2030 World Cup",
-          "Copa America 2028"
+          "A world-class goalkeeper",
+          "The final piece of the jigsaw",
+          "Tactical discipline",
+          "A consistent striker"
         ],
         "correctIndex": 1,
-        "explanation": "Tuchel stated he is '100%' committed to continuing as England manager into Euro 2028."
+        "explanation": "England captain Harry Kane said the team are \"missing that final piece of the jigsaw\" following the semi-final defeat to Argentina."
       }
     },
     {
-      "id": "5d32edc5-3e0a-49eb-aee0-fb738b6d9afe",
+      "id": "70100dab-88fd-41eb-83b9-08da9211c4bf",
       "vertical": "sports",
       "region": "Global",
-      "topicTag": "WORLD CUP FINAL",
-      "headline": "New York issues air quality alert before World Cup final",
-      "summary": "Officials in New York and New Jersey issued an air quality health alert due to wildfire smoke just days before the World Cup final is set to be played there. Spain and Argentina are preparing to face each other for the sport's biggest prize on Sunday. Predicted lineups and tactics are already being widely discussed as the footballing world turns its attention to the showpiece event.",
+      "topicTag": "FIFA GOVERNANCE",
+      "headline": "Infantino backed by 200+ nations for fourth FIFA term",
+      "summary": "Gianni Infantino has received formal endorsement from more than 200 countries for re-election as FIFA president, despite the controversy surrounding the Balogun affair. UEFA has made its opposition clear on a number of issues, and only a handful of football associations have not declared their support for Infantino. The endorsements come amid ongoing scrutiny of FIFA's handling of the World Cup.",
       "readSeconds": 20,
       "sources": [
-        "BBC",
-        "CBSSports"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "What caused the air quality alert issued near the World Cup final venue?",
+        "prompt": "How many countries have formally endorsed Infantino for a fourth FIFA term?",
         "options": [
-          "Industrial pollution",
-          "Wildfire smoke",
-          "Heavy traffic",
-          "Construction dust"
+          "More than 100",
+          "More than 150",
+          "More than 200",
+          "All 211 FIFA members"
         ],
-        "correctIndex": 1,
-        "explanation": "Officials in New York and New Jersey issued the air quality health alert specifically because of wildfire smoke."
+        "correctIndex": 2,
+        "explanation": "More than 200 countries have formally endorsed Gianni Infantino for re-election as FIFA president, with only a handful yet to declare support."
       }
     },
     {
-      "id": "15a5bfd5-7798-46b5-b0de-2051e5d99112",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "MESSI YAMAL PHOTO",
-      "headline": "Viral Messi-Yamal baby photo captures football's destiny",
-      "summary": "Photos of Lionel Messi posing with baby Lamine Yamal for a 2007 charity calendar have resurfaced ahead of the World Cup final between Argentina and Spain. The photographer, Joan Monfort, said he had no idea at the time who the baby was. The images have gone viral, with the two players now set to face each other on the world's biggest stage nearly two decades after the pictures were taken.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "Guardian",
-        "CBSSports"
-      ],
-      "quiz": {
-        "prompt": "In what year was the charity calendar photo of Messi and baby Lamine Yamal taken?",
-        "options": [
-          "2005",
-          "2007",
-          "2009",
-          "2010"
-        ],
-        "correctIndex": 1,
-        "explanation": "The photographer Joan Monfort took the photos for a charity calendar in 2007, when Lamine Yamal was a baby."
-      }
-    },
-    {
-      "id": "01826c94-3499-4cd2-937c-9e893b72e726",
+      "id": "32a424c6-76b2-4933-a857-ada31da2ee90",
       "vertical": "sports",
       "region": "Global",
       "topicTag": "TOUR DE FRANCE",
-      "headline": "Merlier completes Tour de France hat-trick on stage 12",
-      "summary": "Tim Merlier of Soudal Quick-Step won stage 12 of the Tour de France 2026, edging out Kooij and Philipsen in what is likely the final sprint stage of this year's race. Tadej Pogacar safely retained the yellow jersey. The victory gave Merlier a hat-trick of stage wins at this year's Tour.",
+      "headline": "Merlier completes Tour de France sprint hat-trick on stage 12",
+      "summary": "Tim Merlier of Soudal Quick-Step won stage 12 of the Tour de France 2026, claiming his third stage victory of this year's race after pipping Kooij and Philipsen. The stage was considered the likely final sprint stage of this year's Tour. Tadej Pogacar safely retained the yellow jersey.",
       "readSeconds": 18,
       "sources": [
         "Guardian"
       ],
       "quiz": {
-        "prompt": "How many stage wins did Tim Merlier have at the 2026 Tour de France after stage 12?",
+        "prompt": "Who did Tim Merlier ride for when winning his Tour de France stage hat-trick?",
         "options": [
-          "One",
-          "Two",
-          "Three",
-          "Four"
+          "Visma-Lease a Bike",
+          "UAE Team Emirates",
+          "Soudal Quick-Step",
+          "Ineos Grenadiers"
         ],
         "correctIndex": 2,
-        "explanation": "Stage 12 was described as giving Merlier a hat-trick of stage wins at this year's Tour de France."
+        "explanation": "Tim Merlier rides for Soudal Quick-Step and claimed his third stage win of the 2026 Tour de France on stage 12."
       }
     },
     {
-      "id": "8898c634-9882-44e1-8068-f31e4c0f7cef",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "ARSENAL TRANSFER",
-      "headline": "Arsenal close in on £34m deal for winger Tzolis",
-      "summary": "Arsenal have agreed a deal worth up to €40m (£34m) with Club Brugge to sign Greek winger Christos Tzolis, according to multiple reports. The signing is seen as a replacement for Leandro Trossard and comes as the club also faces the need to find defensive cover following a back injury to William Saliba. Surgery is listed as one option for Saliba as Arsenal assess the problem.",
-      "readSeconds": 20,
-      "sources": [
-        "Guardian",
-        "SkySports"
-      ],
-      "quiz": {
-        "prompt": "Which club are Arsenal signing Christos Tzolis from?",
-        "options": [
-          "Feyenoord",
-          "Club Brugge",
-          "Ajax",
-          "Anderlecht"
-        ],
-        "correctIndex": 1,
-        "explanation": "Arsenal agreed a deal worth up to €40m with Club Brugge to sign Greek winger Christos Tzolis."
-      }
-    },
-    {
-      "id": "b7646eca-198b-4ab8-b0d3-54494fa42d7f",
-      "vertical": "sports",
-      "region": "Global",
-      "topicTag": "CRICKET ODI",
-      "headline": "Root's 99 not out levels England-India ODI series",
-      "summary": "Joe Root hit an unbeaten 99 to guide England to a four-wicket win over India in the second one-day international in Cardiff, levelling the three-match series. England recovered after a dismal start that saw them fall to 8-2 in the fourth over, with both openers dismissed cheaply and captain Harry Brook out for 16 after a poor shot. The deciding third ODI now awaits.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "SkySports"
-      ],
-      "quiz": {
-        "prompt": "What score did Joe Root finish on in England's series-levelling ODI win over India?",
-        "options": [
-          "89 not out",
-          "95 not out",
-          "99 not out",
-          "101 not out"
-        ],
-        "correctIndex": 2,
-        "explanation": "Root finished on 99 not out, just one run short of a century, as England won by four wickets to level the series."
-      }
-    },
-    {
-      "id": "765de9ca-c5b7-43a6-9f2c-4b54991fdd70",
+      "id": "eaf24162-5c94-4771-9ee2-ec8bbf334077",
       "vertical": "sports",
       "region": "US",
-      "topicTag": "US SOCCER FUTURE",
-      "headline": "US Soccer coy on Pochettino and post-World Cup direction",
-      "summary": "US Soccer Federation chief executive JT Batson declined to confirm whether the federation regrets President Trump's involvement in the Folarin Balogun red-card saga, saying only that 'the president is the president.' Batson also confirmed that talks with Mauricio Pochettino over the USMNT head coach role remain active, while the sporting director position remains unfilled following the departure of Brian Crocker. The federation says it will 'take a break' before finalising its long-term structure ahead of the 2030 World Cup.",
-      "readSeconds": 24,
-      "sources": [
-        "Guardian",
-        "CBSSports"
-      ],
-      "quiz": {
-        "prompt": "What role at US Soccer remains unfilled following Brian Crocker's exit?",
-        "options": [
-          "Head coach",
-          "Sporting director",
-          "Chief executive",
-          "Technical director"
-        ],
-        "correctIndex": 1,
-        "explanation": "The sporting director position at US Soccer was left unfilled after Brian Crocker departed, and Batson confirmed it has not yet been filled."
-      }
-    },
-    {
-      "id": "1aeaeacb-8b5d-4d90-ab59-9c734205f9e9",
-      "vertical": "sports",
-      "region": "US",
-      "topicTag": "MCGREGOR VIEWERSHIP",
-      "headline": "McGregor's UFC return draws 16 million viewers on Paramount+",
-      "summary": "Conor McGregor's return at UFC 329 drew nearly 16 million viewers on Paramount+ across the US and Latin America, making it a massive commercial success for the platform. McGregor had previously vowed to fight again after his 69-second return to the octagon. The viewing figures underline the enduring star power of the Irish fighter.",
+      "topicTag": "MCGREGOR UFC RETURN",
+      "headline": "McGregor's UFC return draws 16 million Paramount+ viewers",
+      "summary": "Conor McGregor's return at UFC 329 drew nearly 16 million viewers on Paramount+ across the US and Latin America, marking a massive commercial success for the platform. The fight was McGregor's first in over five years. McGregor had previously vowed to fight again after his 69-second return.",
       "readSeconds": 18,
       "sources": [
         "CBSSports"
@@ -939,270 +860,340 @@
           "20 million"
         ],
         "correctIndex": 2,
-        "explanation": "McGregor's UFC 329 return drew nearly 16 million viewers on Paramount+ across the US and Latin America."
+        "explanation": "McGregor's UFC 329 return drew nearly 16 million viewers on Paramount+ in the US and Latin America."
       }
     },
     {
-      "id": "b9328061-ca57-4193-9e2a-25cf57e94795",
+      "id": "1b9edddf-8318-444e-9d39-73afb6170ba8",
       "vertical": "sports",
       "region": "US",
-      "topicTag": "NBA INVESTIGATION",
-      "headline": "NBA investigates Gary Trent Jr.'s $64m Bucks extension",
-      "summary": "The NBA is looking into the circumstances surrounding Gary Trent Jr.'s $64 million contract extension with the Milwaukee Bucks, with salary cap circumvention allegations emerging as soon as the deal was reported. The league has raised eyebrows over the structure of the contract. No formal findings have been announced yet.",
+      "topicTag": "NBA GIANNIS HEAT",
+      "headline": "Giannis joins Heat; Riley hints at LeBron pursuit",
+      "summary": "Giannis Antetokounmpo was formally introduced as a member of the Miami Heat on Thursday, wearing the number 7. Pat Riley used the occasion to hint at the franchise's interest in pursuing LeBron James. The moves signal a significant reshaping of Miami's roster.",
       "readSeconds": 18,
       "sources": [
         "CBSSports"
       ],
       "quiz": {
-        "prompt": "How much is Gary Trent Jr.'s contract extension with the Bucks reported to be worth?",
+        "prompt": "What squad number will Giannis Antetokounmpo wear at the Miami Heat?",
         "options": [
-          "$48 million",
-          "$55 million",
-          "$64 million",
-          "$72 million"
+          "34",
+          "7",
+          "24",
+          "6"
         ],
-        "correctIndex": 2,
-        "explanation": "The NBA is investigating Gary Trent Jr.'s $64 million extension with the Milwaukee Bucks amid salary cap circumvention allegations."
+        "correctIndex": 1,
+        "explanation": "Giannis Antetokounmpo was introduced wearing the number 7 for the Miami Heat."
       }
     },
     {
-      "id": "b1aa20e3-865f-4d43-93fa-586f69f5842f",
+      "id": "de110a84-ad40-437c-95dc-cf6fcc3e29f7",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "ARSENAL TRANSFER",
+      "headline": "Arsenal close in on £34m deal for Tzolis from Brugge",
+      "summary": "Arsenal have agreed a deal worth up to €40m (£34m) with Club Brugge to sign Greek international forward Christos Tzolis. The signing is intended as a replacement for Leandro Trossard. Arsenal are also reportedly targeting Aston Villa's Morgan Rogers as their top forward target this summer.",
+      "readSeconds": 18,
+      "sources": [
+        "Guardian",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "Which club are Arsenal signing Christos Tzolis from?",
+        "options": [
+          "Ajax",
+          "Feyenoord",
+          "Club Brugge",
+          "Anderlecht"
+        ],
+        "correctIndex": 2,
+        "explanation": "Arsenal agreed a deal worth up to €40m with Club Brugge to sign Greek international Christos Tzolis."
+      }
+    },
+    {
+      "id": "b31505c6-5f11-4d79-88e6-e18f22c99627",
+      "vertical": "sports",
+      "region": "Global",
+      "topicTag": "CRICKET ODI",
+      "headline": "Root's 99 not out levels England-India ODI series",
+      "summary": "Joe Root hit an unbeaten 99 to guide England to a four-wicket win over India in the second one-day international in Cardiff, levelling the three-match series. Root's innings rescued England after captain Harry Brook was dismissed for 16 following a reckless shot, leaving his side 53-3 chasing 234. The decider now awaits.",
+      "readSeconds": 20,
+      "sources": [
+        "BBC",
+        "SkySports"
+      ],
+      "quiz": {
+        "prompt": "What score did Joe Root finish on in England's second ODI win over India?",
+        "options": [
+          "99 not out",
+          "100 not out",
+          "89 not out",
+          "102"
+        ],
+        "correctIndex": 0,
+        "explanation": "Joe Root finished on 99 not out, guiding England to a four-wicket win to level the series."
+      }
+    },
+    {
+      "id": "b45fec85-d5e8-4230-ad53-7813c8fb089a",
+      "vertical": "sports",
+      "region": "US",
+      "topicTag": "WNBA CHARTER",
+      "headline": "WNBA Liberty game postponed after charter plane issues",
+      "summary": "The New York Liberty had a game against the Dallas Wings postponed after their charter plane experienced mechanical issues, leaving the team stuck on the tarmac for over 10 hours on Wednesday. The WNBA stepped in to postpone the fixture. The incident highlights ongoing logistical challenges in the women's league.",
+      "readSeconds": 18,
+      "sources": [
+        "CBSSports"
+      ],
+      "quiz": {
+        "prompt": "How long were the New York Liberty stuck on the tarmac due to plane issues?",
+        "options": [
+          "Over 4 hours",
+          "Over 6 hours",
+          "Over 10 hours",
+          "Over 12 hours"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Liberty were stuck on the tarmac for over 10 hours after their charter plane experienced mechanical issues."
+      }
+    },
+    {
+      "id": "e2acfa21-1787-44ce-afba-2e6a946d69ca",
       "vertical": "general",
       "region": "US",
       "topicTag": "US-IRAN WAR",
-      "headline": "US launches sixth straight night of Iran strikes",
-      "summary": "The US has carried out its sixth consecutive night of strikes on Iran, with Iranian media reporting airports, bridges and a communications tower were targeted. Iran condemned one attack near a children's cancer hospital as a 'barbaric war crime', while Tehran warned of a wider war. The US also boarded a ship in the Strait of Hormuz in an apparent escalation of the conflict.",
+      "headline": "US strikes Iranian bridges as Tehran hits Gulf states",
+      "summary": "The US military destroyed key bridges and a tower in southern Iran, with strikes described as aimed at further degrading Iranian military capabilities. Iran retaliated by striking Bahrain, Qatar, Oman, Jordan and Syria. The escalation has reignited fears of an all-out war over control of the Strait of Hormuz.",
       "readSeconds": 22,
       "sources": [
-        "BBC",
-        "AlJazeera"
+        "NPR",
+        "AlJazeera",
+        "BBC"
       ],
       "quiz": {
-        "prompt": "How many consecutive nights of US strikes on Iran had occurred according to the reports?",
+        "prompt": "Which countries did Iran strike in its latest retaliation against US attacks?",
         "options": [
-          "Four",
-          "Five",
-          "Six",
-          "Seven"
+          "Saudi Arabia, UAE, Kuwait and Iraq",
+          "Bahrain, Qatar, Oman, Jordan and Syria",
+          "Egypt, Turkey, Lebanon and Yemen",
+          "Israel, Cyprus, Greece and Turkey"
         ],
-        "correctIndex": 2,
-        "explanation": "Al Jazeera reported the US had mounted its sixth straight night of attacks on Iran."
+        "correctIndex": 1,
+        "explanation": "According to the snippets, Iran struck Bahrain, Qatar, Oman, Jordan and Syria in retaliation for US strikes on southern Iran."
       }
     },
     {
-      "id": "c8311f21-b43e-445a-aeed-b80a226347b4",
+      "id": "95e30565-1f0f-411f-95c8-00c526fc56b2",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "TRUMP ELECTION CLAIMS",
+      "headline": "Trump makes unverified China election-meddling claims",
+      "summary": "In a primetime White House address, Donald Trump accused China of interfering in the 2020 election and claimed the voting system was catastrophically unfair, without offering new evidence. Critics including Virginia Senator Mark Warner called the claims fabricated lies and long-debunked conspiracies. Democrats warned the speech was a ploy to sow confusion ahead of the midterm elections.",
+      "readSeconds": 22,
+      "sources": [
+        "BBC",
+        "Guardian",
+        "AlJazeera",
+        "SkyNews"
+      ],
+      "quiz": {
+        "prompt": "What did Trump claim China did in his primetime address?",
+        "options": [
+          "Hacked US military networks",
+          "Meddled in the 2020 presidential election",
+          "Funded opposition campaigns",
+          "Manipulated stock markets"
+        ],
+        "correctIndex": 1,
+        "explanation": "Trump's primetime address accused China of meddling in the 2020 election, claims China denied and critics called fabricated."
+      }
+    },
+    {
+      "id": "e5785f25-b5bb-4d87-8ac3-8dea80b48b71",
       "vertical": "general",
       "region": "Global",
-      "topicTag": "VENEZUELA EARTHQUAKE",
-      "headline": "Venezuela earthquake death toll nears 5,000",
-      "summary": "The number of confirmed dead from the Venezuela earthquake has risen to nearly 5,000, according to Al Jazeera. The UN estimates 50,000 people are missing, with many more feared buried under rubble. The focus is now shifting from rescue operations to rebuilding.",
+      "topicTag": "UK POLITICS",
+      "headline": "Andy Burnham set to become UK Prime Minister Monday",
+      "summary": "Andy Burnham won Labour's leadership race and is set to replace Sir Keir Starmer as UK Prime Minister on Monday. Starmer stepped down as Labour leader, with trepidation noted abroad about his departure. Burnham, known for his 'Manchesterism' approach to economics, now faces major challenges including defence spending and housing.",
+      "readSeconds": 21,
+      "sources": [
+        "BBC",
+        "SkyNews"
+      ],
+      "quiz": {
+        "prompt": "What political approach is Andy Burnham known for that helped him reach Number 10?",
+        "options": [
+          "Thatcherism",
+          "Blairism",
+          "Manchesterism",
+          "Fabianism"
+        ],
+        "correctIndex": 2,
+        "explanation": "The snippets describe Burnham's 'Manchesterism' as the economic approach rooted in his work in Manchester that got him to Number 10."
+      }
+    },
+    {
+      "id": "8cfa2b89-f1ad-4274-9eec-a683929afe23",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "ISRAEL ELECTIONS",
+      "headline": "Israeli Knesset dissolves, election set for October",
+      "summary": "Israel's Knesset dissolved after completing its first full term since 1988, setting up a general election on 27 October 2026. Prime Minister Netanyahu's political survival is described as being at stake. The dissolution marks a significant moment in Israeli politics amid ongoing regional conflict.",
       "readSeconds": 18,
       "sources": [
         "AlJazeera"
       ],
       "quiz": {
-        "prompt": "How many people does the UN estimate are missing following the Venezuela earthquake?",
+        "prompt": "When is Israel's general election scheduled following the Knesset's dissolution?",
         "options": [
-          "5,000",
-          "25,000",
-          "50,000",
-          "100,000"
+          "September 15, 2026",
+          "October 27, 2026",
+          "November 3, 2026",
+          "December 12, 2026"
         ],
-        "correctIndex": 2,
-        "explanation": "The UN estimates 50,000 people are missing in the aftermath of the Venezuela earthquake."
+        "correctIndex": 1,
+        "explanation": "The snippets state the Israeli general election is scheduled for October 27, 2026, following the Knesset's dissolution."
       }
     },
     {
-      "id": "dc878885-5a33-42fa-aac3-eac14cfb4857",
+      "id": "bc1e91dd-06cf-4baa-83ad-12e577a35558",
       "vertical": "general",
       "region": "US",
-      "topicTag": "WILDFIRE SMOKE",
-      "headline": "Canadian wildfire smoke blankets 20 US states",
-      "summary": "Smoke from more than 800 Canadian wildfires has spread across 20 US states, triggering hazardous air quality alerts from Minnesota to New York and affecting cities including Toronto. Orange skies and heavy smoke prompted authorities to urge people to stay indoors. Footage also showed wildfire smoke shrouding the New York New Jersey Stadium ahead of the World Cup final.",
-      "readSeconds": 20,
-      "sources": [
-        "BBC",
-        "NPR",
-        "Guardian",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "Approximately how many Canadian wildfires were burning according to reports?",
-        "options": [
-          "More than 200",
-          "More than 400",
-          "More than 600",
-          "More than 800"
-        ],
-        "correctIndex": 3,
-        "explanation": "BBC reported smoke from more than 800 blazes had affected cities from Toronto to New York and the US Midwest."
-      }
-    },
-    {
-      "id": "c734bd76-35a4-418d-ab81-ff2ee1dc3824",
-      "vertical": "general",
-      "region": "US",
-      "topicTag": "TRUMP SPEECH",
-      "headline": "Trump delivers primetime address on election integrity",
-      "summary": "President Trump delivered a live primetime televised address focused on election integrity, having teased 'really big news' in advance. Critics, including a Democratic senator, said the speech was likely to be further 'election denialism' from the 'world's most famous sore loser'. Trump has long sowed doubt about the security of American elections.",
-      "readSeconds": 20,
+      "topicTag": "TEXAS FLOODING",
+      "headline": "Deadly flooding kills two in Texas Hill Country",
+      "summary": "At least two people have died and over 200 were rescued following catastrophic flooding in Texas's Hill Country region. Climate experts say climate change is driving increasingly common bouts of heavy rain causing deadly flash floods across US states. Several states have experienced record rainfall and flash flooding over the past month.",
+      "readSeconds": 19,
       "sources": [
         "NPR",
-        "Guardian",
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "What topic did Trump's primetime address focus on?",
-        "options": [
-          "The war in Iran",
-          "Immigration policy",
-          "Election integrity",
-          "Trade tariffs"
-        ],
-        "correctIndex": 2,
-        "explanation": "Multiple sources reported Trump's primetime address was focused on election integrity, a subject he has raised repeatedly since leaving office in 2021."
-      }
-    },
-    {
-      "id": "d8592b2f-7f48-4d53-b9e1-4516dc37ec5b",
-      "vertical": "general",
-      "region": "US",
-      "topicTag": "INSIDER TRADING",
-      "headline": "White House teleprompter operator suspended over alleged bets",
-      "summary": "Trump's longtime teleprompter operator has been placed on administrative leave after officials began probing whether he profited by betting on prediction markets based on advance knowledge of the president's speeches. Press secretary Karoline Leavitt called the alleged bets 'deeply unfortunate and frankly a disgrace'. It is described as the first known instance of suspected insider trading on a prediction market from inside the White House.",
-      "readSeconds": 22,
-      "sources": [
-        "NPR",
+        "AlJazeera",
         "Guardian"
       ],
       "quiz": {
-        "prompt": "What platform were the alleged bets reportedly placed on?",
+        "prompt": "How many people were rescued during the Texas Hill Country flooding?",
         "options": [
-          "PredictIt",
-          "Polymarket",
-          "Kalshi",
-          "Manifold"
+          "Over 50",
+          "Over 100",
+          "Over 200",
+          "Over 500"
         ],
         "correctIndex": 2,
-        "explanation": "The Guardian reported the alleged bets were placed on the Kalshi prediction platform."
+        "explanation": "The snippets state that over 200 people were rescued during the catastrophic floods in the Texas Hill Country region."
       }
     },
     {
-      "id": "fa34fc8b-2af5-481d-9ba8-ba7bcfcdbdab",
+      "id": "bfe440cf-e1d8-474d-abee-24f82bbb74f3",
       "vertical": "general",
       "region": "Global",
-      "topicTag": "FIFA FALKLANDS ROW",
-      "headline": "FIFA probes Argentina's Falklands banner at World Cup",
-      "summary": "FIFA says its disciplinary committee is assessing match reports after Argentina players held a banner supporting their country's claims to the Falkland Islands following the World Cup semi-final. The governing body said it would consider relevant circumstances before taking any action. Argentina beat England in the semi-final to reach the final.",
-      "readSeconds": 18,
+      "topicTag": "WORLD CUP FINAL",
+      "headline": "Argentina faces Spain in World Cup final in New York",
+      "summary": "Argentina has arrived in New Jersey ahead of the FIFA World Cup 2026 final against Spain in New York. The match features Lionel Messi, with a viral photo of him with young Spanish star Lamine Yamal capturing attention. Donald Trump is expected to attend, and the event will feature an NFL-style half-time show.",
+      "readSeconds": 20,
+      "sources": [
+        "AlJazeera"
+      ],
+      "quiz": {
+        "prompt": "Where is the FIFA World Cup 2026 final between Argentina and Spain being held?",
+        "options": [
+          "Los Angeles",
+          "Chicago",
+          "New York/New Jersey",
+          "Miami"
+        ],
+        "correctIndex": 2,
+        "explanation": "According to the snippets, the World Cup final is taking place in New York, with Argentina arriving in New Jersey ahead of the match."
+      }
+    },
+    {
+      "id": "a8cae197-ec7b-4045-91fc-1c422e60c04a",
+      "vertical": "general",
+      "region": "Global",
+      "topicTag": "WILDFIRE SMOKE",
+      "headline": "Canadian wildfire smoke blankets US and Canadian cities",
+      "summary": "Wildfires in Ontario have spread dangerous smoke across a wide swathe of US and Canadian cities, with New Yorkers describing stinging eyes and the smell of burning wood amid thick haze. Pollution levels in affected cities were elevated. Satellite imagery shows how far the smoke has spread across North America.",
+      "readSeconds": 19,
       "sources": [
         "BBC",
-        "AlJazeera"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "What did the Argentina players' banner relate to?",
+        "prompt": "Where did the wildfires originate that sent smoke across US and Canadian cities?",
         "options": [
-          "The Copa América trophy",
-          "Argentina's claims to the Falkland Islands",
-          "A tribute to Diego Maradona",
-          "Opposition to FIFA's refereeing"
+          "British Columbia",
+          "Alberta",
+          "Ontario",
+          "Quebec"
         ],
-        "correctIndex": 1,
-        "explanation": "Both BBC and Al Jazeera reported that FIFA is probing a banner held by Argentina players expressing support for their country's claims to the Falkland Islands."
+        "correctIndex": 2,
+        "explanation": "The snippets state the wildfires causing the widespread smoke were burning in Ontario, Canada."
       }
     },
     {
-      "id": "356ddf03-9d74-4fc8-840d-25af7d5930d8",
+      "id": "3bb20495-2100-4c99-9327-76f35a16d5ca",
       "vertical": "general",
       "region": "Global",
-      "topicTag": "EBOLA DRC",
-      "headline": "Ebola spreading faster than any previous DRC outbreak",
-      "summary": "The WHO has warned that Ebola in the Democratic Republic of Congo has 'expanded faster than any previous outbreak' in the country. Meanwhile, Uganda has discharged its last remaining patient and is close to being declared virus-free. The diverging situations underscore the uneven regional spread of the disease.",
-      "readSeconds": 18,
-      "sources": [
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "Which country discharged its last Ebola patient and is close to being virus-free?",
-        "options": [
-          "DRC",
-          "Kenya",
-          "Rwanda",
-          "Uganda"
-        ],
-        "correctIndex": 3,
-        "explanation": "Al Jazeera reported Uganda discharged its last remaining Ebola patient and is close to being declared virus-free, while the DRC situation continues to worsen."
-      }
-    },
-    {
-      "id": "e0dd044a-0c9e-4d34-a5ee-5f78cd8e7f0c",
-      "vertical": "general",
-      "region": "US",
-      "topicTag": "STUDENT VISAS",
-      "headline": "Trump tightens visa rules for foreign students",
-      "summary": "The Trump administration is tightening visa rules for international students, requiring federal permission for any student who wishes to stay in the US longer than four years. Universities will also lose their existing power to extend student visas. The move represents a significant shift in how foreign students' immigration status is managed.",
-      "readSeconds": 18,
+      "topicTag": "BRITISH STEEL",
+      "headline": "China criticises UK nationalisation of British Steel",
+      "summary": "China has hit out at the UK government's decision to nationalise British Steel, which the UK described as safeguarding a vital national capability. The plant, the UK's only remaining facility making virgin steel, was taken into public ownership after years of uncertainty over its future. The move has drawn an international response with Beijing expressing its displeasure.",
+      "readSeconds": 20,
       "sources": [
         "BBC"
       ],
       "quiz": {
-        "prompt": "Under the new rules, who must grant permission for a foreign student to stay in the US beyond four years?",
+        "prompt": "How did the UK government describe the reason for nationalising British Steel?",
         "options": [
-          "Their university",
-          "The State Department",
-          "The federal government",
-          "Their home country's embassy"
-        ],
-        "correctIndex": 2,
-        "explanation": "BBC reported that under the new Trump administration rules, students need federal permission to remain in the US longer than four years."
-      }
-    },
-    {
-      "id": "dbd1d550-65fa-43bd-b477-7e220fca2bfa",
-      "vertical": "general",
-      "region": "Global",
-      "topicTag": "IRAN WIDER WAR",
-      "headline": "Iran warns of wider war, eyes Red Sea disruption",
-      "summary": "Iran has warned of a wider war as US strikes continue, and the IRGC has signalled it could next target the Bab al-Mandeb strait in the Red Sea, after earlier threats to disrupt the Strait of Hormuz. Qatar rejected Israeli media reports claiming it had agreed to participate in military action against Iran. Analysts note Washington's spoiler problem also lies within its own alliance.",
-      "readSeconds": 22,
-      "sources": [
-        "AlJazeera"
-      ],
-      "quiz": {
-        "prompt": "Which waterway did Iran's IRGC warn it could target after the Strait of Hormuz?",
-        "options": [
-          "The Suez Canal",
-          "The Bab al-Mandeb strait",
-          "The Strait of Malacca",
-          "The Gulf of Aden"
+          "To reduce carbon emissions",
+          "To safeguard a vital national capability",
+          "To create new jobs in the north",
+          "To counter Chinese investment"
         ],
         "correctIndex": 1,
-        "explanation": "Al Jazeera reported Iran's IRGC warned it could next target the Bab al-Mandeb strait in the Red Sea following earlier threats to the Strait of Hormuz."
+        "explanation": "The UK government stated that taking British Steel into public hands would safeguard 'a vital national capability,' according to the snippets."
       }
     },
     {
-      "id": "dcb31854-4f85-48eb-b8cc-4d5fe5667722",
+      "id": "188f2311-c4ba-4603-a472-3f3f62276f5e",
       "vertical": "general",
       "region": "Global",
-      "topicTag": "UK POLITICS",
-      "headline": "Burnham set to become UK Labour leader and PM",
-      "summary": "Andy Burnham is due to become Labour leader on Friday, with a speech setting out his vision for government before he becomes prime minister the following week. Outgoing PM Keir Starmer is stepping down as Labour leader Friday and as prime minister on Monday. Starmer's final honours list includes outgoing London Mayor Sadiq Khan and 25 others elevated to the House of Lords.",
-      "readSeconds": 20,
+      "topicTag": "TRUMP MEDIA",
+      "headline": "Trump Media plans to sell early access to Truth Social posts",
+      "summary": "Donald Trump's media company is planning to charge for special high-speed access to Trump's Truth Social posts, potentially allowing Wall Street trading firms and institutions to profit from seeing the president's posts before the general public. Critics have denounced the plan as brazen corruption. The move raises concerns about market manipulation via presidential communications.",
+      "readSeconds": 21,
       "sources": [
-        "BBC",
-        "SkyNews",
-        "AlJazeera"
+        "Guardian"
       ],
       "quiz": {
-        "prompt": "When is Andy Burnham expected to become prime minister?",
+        "prompt": "Who would benefit from paying for early access to Trump's Truth Social posts under the new plan?",
         "options": [
-          "This Friday",
-          "This Saturday",
-          "This Sunday",
-          "The following Monday"
+          "Individual subscribers only",
+          "Foreign governments",
+          "Wall Street trading firms and institutions",
+          "Republican campaign donors"
         ],
-        "correctIndex": 3,
-        "explanation": "BBC and Sky News reported Burnham will become Labour leader on Friday and prime minister the following Monday, when Starmer steps down."
+        "correctIndex": 2,
+        "explanation": "The snippets state the plan would allow Wall Street trading firms and other institutions to potentially profit from seeing the president's posts first."
+      }
+    },
+    {
+      "id": "d3d67253-8fe8-4888-909a-d99f91a38e3f",
+      "vertical": "general",
+      "region": "US",
+      "topicTag": "TELEPROMPTER BETTING",
+      "headline": "White House teleprompter operator suspended over speech bets",
+      "summary": "Donald Trump's longtime teleprompter operator has been placed on administrative leave after allegedly placing bets on the Kalshi prediction platform related to Trump's speeches. White House press secretary Karoline Leavitt called the apparent bets deeply unfortunate and a disgrace. The incident adds to scrutiny of Kalshi, which has also faced questions over its World Cup betting activity and tax status.",
+      "readSeconds": 21,
+      "sources": [
+        "Guardian"
+      ],
+      "quiz": {
+        "prompt": "What action did the White House take against the teleprompter operator?",
+        "options": [
+          "Fired them immediately",
+          "Referred them to the FBI",
+          "Placed them on administrative leave",
+          "Issued a formal reprimand"
+        ],
+        "correctIndex": 2,
+        "explanation": "According to the snippets, Trump's teleprompter operator was placed on administrative leave following the alleged bets on his speeches."
       }
     }
   ]
