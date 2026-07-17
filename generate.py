@@ -16,7 +16,7 @@ Dependency-free (stdlib). Run:
     python3 generate.py --dry-run    # fetch + per-vertical counts only (no key)
 """
 
-import json, os, re, sys, html, uuid, datetime, ssl, time, urllib.request, urllib.error
+import json, os, re, sys, html, uuid, datetime, ssl, time, glob, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -109,6 +109,9 @@ Rules per story:
 - "topicTag": 1-3 words UPPERCASE. "headline": <= 9 words. "summary": 2-3 neutral sentences from the snippets. "readSeconds": 12-25.
 - "quiz": a clear "prompt", exactly 4 "options", a 0-based "correctIndex", and a one-sentence "explanation". Answerable directly from your summary.
 
+ALREADY COVERED (Sharp ran these over the last few days) — do NOT repeat them. Readers have already seen these, so a rehash offers zero value. If one of these stories is STILL developing, include it ONLY when there is a clearly NEW development today, and write the whole card about that new development (a fresh angle, fresh facts, and a DIFFERENT quiz question) — never a restatement of what they already read. Prefer genuinely new stories over continuations.
+{recent}
+
 Aim for {k} strong stories. Quality over quantity — do NOT pad with weak filler.
 
 Return STRICT JSON only (no markdown):
@@ -145,9 +148,34 @@ def call_claude(prompt, key, attempts=3):
                 time.sleep(5 * attempt)   # simple backoff for transient overload/timeout
     raise last
 
-def gen_vertical(vertical, items, key):
+def load_recent(days=3):
+    """Headlines from the last `days` briefings (excluding today), grouped by vertical —
+    so we can tell Claude what NOT to repeat. Reads the committed dated history files."""
+    today = datetime.date.today().isoformat()
+    dated = []
+    for p in glob.glob(os.path.join(OUTDIR, "sharp_content_*.json")):
+        m = re.search(r"sharp_content_(\d{4}-\d{2}-\d{2})\.json$", p)
+        if m and m.group(1) < today:
+            dated.append((m.group(1), p))
+    dated.sort(reverse=True)
+    recent = {}
+    for _, p in dated[:days]:
+        try:
+            data = json.load(open(p))
+        except Exception:
+            continue
+        for c in data.get("cards", []):
+            v = c.get("vertical")
+            if v:
+                recent.setdefault(v, []).append(f"{c.get('headline','')} [{c.get('topicTag','')}]")
+    return recent
+
+def gen_vertical(vertical, items, key, recent=None):
     lines = "\n".join(f"- [{it['source']}] {it['title']} :: {it['summary'][:200]}" for it in items)
-    prompt = PROMPT.format(label=VLABEL[vertical], k=PER_VERTICAL, items=lines)
+    recent = recent or []
+    recent_block = ("\n".join(f"- {h}" for h in recent[:40])
+                    if recent else "(no prior briefings on file — nothing to avoid yet)")
+    prompt = PROMPT.format(label=VLABEL[vertical], k=PER_VERTICAL, items=lines, recent=recent_block)
     result = call_claude(prompt, key)
     cards = []
     for s in result.get("stories", []):
@@ -186,13 +214,17 @@ def main():
         print("\n[dry] wrote candidates.json" + ("" if key else "  (set ANTHROPIC_API_KEY for full run)"))
         return
 
+    recent = load_recent(days=3)
+    if recent:
+        print(f"De-dup: avoiding {sum(len(v) for v in recent.values())} stories from the last 3 briefings.")
+
     all_cards, by_vertical = [], {}
     for v in ["finance", "tech", "politics", "sports", "general"]:
         if not groups.get(v):
             continue
         print(f"\nSynthesizing {v} with {MODEL}...")
         try:
-            cards = gen_vertical(v, groups[v], key)
+            cards = gen_vertical(v, groups[v], key, recent.get(v, []))
         except Exception as e:
             # One vertical failing must NOT lose the whole day's feed. Skip it and keep going.
             print(f"  ⚠️ {v} synthesis failed ({type(e).__name__}: {str(e)[:160]}) — skipping this vertical")
